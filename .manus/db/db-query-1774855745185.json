@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS `articles` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `url` varchar(2048) NOT NULL,\n  `title` text NOT NULL,\n  `sourceName` varchar(256),\n  `sourceUrl` varchar(2048),\n  `publishedAt` timestamp NULL,\n  `rawSummary` text,\n  `aiSummary` text,\n  `qualityScore` float DEFAULT 0,\n  `category` varchar(128),\n  `rankScore` float DEFAULT 0,\n  `selectedForReview` int DEFAULT 0,\n  `writtenToNotion` int DEFAULT 0,\n  `notionPageId` varchar(64),\n  `titleVector` text,\n  `createdAt` timestamp NOT NULL DEFAULT (now()),\n  CONSTRAINT `articles_id` PRIMARY KEY(`id`),\n  CONSTRAINT `articles_url_unique` UNIQUE(`url`(512))\n)",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 43oDkGkqb3HVtb7.root --database LscMVJqErKqM9mLggrmtft --execute CREATE TABLE IF NOT EXISTS `articles` (\n  `id` int AUTO_INCREMENT NOT NULL,\n  `url` varchar(2048) NOT NULL,\n  `title` text NOT NULL,\n  `sourceName` varchar(256),\n  `sourceUrl` varchar(2048),\n  `publishedAt` timestamp NULL,\n  `rawSummary` text,\n  `aiSummary` text,\n  `qualityScore` float DEFAULT 0,\n  `category` varchar(128),\n  `rankScore` float DEFAULT 0,\n  `selectedForReview` int DEFAULT 0,\n  `writtenToNotion` int DEFAULT 0,\n  `notionPageId` varchar(64),\n  `titleVector` text,\n  `createdAt` timestamp NOT NULL DEFAULT (now()),\n  CONSTRAINT `articles_id` PRIMARY KEY(`id`),\n  CONSTRAINT `articles_url_unique` UNIQUE(`url`(512))\n)",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 265
+}
