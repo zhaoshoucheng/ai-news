@@ -14,8 +14,10 @@
 - [x] 个人画像rerank机制（基于反馈调整权重）
 - [x] 主入口脚本（pipeline串联）
 - [x] 完整部署文档（README.md）
-- [ ] 推送到GitHub
+- [x] 推送到GitHub
 - [x] 实现Slack通知模块（流水线完成后发送每日摘要到Slack频道）
 - [x] 在流水线主入口集成Slack通知
-- [ ] 推送代码到GitHub（zhaoshoucheng/ai-news）
-- [ ] 配置Manus定时调度（工作日每晚8点）
+- [x] 推送代码到GitHub（zhaoshoucheng/ai-news）
+- [x] 配置Manus定时调度（工作日每晚8点）
+- [x] 自动创建Notion文章库的所有必要字段（Title/URL/Source/Summary/Category/Quality Score/Status/Tags/Published At）
+- [x] 修复RSS抓取时间窗口，限制为最近 36 小时内的新文章，避免抓取历史存量数据

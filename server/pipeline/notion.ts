@@ -1,15 +1,13 @@
 /**
  * Notion 集成模块
  *
- * 使用 @notionhq/client v5，通过 dataSources.query 查询数据库
+ * 直接使用 Notion REST API（fetch），绕过 @notionhq/client SDK 的版本兼容问题。
  *
  * 职责：
  * 1. 从 Notion 信息源数据库读取 RSS 订阅列表
  * 2. 将精选文章写入 Notion 文章数据库
  * 3. 从 Notion 读取用户反馈（喜欢/不喜欢/标签）
  */
-
-import { Client } from "@notionhq/client";
 
 export interface NotionSource {
   name: string;
@@ -36,95 +34,121 @@ export interface NotionFeedback {
   category?: string;
 }
 
-function getNotionClient(): Client {
-  const token = process.env.NOTION_TOKEN;
-  if (!token) throw new Error("NOTION_TOKEN environment variable is not set");
-  return new Client({ auth: token });
+// ── 工具函数 ──────────────────────────────────────────────────────
+
+/** 将无连字符的 32 位 ID 格式化为标准 UUID */
+function formatNotionId(raw: string): string {
+  const id = raw.replace(/-/g, "");
+  if (id.length !== 32) return raw; // 已经是正确格式或非标准 ID
+  return `${id.slice(0, 8)}-${id.slice(8, 12)}-${id.slice(12, 16)}-${id.slice(16, 20)}-${id.slice(20)}`;
 }
 
-/**
- * 从 Notion 信息源数据库读取所有启用的 RSS 订阅源
- *
- * Notion 数据库需包含以下属性：
- * - Name (title): 信息源名称
- * - URL (url): RSS 地址
- * - Category (select): 分类（可选）
- * - Enabled (checkbox): 是否启用
- */
-export async function fetchSourcesFromNotion(): Promise<NotionSource[]> {
-  const notion = getNotionClient();
-  const databaseId = process.env.NOTION_SOURCES_DB_ID;
-  if (!databaseId) throw new Error("NOTION_SOURCES_DB_ID environment variable is not set");
+function getHeaders(): Record<string, string> {
+  const token = process.env.NOTION_TOKEN;
+  if (!token) throw new Error("NOTION_TOKEN environment variable is not set");
+  return {
+    Authorization: `Bearer ${token}`,
+    "Content-Type": "application/json",
+    "Notion-Version": "2022-06-28",
+  };
+}
 
-  const sources: NotionSource[] = [];
+async function notionRequest(
+  method: "GET" | "POST" | "PATCH",
+  path: string,
+  body?: Record<string, unknown>
+): Promise<any> {
+  const resp = await fetch(`https://api.notion.com/v1${path}`, {
+    method,
+    headers: getHeaders(),
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const data = await resp.json();
+  if (!resp.ok) {
+    throw new Error(
+      `Notion API error ${resp.status} on ${method} ${path}: ${data?.message ?? JSON.stringify(data)}`
+    );
+  }
+  return data;
+}
+
+// ── 查询数据库（分页） ─────────────────────────────────────────────
+
+async function queryDatabase(
+  databaseId: string,
+  filter?: Record<string, unknown>
+): Promise<any[]> {
+  const id = formatNotionId(databaseId);
+  const results: any[] = [];
   let cursor: string | undefined;
 
   do {
-    const response = await notion.dataSources.query({
-      data_source_id: databaseId,
-      start_cursor: cursor,
-      filter: {
-        property: "Enabled",
-        checkbox: { equals: true },
-      } as any,
-    });
+    const body: Record<string, unknown> = { page_size: 100 };
+    if (filter) body.filter = filter;
+    if (cursor) body.start_cursor = cursor;
 
-    for (const page of response.results) {
-      if (page.object !== "page") continue;
-      const props = (page as any).properties;
-
-      const name =
-        props["Name"]?.title?.[0]?.plain_text ||
-        props["名称"]?.title?.[0]?.plain_text ||
-        "";
-      const url =
-        props["URL"]?.url ||
-        props["Url"]?.url ||
-        props["url"]?.url ||
-        "";
-      const category =
-        props["Category"]?.select?.name ||
-        props["分类"]?.select?.name ||
-        undefined;
-
-      if (name && url) {
-        sources.push({ name, url, category, enabled: true });
-      }
-    }
-
-    cursor = response.has_more ? (response.next_cursor ?? undefined) : undefined;
+    const data = await notionRequest("POST", `/databases/${id}/query`, body);
+    results.push(...(data.results ?? []));
+    cursor = data.has_more ? data.next_cursor : undefined;
   } while (cursor);
+
+  return results;
+}
+
+// ── 公开 API ──────────────────────────────────────────────────────
+
+/**
+ * 从 Notion 信息源数据库读取所有启用的 RSS 订阅源
+ */
+export async function fetchSourcesFromNotion(): Promise<NotionSource[]> {
+  const databaseId = process.env.NOTION_SOURCES_DB_ID;
+  if (!databaseId) throw new Error("NOTION_SOURCES_DB_ID environment variable is not set");
+
+  const pages = await queryDatabase(databaseId, {
+    property: "Enabled",
+    checkbox: { equals: true },
+  });
+
+  const sources: NotionSource[] = [];
+  for (const page of pages) {
+    const props = page.properties ?? {};
+    const name =
+      props["名称"]?.title?.[0]?.plain_text ||
+      props["Name"]?.title?.[0]?.plain_text ||
+      "";
+    const url =
+      props["URL"]?.url ||
+      props["Url"]?.url ||
+      props["url"]?.url ||
+      "";
+    const category =
+      props["Category"]?.select?.name ||
+      props["分类"]?.select?.name ||
+      undefined;
+
+    if (name && url) {
+      sources.push({ name, url, category, enabled: true });
+    }
+  }
 
   return sources;
 }
 
 /**
  * 将精选文章批量写入 Notion 文章数据库
- *
- * Notion 数据库需包含以下属性：
- * - Title (title): 文章标题
- * - URL (url): 文章链接
- * - Source (select): 信息源名称
- * - Summary (rich_text): AI摘要
- * - Category (select): 分类
- * - Quality Score (number): 质量分
- * - Status (select): 阅读状态，默认"📥 待阅读"
- * - Tags (multi_select): 用户标签（初始为空，用户手动添加）
- * - Published At (date): 发布时间
  */
 export async function writeArticlesToNotion(
   articles: NotionArticlePayload[]
 ): Promise<Map<string, string>> {
-  const notion = getNotionClient();
   const databaseId = process.env.NOTION_ARTICLES_DB_ID;
   if (!databaseId) throw new Error("NOTION_ARTICLES_DB_ID environment variable is not set");
 
-  // url -> notionPageId
+  const dbId = formatNotionId(databaseId);
   const urlToPageId = new Map<string, string>();
 
   for (const article of articles) {
     try {
-      const properties: Record<string, any> = {
+      const properties: Record<string, unknown> = {
         Title: {
           title: [{ text: { content: article.title.slice(0, 2000) } }],
         },
@@ -144,18 +168,15 @@ export async function writeArticlesToNotion(
         };
       }
 
-      const page = await notion.pages.create({
-        parent: { database_id: databaseId },
+      const page = await notionRequest("POST", "/pages", {
+        parent: { database_id: dbId },
         properties,
       });
 
       urlToPageId.set(article.url, page.id);
     } catch (err: any) {
-      if (err?.code === "validation_error" || err?.status === 409) {
-        console.warn(`[Notion] Skipped duplicate article: ${article.title}`);
-      } else {
-        console.error(`[Notion] Failed to write article: ${article.title}`, err?.message);
-      }
+      // 重复文章或字段验证错误，跳过不中断
+      console.warn(`[Notion] Skipped article "${article.title.slice(0, 50)}": ${err.message?.slice(0, 100)}`);
     }
   }
 
@@ -164,54 +185,33 @@ export async function writeArticlesToNotion(
 
 /**
  * 从 Notion 文章数据库读取用户的反馈标记
- * 只读取 Status 为"👍 喜欢"或"👎 不喜欢"的条目
  */
 export async function fetchFeedbackFromNotion(): Promise<NotionFeedback[]> {
-  const notion = getNotionClient();
   const databaseId = process.env.NOTION_ARTICLES_DB_ID;
   if (!databaseId) throw new Error("NOTION_ARTICLES_DB_ID environment variable is not set");
 
+  const pages = await queryDatabase(databaseId, {
+    or: [
+      { property: "Status", select: { equals: "👍 喜欢" } },
+      { property: "Status", select: { equals: "👎 不喜欢" } },
+    ],
+  });
+
   const feedbacks: NotionFeedback[] = [];
-  let cursor: string | undefined;
+  for (const page of pages) {
+    const props = page.properties ?? {};
+    const statusName = props["Status"]?.select?.name ?? "";
+    let status: NotionFeedback["status"] = "to_read";
+    if (statusName === "👍 喜欢") status = "liked";
+    else if (statusName === "👎 不喜欢") status = "disliked";
 
-  do {
-    const response = await notion.dataSources.query({
-      data_source_id: databaseId,
-      start_cursor: cursor,
-      filter: {
-        or: [
-          { property: "Status", select: { equals: "👍 喜欢" } },
-          { property: "Status", select: { equals: "👎 不喜欢" } },
-        ],
-      } as any,
-    });
+    const tags: string[] =
+      props["Tags"]?.multi_select?.map((t: any) => t.name as string) ?? [];
+    const sourceName = props["Source"]?.select?.name as string | undefined;
+    const category = props["Category"]?.select?.name as string | undefined;
 
-    for (const page of response.results) {
-      if (page.object !== "page") continue;
-      const props = (page as any).properties;
-
-      const statusName = props["Status"]?.select?.name ?? "";
-      let status: NotionFeedback["status"] = "to_read";
-      if (statusName === "👍 喜欢") status = "liked";
-      else if (statusName === "👎 不喜欢") status = "disliked";
-
-      const tags: string[] =
-        props["Tags"]?.multi_select?.map((t: any) => t.name as string) ?? [];
-
-      const sourceName = props["Source"]?.select?.name as string | undefined;
-      const category = props["Category"]?.select?.name as string | undefined;
-
-      feedbacks.push({
-        notionPageId: page.id,
-        status,
-        tags,
-        sourceName,
-        category,
-      });
-    }
-
-    cursor = response.has_more ? (response.next_cursor ?? undefined) : undefined;
-  } while (cursor);
+    feedbacks.push({ notionPageId: page.id, status, tags, sourceName, category });
+  }
 
   return feedbacks;
 }

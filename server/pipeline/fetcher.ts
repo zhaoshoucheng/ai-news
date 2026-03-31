@@ -8,7 +8,8 @@
  */
 
 import Parser from "rss-parser";
-import { TfIdf } from "natural";
+import natural from "natural";
+const { TfIdf } = natural;
 import { eq, gte, sql } from "drizzle-orm";
 import { getDb } from "../db";
 import { articles as articlesTable } from "../../drizzle/schema";
@@ -38,12 +39,20 @@ const rssParser = new Parser({
 });
 
 /**
+ * 抓取时间窗口：只保留最近 36 小时内发布的文章
+ * - 36 小时而非 24 小时，是为了防止部分 RSS 源更新延迟
+ * - 对于没有发布时间的文章，默认保留（无法判断时效性）
+ */
+const FETCH_WINDOW_MS = 36 * 60 * 60 * 1000; // 36 小时
+
+/**
  * 从单个 RSS 源抓取文章
  */
 async function fetchFeed(source: NotionSource): Promise<RawArticle[]> {
   try {
     const feed = await rssParser.parseURL(source.url);
     const articles: RawArticle[] = [];
+    const windowStart = new Date(Date.now() - FETCH_WINDOW_MS);
 
     for (const item of feed.items ?? []) {
       const url = item.link ?? item.guid ?? "";
@@ -65,6 +74,12 @@ async function fetchFeed(source: NotionSource): Promise<RawArticle[]> {
       if (item.pubDate || item.isoDate) {
         const d = new Date(item.pubDate ?? item.isoDate ?? "");
         if (!isNaN(d.getTime())) publishedAt = d;
+      }
+
+      // 时间窗口过滤：只保留最近 36 小时内的文章
+      // 若文章没有发布时间，则默认保留
+      if (publishedAt && publishedAt < windowStart) {
+        continue;
       }
 
       articles.push({
@@ -193,7 +208,7 @@ export function deduplicateBySimilarity(
  * 计算两篇文章标题的 TF-IDF 余弦相似度
  */
 function cosineSimilarity(
-  tfidf: TfIdf,
+  tfidf: InstanceType<typeof TfIdf>,
   docA: number,
   docB: number,
   tokenizedTitles: string[]
@@ -201,8 +216,8 @@ function cosineSimilarity(
   const termsA = new Map<string, number>();
   const termsB = new Map<string, number>();
 
-  tfidf.listTerms(docA).forEach((item) => termsA.set(item.term, item.tfidf));
-  tfidf.listTerms(docB).forEach((item) => termsB.set(item.term, item.tfidf));
+  tfidf.listTerms(docA).forEach((item: any) => termsA.set(item.term, item.tfidf));
+  tfidf.listTerms(docB).forEach((item: any) => termsB.set(item.term, item.tfidf));
 
   // 合并所有词汇
   const allTerms = Array.from(new Set([...Array.from(termsA.keys()), ...Array.from(termsB.keys())]));
