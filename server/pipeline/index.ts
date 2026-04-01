@@ -28,7 +28,6 @@ import {
   createPipelineRun,
   updatePipelineRun,
 } from "./db-ops";
-import { notifyOwner } from "../_core/notification";
 import { sendSlackNotification } from "./slack-notify";
 export async function runPipeline(): Promise<void> {
   const startTime = Date.now();
@@ -157,18 +156,8 @@ export async function runPipeline(): Promise<void> {
 
     console.log("\n" + summary);
 
-    // 发送 Slack 通知（主要通知渠道）
+    // 发送 Slack 通知
     await sendSlackNotification(review, pipelineStats);
-
-    // 同时发送 Manus 内置通知（备用渠道）
-    try {
-      await notifyOwner({
-        title: `📰 每日信息报告已生成 (${review.date})`,
-        content: summary,
-      });
-    } catch (err: any) {
-      console.warn(`[Pipeline] Manus notification failed (non-fatal): ${err.message}`);
-    }
   } catch (err: any) {
     console.error("\n[Pipeline] FATAL ERROR:", err.message);
     if (runId) {

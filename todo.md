@@ -21,3 +21,4 @@
 - [x] 配置Manus定时调度（工作日每晚8点）
 - [x] 自动创建Notion文章库的所有必要字段（Title/URL/Source/Summary/Category/Quality Score/Status/Tags/Published At）
 - [x] 修复RSS抓取时间窗口，限制为最近 36 小时内的新文章，避免抓取历史存量数据
+- [x] 去掉流水线中的邮件通知（notifyOwner），只保留Slack通知
