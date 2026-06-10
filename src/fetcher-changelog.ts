@@ -12,6 +12,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve } from "path";
+import { execSync } from "child_process";
 import { getSnapshotsDir } from "./config.js";
 import type { ProviderConfig, RssItem } from "./types.js";
 
@@ -34,20 +35,8 @@ export async function fetchChangelogForProvider(
 
   for (const url of provider.changelog_urls) {
     try {
-      const resp = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-          Accept: "text/html,application/xhtml+xml,*/*",
-        },
-        signal: AbortSignal.timeout(20000),
-      });
-
-      if (!resp.ok) {
-        console.warn(`[Changelog] ${provider.name} (${url}): HTTP ${resp.status}`);
-        continue;
-      }
-
-      const html = await resp.text();
+      const html = await fetchWithRetry(url, provider.name);
+      if (!html) continue;
 
       // 根据 provider 选择解析策略
       let entries: ChangelogEntry[] = [];
@@ -241,6 +230,108 @@ function parseGeminiChangelog(html: string): ChangelogEntry[] {
   }
 
   return entries;
+}
+
+// ── 网络请求 ──────────────────────────────────────────────────────────
+
+/**
+ * 带重试和 fallback 的页面抓取
+ * - 先尝试 Node.js fetch（适用于大多数页面）
+ * - 如果遇到重定向循环（如 Google OAuth），自动 fallback 到 curl
+ * - 超时 45 秒，最多重试 2 次
+ */
+async function fetchWithRetry(
+  url: string,
+  providerName: string,
+  maxRetries = 2
+): Promise<string | null> {
+  // 已知需要 curl 的域名（Google 的 OAuth 重定向循环问题）
+  const curlDomains = ["ai.google.dev", "developers.google.com"];
+  const needsCurl = curlDomains.some((d) => url.includes(d));
+
+  if (needsCurl) {
+    return fetchWithCurl(url, providerName, maxRetries);
+  }
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const resp = await fetch(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,*/*",
+        },
+        signal: AbortSignal.timeout(45000),
+      });
+
+      if (!resp.ok) {
+        console.warn(`[Changelog] ${providerName} (${url}): HTTP ${resp.status}`);
+        return null;
+      }
+
+      return await resp.text();
+    } catch (err: any) {
+      const isRetryable =
+        err.name === "TimeoutError" ||
+        err.message?.includes("timeout") ||
+        err.message?.includes("aborted") ||
+        err.message?.includes("redirect") ||
+        err.message?.includes("fetch failed");
+
+      if (isRetryable && attempt < maxRetries) {
+        const waitMs = (attempt + 1) * 5000;
+        console.warn(
+          `[Changelog] ${providerName} (${url}): ${err.message}, retrying in ${waitMs / 1000}s (attempt ${attempt + 1}/${maxRetries})...`
+        );
+        await new Promise((r) => setTimeout(r, waitMs));
+        continue;
+      }
+
+      // 最后尝试 curl fallback
+      console.warn(`[Changelog] ${providerName} (${url}): fetch failed, trying curl fallback...`);
+      return fetchWithCurl(url, providerName, 1);
+    }
+  }
+  return null;
+}
+
+/**
+ * 使用 curl 抓取页面（解决 Google OAuth 重定向循环问题）
+ * curl 不发送 cookie，Google 对无 cookie 的请求直接返回 SSR 内容
+ */
+function fetchWithCurl(
+  url: string,
+  providerName: string,
+  maxRetries = 2
+): string | null {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      // 使用简单 bot UA 避免 Google OAuth 重定向循环
+      // Chrome UA 会触发 Google 的登录流程，bot UA 直接返回 SSR 内容
+      const html = execSync(
+        `curl -s --max-time 45 --connect-timeout 10 ` +
+        `-H "User-Agent: Mozilla/5.0 (compatible; AINewsBot/1.0)" ` +
+        `-H "Accept: text/html,application/xhtml+xml,*/*" ` +
+        `"${url}"`,
+        { encoding: "utf-8", maxBuffer: 10 * 1024 * 1024, timeout: 50000 }
+      );
+
+      if (html && html.length > 1000) {
+        return html;
+      }
+
+      console.warn(`[Changelog] ${providerName} (${url}): curl returned empty/short response`);
+    } catch (err: any) {
+      if (attempt < maxRetries) {
+        console.warn(
+          `[Changelog] ${providerName} (${url}): curl attempt ${attempt + 1} failed, retrying...`
+        );
+        continue;
+      }
+      console.warn(`[Changelog] ${providerName} (${url}): curl failed: ${err.message?.slice(0, 100)}`);
+    }
+  }
+  return null;
 }
 
 // ── 工具函数 ──────────────────────────────────────────────────────────
