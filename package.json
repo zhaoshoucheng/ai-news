@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "AI Model Change Monitor - Tracks model updates from OpenAI, Anthropic, and Google Gemini",
   "scripts": {
+    "run": "tsx src/run.ts",
     "daily": "tsx src/run-daily.ts",
     "weekly": "tsx src/run-weekly.ts",
     "test": "tsx src/run-daily.ts --dry-run"
