@@ -4,12 +4,19 @@
   "changes": [
     {
       "provider": "OpenAI",
-      "detected_at": "2026-06-10T08:51:37.746Z",
+      "detected_at": "2026-06-10T09:25:34.429Z",
       "has_changes": true,
       "new_models": [],
       "removed_models": [],
       "changed_models": [],
       "rss_updates": [
+        {
+          "title": "From data to decisions: how LSEG is scaling trusted AI",
+          "url": "https://openai.com/index/lseg",
+          "published_at": "2026-06-10T00:00:00.000Z",
+          "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+          "source": "OpenAI Blog"
+        },
         {
           "title": "How engineers at Nextdoor use Codex to build without limits",
           "url": "https://openai.com/index/nextdoor",
@@ -22,6 +29,13 @@
           "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
           "published_at": "2026-06-09T00:00:00.000Z",
           "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "From data to decisions: how LSEG is scaling trusted AI",
+          "url": "https://openai.com/index/lseg",
+          "published_at": "2026-06-10T00:00:00.000Z",
+          "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
           "source": "OpenAI Blog"
         },
         {
@@ -42,7 +56,7 @@
     },
     {
       "provider": "Anthropic",
-      "detected_at": "2026-06-10T08:51:52.140Z",
+      "detected_at": "2026-06-10T09:25:46.947Z",
       "has_changes": false,
       "new_models": [],
       "removed_models": [],
@@ -51,7 +65,7 @@
     },
     {
       "provider": "Google Gemini",
-      "detected_at": "2026-06-10T08:52:04.922Z",
+      "detected_at": "2026-06-10T09:26:14.098Z",
       "has_changes": false,
       "new_models": [],
       "removed_models": [],
@@ -59,5 +73,5 @@
       "rss_updates": []
     }
   ],
-  "summary": "## AI 模型与 API 变更报告 - 2026年6月10日\n\n本报告旨在为开发者提供 OpenAI、Anthropic 和 Google Gemini 模型的最新变更信息，以便及时调整和优化应用。\n\n---\n\n### 🚀 OpenAI 更新\n\n#### 📰 博客更新\n\n*   **标题：** How engineers at Nextdoor use Codex to build without limits\n    *   **发布时间：** 2026-06-09 12:00 UTC\n    *   **摘要：** Nextdoor 工程师如何利用 Codex 与 **GPT-5.5** 结合，调查难以重现的问题，跨平台构建，并专注于产品成果。\n    *   **开发者影响：** 提及了 **GPT-5.5** 的使用，这可能暗示 OpenAI 正在内部或与合作伙伴测试下一代模型。开发者应关注未来 GPT-5.5 的正式发布，并准备评估其性能提升及对现有应用的潜在影响。\n*   **标题：** Industrial policy for the Intelligence Age\n    *   **发布时间：** 2026-06-09 00:00 UTC\n    *   **摘要：** 探讨 OpenAI 在 AI 时代雄心勃勃的、以人为本的产业政策理念，重点关注随着高级智能的发展，如何扩大机遇、共享繁荣和建设有韧性的机构。\n    *   **开发者影响：** 政策性文章，对 API 适配无直接影响，但反映了 OpenAI 对 AI 发展方向和治理的思考。\n\n---\n\n###  quiescent Anthropic 更新\n\n*   未检测到模型或 API 变更。\n\n---\n\n### quiescent Google Gemini 更新\n\n*   未检测到模型或 API 变更。\n\n---\n\n**总结与建议：**\n\n今日 OpenAI 的更新主要集中在博客内容，其中最值得关注的是 Nextdoor 案例中提及了 **GPT-5.5** 的使用。虽然这并非正式发布，但预示着下一代模型的开发进展。开发者应保持对 OpenAI 官方公告的关注，一旦 GPT-5.5 发布，应及时评估其在性能、成本和功能上的变化，并考虑进行模型升级以提升应用能力。Anthropic 和 Google Gemini 今日无显著更新。"
+  "summary": "## AI 模型与 API 变更报告 - 2026年06月10日\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更，旨在帮助开发者及时了解并适配。\n\n### 🚀 OpenAI\n\n**博客更新**\n\n*   **From data to decisions: how LSEG is scaling trusted AI**\n    *   **发布时间:** 2026-06-10\n    *   **摘要:** LSEG 利用 OpenAI 扩展其全球业务中的可信 AI，以加速洞察、缩短发布周期并赋能 4,000 名员工。\n    *   **开发者影响:** 了解企业级 AI 应用案例，可能为您的业务集成提供思路。\n\n*   **How engineers at Nextdoor use Codex to build without limits**\n    *   **发布时间:** 2026-06-09\n    *   **摘要:** Nextdoor 工程师如何结合 Codex 和 **GPT-5.5** 来调查难以复现的问题、跨平台构建并专注于产品成果。\n    *   **开发者影响:**\n        *   **重点关注:** 博客中提到了 **GPT-5.5**。虽然目前没有官方 API 发布或模型变更通知，但这可能预示着下一代模型（GPT-5 或其迭代版本）正在内部测试或即将发布。开发者应密切关注 OpenAI 官方发布渠道，为未来模型升级做好准备。\n        *   了解代码辅助工具在实际开发中的应用，可参考其工作流优化自身开发效率。\n\n*   **Industrial policy for the Intelligence Age**\n    *   **发布时间:** 2026-06-09\n    *   **摘要:** 探讨 OpenAI 针对 AI 时代的产业政策理念，旨在扩大机会、共享繁荣并构建弹性机构。\n    *   **开发者影响:** 宏观政策层面的信息，有助于理解 AI 行业未来发展趋势和监管方向。\n\n### 💡 Anthropic\n\n*   **无显著变更。**\n\n### 🌟 Google Gemini\n\n*   **无显著变更。**\n\n---\n\n**总结与建议:**\n\n今日主要变动来自 OpenAI 的博客更新。最值得关注的是 Nextdoor 案例中提及的 **GPT-5.5**。尽管这并非正式的模型发布公告，但它强烈暗示了 OpenAI 正在积极开发和测试下一代模型。\n\n**对开发者的建议:**\n\n*   **密切关注 OpenAI 官方动态:** 鉴于 GPT-5.5 的提及，建议开发者密切关注 OpenAI 的官方博客、API 文档和社交媒体，以获取关于新模型发布的第一手信息。\n*   **准备模型升级:** 提前了解新模型的潜在能力和差异，以便在模型正式发布后能快速评估并适配到您的应用中。\n*   **参考应用案例:** 学习 LSEG 和 Nextdoor 如何利用 OpenAI 技术，可能为您的项目带来新的灵感和优化方向。"
 }
