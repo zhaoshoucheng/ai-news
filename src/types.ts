@@ -19,12 +19,19 @@ export interface ThirdPartySource {
   filter_keywords: string[];
 }
 
+export interface NewsPageConfig {
+  url: string;
+  type: string;
+  description: string;
+}
+
 export interface ProviderConfig {
   id: string;
   name: string;
   rss: string[];
   api_endpoints: ApiEndpoint[];
   changelog_urls: string[];
+  news_pages: NewsPageConfig[];
 }
 
 export interface ApiEndpoint {

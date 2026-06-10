@@ -18,6 +18,7 @@ import { fetchRssForProvider } from "./fetcher-rss.js";
 import { fetchModelsForProvider } from "./fetcher-api.js";
 import { fetchChangelogForProvider } from "./fetcher-changelog.js";
 import { fetchThirdPartyChangelog } from "./fetcher-third-party.js";
+import { fetchNewsForProvider } from "./fetcher-news-page.js";
 import { loadPreviousSnapshot, saveSnapshot, detectChanges } from "./diff.js";
 import { generateDailyReport } from "./llm.js";
 import { sendToSlack } from "./slack.js";
@@ -51,6 +52,13 @@ async function main(): Promise<void> {
     console.log(`[Daily] Fetching changelog for ${provider.name}...`);
     const changelogItems = await fetchChangelogForProvider(provider);
     rssItems = [...rssItems, ...changelogItems];
+
+    // 2c. 抓取 News 页面
+    if (provider.news_pages && provider.news_pages.length > 0) {
+      console.log(`[Daily] Fetching news page for ${provider.name}...`);
+      const newsItems = await fetchNewsForProvider(provider);
+      rssItems = [...rssItems, ...newsItems];
+    }
 
     // RSS 去重（排除已处理过的 URL）
     const beforeDedup = rssItems.length;
