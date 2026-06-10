@@ -6,7 +6,17 @@
 
 export interface SourceConfig {
   providers: ProviderConfig[];
+  third_party: ThirdPartySource[];
   settings: Settings;
+}
+
+export interface ThirdPartySource {
+  id: string;
+  name: string;
+  type: string;
+  description: string;
+  changelog_url: string;
+  filter_keywords: string[];
 }
 
 export interface ProviderConfig {

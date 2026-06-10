@@ -56,6 +56,16 @@
       ]
     }
   ],
+  "third_party": [
+    {
+      "id": "artificial_analysis",
+      "name": "Artificial Analysis",
+      "type": "benchmark_tracker",
+      "description": "Independent AI model benchmarking - Intelligence Index, speed, cost comparisons",
+      "changelog_url": "https://artificialanalysis.ai/changelog",
+      "filter_keywords": ["OpenAI", "GPT", "Anthropic", "Claude", "Google", "Gemini", "gpt-", "claude-", "gemini-"]
+    }
+  ],
   "settings": {
     "fetch_window_hours": 36,
     "similarity_threshold": 0.65,

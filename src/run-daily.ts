@@ -17,11 +17,12 @@ import { loadConfig } from "./config.js";
 import { fetchRssForProvider } from "./fetcher-rss.js";
 import { fetchModelsForProvider } from "./fetcher-api.js";
 import { fetchChangelogForProvider } from "./fetcher-changelog.js";
+import { fetchThirdPartyChangelog } from "./fetcher-third-party.js";
 import { loadPreviousSnapshot, saveSnapshot, detectChanges } from "./diff.js";
 import { generateDailyReport } from "./llm.js";
 import { sendToSlack } from "./slack.js";
 import { saveDailyReport, getRecentRssUrls } from "./storage.js";
-import type { ChangeDetectionResult, DailyReport } from "./types.js";
+import type { ChangeDetectionResult, DailyReport, RssItem } from "./types.js";
 
 const isDryRun = process.argv.includes("--dry-run");
 
@@ -93,6 +94,36 @@ async function main(): Promise<void> {
     } else {
       console.log(`[Daily] ⏭️ No changes for ${provider.name}`);
     }
+  }
+
+  // ── 第三方数据源 ──────────────────────────────────────────
+  let thirdPartyItems: RssItem[] = [];
+  if (config.third_party && config.third_party.length > 0) {
+    for (const source of config.third_party) {
+      console.log(`\n── ${source.name} (Third Party) ──────────────────────────────────`);
+      console.log(`[Daily] Fetching changelog for ${source.name}...`);
+      const items = await fetchThirdPartyChangelog(source);
+      thirdPartyItems = [...thirdPartyItems, ...items];
+
+      if (items.length > 0) {
+        console.log(`[Daily] ✅ ${items.length} new relevant updates from ${source.name}`);
+      } else {
+        console.log(`[Daily] ⏭️ No new relevant updates from ${source.name}`);
+      }
+    }
+  }
+
+  // 将第三方条目添加到一个虚拟的 change result 中
+  if (thirdPartyItems.length > 0) {
+    allChanges.push({
+      provider: "third_party",
+      detected_at: new Date().toISOString(),
+      has_changes: true,
+      new_models: [],
+      removed_models: [],
+      changed_models: [],
+      rss_updates: thirdPartyItems,
+    });
   }
 
   // 判断是否有任何变更
