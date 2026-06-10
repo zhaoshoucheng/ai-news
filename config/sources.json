@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "rss": [
+        "https://openai.com/news/rss.xml",
+        "https://openai.com/blog/rss.xml"
+      ],
+      "api_endpoints": [
+        {
+          "name": "models_list",
+          "url": "https://api.openai.com/v1/models",
+          "auth_env": "OPENAI_OFFICIAL_API_KEY",
+          "description": "OpenAI Models API - lists all available models"
+        }
+      ],
+      "changelog_urls": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://openai.com/products/release-notes/"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "rss": [],
+      "api_endpoints": [
+        {
+          "name": "models_list",
+          "url": "https://api.anthropic.com/v1/models",
+          "auth_env": "ANTHROPIC_API_KEY",
+          "description": "Anthropic Models API - lists all available models"
+        }
+      ],
+      "changelog_urls": [
+        "https://platform.claude.com/docs/en/release-notes/overview",
+        "https://docs.anthropic.com/en/docs/about-claude/models"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "rss": [
+        "https://blog.google/technology/ai/rss/"
+      ],
+      "api_endpoints": [
+        {
+          "name": "models_list",
+          "url": "https://generativelanguage.googleapis.com/v1beta/models",
+          "auth_env": "GOOGLE_AI_API_KEY",
+          "description": "Google AI Models API - lists all available Gemini models"
+        }
+      ],
+      "changelog_urls": [
+        "https://ai.google.dev/gemini-api/docs/changelog"
+      ]
+    }
+  ],
+  "settings": {
+    "fetch_window_hours": 36,
+    "similarity_threshold": 0.65,
+    "slack_channel_id": "C0AQ1NGD67K"
+  }
+}

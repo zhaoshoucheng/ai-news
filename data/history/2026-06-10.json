@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-10",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-10T08:51:37.746Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How engineers at Nextdoor use Codex to build without limits",
+          "url": "https://openai.com/index/nextdoor",
+          "published_at": "2026-06-09T12:00:00.000Z",
+          "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Industrial policy for the Intelligence Age",
+          "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "published_at": "2026-06-09T00:00:00.000Z",
+          "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How engineers at Nextdoor use Codex to build without limits",
+          "url": "https://openai.com/index/nextdoor",
+          "published_at": "2026-06-09T12:00:00.000Z",
+          "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Industrial policy for the Intelligence Age",
+          "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "published_at": "2026-06-09T00:00:00.000Z",
+          "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-10T08:51:52.140Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-10T08:52:04.922Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 - 2026年6月10日\n\n本报告旨在为开发者提供 OpenAI、Anthropic 和 Google Gemini 模型的最新变更信息，以便及时调整和优化应用。\n\n---\n\n### 🚀 OpenAI 更新\n\n#### 📰 博客更新\n\n*   **标题：** How engineers at Nextdoor use Codex to build without limits\n    *   **发布时间：** 2026-06-09 12:00 UTC\n    *   **摘要：** Nextdoor 工程师如何利用 Codex 与 **GPT-5.5** 结合，调查难以重现的问题，跨平台构建，并专注于产品成果。\n    *   **开发者影响：** 提及了 **GPT-5.5** 的使用，这可能暗示 OpenAI 正在内部或与合作伙伴测试下一代模型。开发者应关注未来 GPT-5.5 的正式发布，并准备评估其性能提升及对现有应用的潜在影响。\n*   **标题：** Industrial policy for the Intelligence Age\n    *   **发布时间：** 2026-06-09 00:00 UTC\n    *   **摘要：** 探讨 OpenAI 在 AI 时代雄心勃勃的、以人为本的产业政策理念，重点关注随着高级智能的发展，如何扩大机遇、共享繁荣和建设有韧性的机构。\n    *   **开发者影响：** 政策性文章，对 API 适配无直接影响，但反映了 OpenAI 对 AI 发展方向和治理的思考。\n\n---\n\n###  quiescent Anthropic 更新\n\n*   未检测到模型或 API 变更。\n\n---\n\n### quiescent Google Gemini 更新\n\n*   未检测到模型或 API 变更。\n\n---\n\n**总结与建议：**\n\n今日 OpenAI 的更新主要集中在博客内容，其中最值得关注的是 Nextdoor 案例中提及了 **GPT-5.5** 的使用。虽然这并非正式发布，但预示着下一代模型的开发进展。开发者应保持对 OpenAI 官方公告的关注，一旦 GPT-5.5 发布，应及时评估其在性能、成本和功能上的变化，并考虑进行模型升级以提升应用能力。Anthropic 和 Google Gemini 今日无显著更新。"
+}
