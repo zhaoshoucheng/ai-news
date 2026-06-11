@@ -44,63 +44,76 @@ async function main(): Promise<void> {
   for (const provider of config.providers) {
     console.log(`\n── ${provider.name} ──────────────────────────────────`);
 
-    // 1. 抓取 RSS
-    console.log(`[Daily] Fetching RSS for ${provider.name}...`);
-    let rssItems = await fetchRssForProvider(provider, config.settings.fetch_window_hours);
+    try {
+      // 1. 抓取 RSS
+      console.log(`[Daily] Fetching RSS for ${provider.name}...`);
+      let rssItems = await fetchRssForProvider(provider, config.settings.fetch_window_hours);
 
-    // 2b. 抓取 Changelog 页面
-    console.log(`[Daily] Fetching changelog for ${provider.name}...`);
-    const changelogItems = await fetchChangelogForProvider(provider);
-    rssItems = [...rssItems, ...changelogItems];
+      // 2b. 抓取 Changelog 页面
+      console.log(`[Daily] Fetching changelog for ${provider.name}...`);
+      try {
+        const changelogItems = await fetchChangelogForProvider(provider);
+        rssItems = [...rssItems, ...changelogItems];
+      } catch (err: any) {
+        console.warn(`[Daily] Changelog fetch failed for ${provider.name}: ${err.message?.slice(0, 100)}`);
+      }
 
-    // 2c. 抓取 News 页面
-    if (provider.news_pages && provider.news_pages.length > 0) {
-      console.log(`[Daily] Fetching news page for ${provider.name}...`);
-      const newsItems = await fetchNewsForProvider(provider);
-      rssItems = [...rssItems, ...newsItems];
-    }
+      // 2c. 抓取 News 页面
+      if (provider.news_pages && provider.news_pages.length > 0) {
+        console.log(`[Daily] Fetching news page for ${provider.name}...`);
+        try {
+          const newsItems = await fetchNewsForProvider(provider);
+          rssItems = [...rssItems, ...newsItems];
+        } catch (err: any) {
+          console.warn(`[Daily] News fetch failed for ${provider.name}: ${err.message?.slice(0, 100)}`);
+        }
+      }
 
-    // RSS 去重（排除已处理过的 URL）
-    const beforeDedup = rssItems.length;
-    rssItems = rssItems.filter((item) => !recentUrls.has(item.url));
-    if (beforeDedup > rssItems.length) {
-      console.log(`[Daily] RSS dedup: ${beforeDedup} → ${rssItems.length}`);
-    }
+      // RSS 去重（排除已处理过的 URL）
+      const beforeDedup = rssItems.length;
+      rssItems = rssItems.filter((item) => !recentUrls.has(item.url));
+      if (beforeDedup > rssItems.length) {
+        console.log(`[Daily] RSS dedup: ${beforeDedup} → ${rssItems.length}`);
+      }
 
-    // 2. 抓取 API 模型列表
-    console.log(`[Daily] Fetching API models for ${provider.name}...`);
-    const newSnapshot = await fetchModelsForProvider(provider);
+      // 2. 抓取 API 模型列表
+      console.log(`[Daily] Fetching API models for ${provider.name}...`);
+      const newSnapshot = await fetchModelsForProvider(provider);
 
-    // 3. 加载旧快照并对比
-    const oldSnapshot = loadPreviousSnapshot(provider.id);
-    const changes = detectChanges(
-      provider.id,
-      provider.name,
-      oldSnapshot,
-      newSnapshot,
-      rssItems
-    );
+      // 3. 加载旧快照并对比
+      const oldSnapshot = loadPreviousSnapshot(provider.id);
+      const changes = detectChanges(
+        provider.id,
+        provider.name,
+        oldSnapshot,
+        newSnapshot,
+        rssItems
+      );
 
-    allChanges.push(changes);
+      allChanges.push(changes);
 
-    // 4. 保存新快照（无论是否有变更都要更新）
-    if (newSnapshot.models.length > 0) {
-      saveSnapshot(newSnapshot);
-    }
+      // 4. 保存新快照（无论是否有变更都要更新）
+      if (newSnapshot.models.length > 0) {
+        saveSnapshot(newSnapshot);
+      }
 
-    // 输出变更摘要
-    if (changes.has_changes) {
-      console.log(`[Daily] ✅ Changes detected for ${provider.name}:`);
-      if (changes.new_models.length > 0)
-        console.log(`  - New models: ${changes.new_models.map((m) => m.id).join(", ")}`);
-      if (changes.removed_models.length > 0)
-        console.log(`  - Removed models: ${changes.removed_models.map((m) => m.id).join(", ")}`);
-      if (changes.changed_models.length > 0)
-        console.log(`  - Changed models: ${changes.changed_models.map((m) => m.model_id).join(", ")}`);
-      if (changes.rss_updates.length > 0)
-        console.log(`  - RSS updates: ${changes.rss_updates.length} articles`);
-    } else {
-      console.log(`[Daily] ⏭️ No changes for ${provider.name}`);
+      // 输出变更摘要
+      if (changes.has_changes) {
+        console.log(`[Daily] ✅ Changes detected for ${provider.name}:`);
+        if (changes.new_models.length > 0)
+          console.log(`  - New models: ${changes.new_models.map((m) => m.id).join(", ")}`);
+        if (changes.removed_models.length > 0)
+          console.log(`  - Removed models: ${changes.removed_models.map((m) => m.id).join(", ")}`);
+        if (changes.changed_models.length > 0)
+          console.log(`  - Changed models: ${changes.changed_models.map((m) => m.model_id).join(", ")}`);
+        if (changes.rss_updates.length > 0)
+          console.log(`  - RSS updates: ${changes.rss_updates.length} articles`);
+      } else {
+        console.log(`[Daily] ⏭️ No changes for ${provider.name}`);
+      }
+    } catch (err: any) {
+      console.error(`[Daily] ❌ Error processing ${provider.name}: ${err.message?.slice(0, 150)}`);
+      console.error(`[Daily] Skipping ${provider.name}, continuing with next provider...`);
     }
   }
 
