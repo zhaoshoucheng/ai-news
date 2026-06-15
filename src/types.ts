@@ -44,7 +44,6 @@ export interface ApiEndpoint {
 export interface Settings {
   fetch_window_hours: number;
   similarity_threshold: number;
-  slack_channel_id: string;
 }
 
 // ── 模型快照相关 ──────────────────────────────────────────────────

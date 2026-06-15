@@ -77,7 +77,6 @@
   ],
   "settings": {
     "fetch_window_hours": 36,
-    "similarity_threshold": 0.65,
-    "slack_channel_id": "C0AQ1NGD67K"
+    "similarity_threshold": 0.65
   }
 }

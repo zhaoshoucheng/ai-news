@@ -1,0 +1,180 @@
+{
+  "date": "2026-06-12",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-12T01:05:08.346Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+          "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "BBVA puts AI at the core of banking with OpenAI",
+          "url": "https://openai.com/index/bbva",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+          "url": "https://openai.com/index/openai-on-oracle-cloud",
+          "published_at": "2026-06-10T20:00:00.000Z",
+          "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+          "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "BBVA puts AI at the core of banking with OpenAI",
+          "url": "https://openai.com/index/bbva",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+          "url": "https://openai.com/index/openai-on-oracle-cloud",
+          "published_at": "2026-06-10T20:00:00.000Z",
+          "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-12T01:05:43.667Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-06-10 [v1/environments]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-06-10T00:00:00Z",
+          "summary": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox , is now available on Claude Platform on AWS . See IAM actions for Claude Platform on AWS for the GetEnvironment action that author",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Deprecation] Anthropic Changelog 2025-12-19",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-12-19T00:00:00Z",
+          "summary": "We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecatio",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2025-12-04",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-12-04T00:00:00Z",
+          "summary": "Structured outputs now supports Claude Haiku 4",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2025-11-21",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-11-21T00:00:00Z",
+          "summary": "Search result content blocks are now generally available on Amazon Bedrock. Learn more in Search result",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2025-09-08",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-09-08T00:00:00Z",
+          "summary": "We launched a beta version of the C# SD",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2025-09-03",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-09-03T00:00:00Z",
+          "summary": "We&#x27;ve launched support for citable documents in client-side tool results. Learn more in Handle tool call",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2025-08-27",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-08-27T00:00:00Z",
+          "summary": "We launched a beta version of the PHP",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2025-08-12",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-08-12T00:00:00Z",
+          "summary": "We&#x27;ve launched beta support for a 1M token context window in Claude Sonnet 4 on the Claude API and Amazon Bed",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Deprecation] Anthropic Changelog 2025-06-30",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-06-30T00:00:00Z",
+          "summary": "We announced the deprecation of the Claude Opus 3 model. Read more in Model depreca",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2025-05-21",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2025-05-21T00:00:00Z",
+          "summary": "We&#x27;ve moved our Ruby SDK from be",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[News] Introducing Claude Corps",
+          "url": "https://www.anthropic.com/news/claude-corps",
+          "published_at": "2026-06-11T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-12T01:06:04.667Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+          "published_at": "2026-06-11T20:00:00.000Z",
+          "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-06-12T01:06:12.055Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Google performance results now available Claude Fable 5 (Adaptive Reasoning, Max",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-11T00:00:00Z",
+          "summary": "Google performance results now available Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 - 2026年06月12日\n\n本报告汇总了OpenAI、Anthropic和Google Gemini在2026年06月12日检测到的模型与API变更。\n\n---\n\n### 🚀 Anthropic\n\n#### 🆕 新闻与博客更新\n\n*   **[新闻] Introducing Claude Corps**\n    Anthropic 发布了“Claude Corps”，具体细节待进一步披露。\n    🔗 <https://www.anthropic.com/news/claude-corps>\n*   **[功能] Anthropic Changelog 2026-06-10 [v1/environments]**\n    GET /v1/environments/{id}/work 端点现已在 AWS 上的 Claude Platform 提供，用于列出自托管沙箱的待处理工作。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n\n#### ⚠️ 模型弃用警告 (未来)\n\n*   **[弃用] Anthropic Changelog 2025-12-19**\n    宣布弃用 Claude Haiku 3.5 模型。\n    **开发者影响：** 建议开发者提前规划，将使用 Claude Haiku 3.5 的应用迁移到新模型，以避免服务中断。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **[弃用] Anthropic Changelog 2025-06-30**\n    宣布弃用 Claude Opus 3 模型。\n    **开发者影响：** 建议开发者提前规划，将使用 Claude Opus 3 的应用迁移到新模型，以避免服务中断。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n\n#### ✨ 其他功能更新 (历史更新，供参考)\n\n*   **Anthropic Changelog 2025-12-04**\n    结构化输出现在支持 Claude Haiku 4。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **Anthropic Changelog 2025-11-21**\n    搜索结果内容块现在在 Amazon Bedrock 上普遍可用。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **[功能] Anthropic Changelog 2025-09-08**\n    发布了 C# SDK 的测试版。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **[功能] Anthropic Changelog 2025-09-03**\n    在客户端工具结果中推出了对可引用文档的支持。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **[功能] Anthropic Changelog 2025-08-27**\n    发布了 PHP SDK 的测试版。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **[功能] Anthropic Changelog 2025-08-12**\n    在 Claude API 和 Amazon Bedrock 上的 Claude Sonnet 4 中推出了对 1M token 上下文窗口的测试版支持。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n*   **Anthropic Changelog 2025-05-21**\n    Ruby SDK 已从测试版转正。\n    🔗 <https://platform.claude.com/docs/en/release-notes/overview>\n\n---\n\n### 🌐 OpenAI\n\n#### 📰 行业新闻与博客更新\n\n*   **Supporting Europe’s work in ensuring a trustworthy AI ecosystem**\n    OpenAI 支持欧盟关于 AI 内容透明度的行为准则，推进溯源标准和工具，帮助人们理解 AI 生成内容。\n    🔗 <https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem>\n*   **BBVA puts AI at the core of banking with OpenAI**\n    BBVA 将 ChatGPT Enterprise 扩展到 100,000 名员工，并与 OpenAI 合作加速全球 AI 驱动的银行转型。\n    🔗 <https://openai.com/index/bbva>\n*   **Access OpenAI models and Codex through your Oracle cloud commitment**\n    现在可以通过 Oracle Cloud 访问 OpenAI 模型和 Codex，利用现有承诺构建和部署具有企业安全和治理的 AI。\n    **开发者影响：** 对于使用 Oracle Cloud 的企业开发者，现在可以直接利用其现有承诺集成 OpenAI 模型，简化了采购和管理流程。\n    🔗 <https://openai.com/index/openai-on-oracle-cloud>\n\n---\n\n### 🔷 Google Gemini\n\n#### 📰 行业新闻与博客更新\n\n*   **Our new community investments in Virginia support local jobs and expand energy affordability.**\n    Google 在弗吉尼亚州进行社区投资，支持当地就业并扩大能源可负担性，帮助建设该州的下一代劳动力并投资能源项目。\n    🔗 <https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/>\n\n---\n\n### 📊 第三方分析\n\n*   **[Artificial Analysis] Google performance results now available Claude Fable 5 (Adaptive Reasoning, Max**\n    Artificial Analysis 提供了 Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback) 的 Google 性能测试结果。\n    **开发者影响：** 对于关注模型性能对比的开发者，可以参考此报告评估 Claude Fable 5 在 Google 环境下的表现。\n    🔗 <https://artificialanalysis.ai/changelog>"
+}

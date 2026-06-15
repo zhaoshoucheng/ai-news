@@ -14,7 +14,7 @@
 import "dotenv/config";
 import { loadDailyReports, saveWeeklyReport } from "./storage.js";
 import { generateWeeklyReport } from "./llm.js";
-import { sendToSlack } from "./slack.js";
+import { sendEmail } from "./email.js";
 
 async function main(): Promise<void> {
   const startTime = Date.now();
@@ -45,7 +45,7 @@ async function main(): Promise<void> {
   if (dailyReports.length === 0) {
     console.log("[Weekly] No daily reports found for this week. Sending minimal summary.");
     const noDataMessage = `## 📋 AI 模型变更周报 · ${weekStart} ~ ${weekEnd}\n\n本周未检测到任何模型变更。各厂商 API 保持稳定。`;
-    await sendToSlack(noDataMessage);
+    await sendEmail({ subject: `[AI 模型监控] 变更周报 · ${weekStart} ~ ${weekEnd}`, markdown: noDataMessage });
     return;
   }
 
@@ -55,7 +55,7 @@ async function main(): Promise<void> {
   if (reportsWithChanges.length === 0) {
     console.log("[Weekly] No changes detected this week.");
     const noChangesMessage = `## 📋 AI 模型变更周报 · ${weekStart} ~ ${weekEnd}\n\n本周 ${dailyReports.length} 次检测均未发现变更。OpenAI、Anthropic、Google Gemini 的模型和 API 保持稳定。`;
-    await sendToSlack(noChangesMessage);
+    await sendEmail({ subject: `[AI 模型监控] 变更周报 · ${weekStart} ~ ${weekEnd}`, markdown: noChangesMessage });
     saveWeeklyReport(weekStart, noChangesMessage);
     return;
   }
@@ -75,10 +75,10 @@ async function main(): Promise<void> {
   const weeklyDataJson = JSON.stringify(weeklyData, null, 2);
   const reportText = await generateWeeklyReport(weeklyDataJson);
 
-  // 4. 发送到 Slack
-  console.log("[Weekly] Sending weekly report to Slack...");
-  const slackMessage = `## 📋 AI 模型变更周报 · ${weekStart} ~ ${weekEnd}\n\n${reportText}`;
-  await sendToSlack(slackMessage);
+  // 4. 发送邮件
+  console.log("[Weekly] Sending weekly report via email...");
+  const body = `## 📋 AI 模型变更周报 · ${weekStart} ~ ${weekEnd}\n\n${reportText}`;
+  await sendEmail({ subject: `[AI 模型监控] 变更周报 · ${weekStart} ~ ${weekEnd}`, markdown: body });
 
   // 5. 保存周报
   saveWeeklyReport(weekStart, reportText);

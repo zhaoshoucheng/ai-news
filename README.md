@@ -1,6 +1,6 @@
 # AI Model Monitor
 
-> 轻量级 AI 模型变更监控器 — 跟踪 OpenAI、Anthropic、Google Gemini 的模型与 API 变更，自动生成报告推送到 Slack。
+> 轻量级 AI 模型变更监控器 — 跟踪 OpenAI、Anthropic、Google Gemini 的模型与 API 变更，自动生成报告并通过邮件推送。
 
 ---
 
@@ -22,7 +22,7 @@ config/sources.json（数据源配置）
   LLM 生成变更报告
         │
         ▼
-  有变更 → Slack #zsc-ai-news
+  有变更 → 邮件推送
   无变更 → 静默跳过
         │
         ▼
@@ -75,7 +75,7 @@ ai-news/
 │   ├── fetcher-api.ts      # API 模型列表抓取
 │   ├── diff.ts             # 快照对比与变更检测
 │   ├── llm.ts              # LLM 报告生成
-│   ├── slack.ts            # Slack 推送
+│   ├── email.ts            # 邮件推送（SMTP）
 │   ├── storage.ts          # 历史记录存储
 │   ├── run-daily.ts        # 每日检测入口
 │   └── run-weekly.ts       # 每周总结入口
@@ -94,7 +94,22 @@ ai-news/
 pnpm install
 ```
 
-### 环境变量（可选，用于 API 模型列表抓取）
+### 环境变量
+
+在项目根目录创建 `.env` 文件（已被 `.gitignore` 忽略，不会上传）：
+
+**邮件推送（必填）**
+
+| 变量名 | 说明 | 默认值 |
+| :--- | :--- | :--- |
+| `SMTP_HOST` | SMTP 服务器地址 | `smtp.gmail.com` |
+| `SMTP_PORT` | SMTP 端口（465=SSL，587=STARTTLS） | `465` |
+| `SMTP_USER` | 发件邮箱账号 | — |
+| `SMTP_PASS` | SMTP 授权码 / 应用专用密码 | — |
+| `MAIL_FROM` | 发件显示地址 | 同 `SMTP_USER` |
+| `MAIL_TO` | 收件邮箱（逗号分隔多个） | 同 `SMTP_USER` |
+
+**API 模型列表抓取（可选）**
 
 | 变量名 | 说明 |
 | :--- | :--- |
@@ -107,10 +122,10 @@ pnpm install
 ### 手动运行
 
 ```bash
-# 每日检测（dry-run 模式，不发送 Slack）
+# 每日检测（dry-run 模式，不发送邮件）
 pnpm daily -- --dry-run
 
-# 每日检测（正式模式，发送 Slack）
+# 每日检测（正式模式，发送邮件）
 pnpm daily
 
 # 每周总结
@@ -142,6 +157,6 @@ pnpm weekly
 | 运行时 | Node.js 22 + TypeScript |
 | RSS 解析 | `rss-parser` |
 | LLM 调用 | OpenAI SDK（兼容接口） |
-| Slack 推送 | Manus MCP Slack 连接器 |
+| 邮件推送 | SMTP（内置 Python smtplib，零额外依赖） |
 | 存储 | JSON 文件（Git 版本控制） |
 | 定时调度 | Manus Schedule |

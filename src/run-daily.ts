@@ -21,7 +21,7 @@ import { fetchThirdPartyChangelog } from "./fetcher-third-party.js";
 import { fetchNewsForProvider } from "./fetcher-news-page.js";
 import { loadPreviousSnapshot, saveSnapshot, detectChanges } from "./diff.js";
 import { generateDailyReport } from "./llm.js";
-import { sendToSlack } from "./slack.js";
+import { sendEmail } from "./email.js";
 import { saveDailyReport, getRecentRssUrls } from "./storage.js";
 import type { ChangeDetectionResult, DailyReport, RssItem } from "./types.js";
 
@@ -34,7 +34,7 @@ async function main(): Promise<void> {
   console.log("═".repeat(60));
   console.log(`[Daily] AI Model Monitor - Daily Check`);
   console.log(`[Daily] Date: ${today}`);
-  console.log(`[Daily] Mode: ${isDryRun ? "DRY RUN (no Slack)" : "PRODUCTION"}`);
+  console.log(`[Daily] Mode: ${isDryRun ? "DRY RUN (no email)" : "PRODUCTION"}`);
   console.log("═".repeat(60));
 
   const config = loadConfig();
@@ -180,11 +180,11 @@ async function main(): Promise<void> {
   };
   saveDailyReport(report);
 
-  // 7. 发送 Slack 通知
+  // 7. 发送邮件通知
   if (!isDryRun) {
-    console.log("[Daily] Sending report to Slack...");
-    const slackMessage = `## 📡 AI 模型变更日报 · ${today}\n\n${reportText}`;
-    await sendToSlack(slackMessage);
+    console.log("[Daily] Sending report via email...");
+    const body = `## 📡 AI 模型变更日报 · ${today}\n\n${reportText}`;
+    await sendEmail({ subject: `[AI 模型监控] 变更日报 · ${today}`, markdown: body });
   } else {
     console.log("[Daily] DRY RUN - Report preview:");
     console.log("─".repeat(60));

@@ -2,13 +2,13 @@
  * 统一调度入口
  * 
  * 每次被触发时：
- * 1. 执行每日检测（有变更才发 Slack）
+ * 1. 执行每日检测（有变更才发邮件）
  * 2. 如果当天是周五，额外执行周报生成
  * 
  * 参数：
  *   --daily-only  仅执行每日检测
  *   --weekly-only 仅执行周报
- *   --dry-run     不发送 Slack
+ *   --dry-run     不发送邮件
  */
 
 import "dotenv/config";
