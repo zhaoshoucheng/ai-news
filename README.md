@@ -44,7 +44,7 @@ config/sources.json（数据源配置）
 | **LLM 报告生成** | 自动生成结构化中文报告，包含开发者影响分析 |
 | **每日检测** | 每天 9:00 自动运行，有变更才推送 |
 | **每周总结** | 每周五 20:00 生成周报，汇总本周所有变更 |
-| **零外部依赖** | 无需数据库，配置和数据全部存储在 Git 仓库中 |
+| **零外部依赖** | 无需数据库，配置存于 `main`，运行数据存于 `data-snapshots` 分支 |
 
 ---
 
@@ -64,21 +64,28 @@ config/sources.json（数据源配置）
 ai-news/
 ├── config/
 │   └── sources.json        # 数据源配置（厂商、RSS、API 端点）
-├── data/
-│   ├── snapshots/          # 模型列表快照（用于变更对比）
+├── data/                   # 运行数据（main 不追踪，存于 data-snapshots 分支）
+│   ├── snapshots/          # 模型列表/changelog 快照（用于变更对比）
 │   ├── history/            # 每日检测结果历史
 │   └── weekly/             # 周报存档
+├── scripts/
+│   ├── restore-snapshots.sh # 运行前从 data-snapshots 分支恢复快照
+│   └── commit-snapshots.sh  # 运行后将快照提交回 data-snapshots 分支
 ├── src/
 │   ├── config.ts           # 配置加载
 │   ├── types.ts            # 类型定义
 │   ├── fetcher-rss.ts      # RSS 抓取模块
 │   ├── fetcher-api.ts      # API 模型列表抓取
+│   ├── fetcher-changelog.ts# Changelog 页面结构化解析
+│   ├── fetcher-news-page.ts# 新闻页面抓取（如 Anthropic News）
+│   ├── fetcher-third-party.ts # 第三方数据源（Artificial Analysis）
 │   ├── diff.ts             # 快照对比与变更检测
 │   ├── llm.ts              # LLM 报告生成
 │   ├── email.ts            # 邮件推送（SMTP）
 │   ├── storage.ts          # 历史记录存储
-│   ├── run-daily.ts        # 每日检测入口
-│   └── run-weekly.ts       # 每周总结入口
+│   ├── run.ts              # 统一调度入口（推荐）
+│   ├── run-daily.ts        # 每日检测
+│   └── run-weekly.ts       # 每周总结
 ├── package.json
 ├── tsconfig.json
 └── README.md
@@ -136,17 +143,29 @@ pnpm weekly
 
 ## 定时调度
 
-在 Manus 中配置两个定时任务：
+在 Manus 中配置一个定时任务即可（统一入口会自动判断是否周五）：
 
-1. **每日检测**：每天早上 9:00（Cron: `0 0 9 * * *`）
-   ```bash
-   cd /home/ubuntu/ai-news && pnpm daily
-   ```
+```bash
+cd /home/ubuntu/ai-news && pnpm run run
+```
 
-2. **每周总结**：每周五晚上 20:00（Cron: `0 0 20 * * 5`）
-   ```bash
-   cd /home/ubuntu/ai-news && pnpm weekly
-   ```
+- 每天早上 9:00 触发：执行每日检测，有变更才发邮件
+- 周五会额外生成并推送周报
+
+## 数据持久化机制（data-snapshots 分支）
+
+为保证去重对比在临时运行环境中也能跨次生效，同时保持 `main` 分支干净，运行数据采用独立分支管理：
+
+- `main` 分支：**仅含代码**，`data/*.json` 已被 `.gitignore` 忽略
+- `data-snapshots` 分支：**仅含 `data/` 运行数据**（快照 / 历史 / 周报）
+
+`pnpm run run` 的完整流程：
+
+1. 运行前执行 `scripts/restore-snapshots.sh`，从 `data-snapshots` 分支恢复最新快照
+2. 抓取、对比、检测变更，有变更则发邮件
+3. 运行后执行 `scripts/commit-snapshots.sh`，将更新后的快照提交回 `data-snapshots` 分支
+
+> 这样每天的数据更新只会出现在 `data-snapshots` 分支，不污染 `main` 的提交历史。
 
 ---
 
