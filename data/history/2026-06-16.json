@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-16",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-16T01:04:26.221Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Introducing the OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "published_at": "2026-06-14T17:00:00.000Z",
+          "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing the OpenAI Partner Network",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "published_at": "2026-06-14T17:00:00.000Z",
+          "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-16T01:04:44.813Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-16T01:04:58.546Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+          "published_at": "2026-06-15T15:00:00.000Z",
+          "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Deprecation] Google Gemini Changelog 2026-06-15",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-06-15T00:00:00Z",
+          "summary": "Deprecation announcement : The following image generation models are\nbeing deprecated and will be shut down on August 17, 2026 :\n\n \n\n Imagen 4 and Gemini 3 Image models :\n\n \n\n imagen-4.0-generate-001 \n\n imagen-4.0-ultra-generate-001 \n\n imagen-4.0-fast-generate-001 \n\n \n\nTo migrate your code to newer stable or preview endpoints, refer to the\n Gemini deprecations page.\n\n \n\n Deprecation announcement : The following video generation models are\nbeing deprecated and will be shut down on June 30, 2026 :",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026年06月16日)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在过去24小时内检测到的模型与 API 变更，旨在为开发者提供及时、专业的更新信息。\n\n---\n\n### OpenAI 更新\n\n**Introducing the OpenAI Partner Network**\nOpenAI 正式启动合作伙伴网络，并投入1.5亿美元，旨在与全球合作伙伴共同加速企业级AI的采纳、部署和转型。此举将帮助更多企业利用OpenAI技术，并可能为开发者带来新的合作机会和生态系统支持。\n🔗 https://openai.com/index/introducing-openai-partner-network\n\n---\n\n### Google Gemini 更新\n\n**[Deprecation] Google Gemini Changelog 2026-06-15**\nGoogle Gemini 宣布将弃用部分图像生成模型和视频生成模型。具体而言，`imagen-4.0-generate-001`、`imagen-4.0-ultra-generate-001`、`imagen-4.0-fast-generate-001` 等图像模型将于2026年8月17日停止服务，而视频生成模型将于2026年6月30日停止服务。开发者需尽快迁移至新的稳定版或预览版端点，以避免服务中断。\n🔗 https://ai.google.dev/gemini-api/docs/changelog\n\n**We’re strengthening our presence in Alabama through new investments and community support.**\nGoogle 宣布将在2026年至2027年期间投资15亿美元，扩建其位于阿拉巴马州杰克逊县的数据中心。这项投资将增强Google的基础设施能力，可能为未来AI模型的训练和部署提供更强大的计算资源。\n🔗 https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/"
+}
