@@ -22,10 +22,29 @@ const dailyOnly = args.includes("--daily-only");
 const weeklyOnly = args.includes("--weekly-only");
 const dryRun = args.includes("--dry-run");
 
+const repoRoot = resolve(__dirname, "..");
+
+function runScript(scriptName: string, label: string): void {
+  try {
+    execSync(`bash ${resolve(repoRoot, "scripts", scriptName)}`, {
+      cwd: repoRoot,
+      stdio: "inherit",
+      env: process.env,
+      timeout: 120000,
+    });
+  } catch (err: any) {
+    console.error(`[Run] ${label} failed: ${err.message}`);
+  }
+}
+
 async function main(): Promise<void> {
   const today = new Date();
   const isFriday = today.getDay() === 5;
-  const extraArgs = dryRun ? "-- --dry-run" : "";
+
+  // 运行前：从 data-snapshots 分支恢复最新快照（保证去重对比正确）
+  if (!dryRun) {
+    runScript("restore-snapshots.sh", "Snapshot restore");
+  }
 
   // 执行每日检测
   if (!weeklyOnly) {
@@ -57,6 +76,12 @@ async function main(): Promise<void> {
         console.error("[Run] Weekly summary failed:", err.message);
       }
     }
+  }
+
+  // 运行后：将更新后的快照提交到 data-snapshots 分支（不污染 main）
+  if (!dryRun) {
+    console.log("\n[Run] Committing snapshots to data-snapshots branch...");
+    runScript("commit-snapshots.sh", "Snapshot commit");
   }
 
   console.log("\n[Run] All tasks completed.");

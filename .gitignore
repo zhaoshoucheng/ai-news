@@ -25,3 +25,8 @@ Thumbs.db
 # Runtime data
 *.pid
 *.pid.lock
+
+# Runtime snapshot/history data (committed to data-snapshots branch instead, not main)
+data/snapshots/*.json
+data/history/*.json
+data/weekly/*.md
