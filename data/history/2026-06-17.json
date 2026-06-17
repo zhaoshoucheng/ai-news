@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-17",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-17T01:04:13.942Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Predicting model behavior before release by simulating deployment",
+          "url": "https://openai.com/index/deployment-simulation",
+          "published_at": "2026-06-16T00:00:00.000Z",
+          "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Predicting model behavior before release by simulating deployment",
+          "url": "https://openai.com/index/deployment-simulation",
+          "published_at": "2026-06-16T00:00:00.000Z",
+          "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-17T01:04:31.283Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-17T01:04:42.045Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026-06-17)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新动态，旨在为开发者提供及时、专业的变更信息。\n\n### OpenAI\n\n#### 博客更新\n\n**Predicting model behavior before release by simulating deployment**\nOpenAI 引入了“部署模拟”（Deployment Simulation）方法，旨在通过模拟真实对话数据来预测 AI 模型在发布前的行为。这一新方法显著提升了模型安全性和评估的准确性，有助于在模型实际部署前发现并解决潜在问题。对于开发者而言，这意味着未来 OpenAI 模型在发布时可能具有更高的可靠性和安全性。\n🔗 https://openai.com/index/deployment-simulation"
+}
