@@ -126,6 +126,18 @@ pnpm install
 
 > 注：即使没有 API Key，系统仍会通过 RSS 监控博客更新。API Key 用于更精确地检测模型列表变化。
 
+**快照持久化（定时任务必填）**
+
+运行数据（快照 / 历史 / 周报）保存在独立的 `data-snapshots` 分支，`main` 只保留代码。脚本通过 GitHub Fine-grained PAT 推送该分支，需配置以下变量：
+
+| 变量名 | 说明 | 示例 |
+| :--- | :--- | :--- |
+| `GITHUB_TOKEN` | Fine-grained PAT，对本仓库授予 **Contents: Read and write** 权限 | `github_pat_xxx` |
+| `GITHUB_REPO` | 目标仓库（`owner/name`） | `zhaoshoucheng/ai-news` |
+
+> 生成方式：GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens，仅勾选本仓库，权限 Contents 设为 Read and write。
+> 未配置该变量时，每日检测和邮件推送仍可正常工作，但快照不会持久化到远端分支（影响跨次去重）。
+
 ### 手动运行
 
 ```bash
