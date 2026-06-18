@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-18",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-18T01:03:16.809Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+          "url": "https://openai.com/index/ai-chemist-improves-reaction",
+          "published_at": "2026-06-17T10:00:00.000Z",
+          "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+          "url": "https://openai.com/index/ai-chemist-improves-reaction",
+          "published_at": "2026-06-17T10:00:00.000Z",
+          "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-18T01:03:45.304Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-18T01:03:55.843Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026年6月18日)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更，旨在为开发者提供及时、专业的更新信息。\n\n### OpenAI\n\n#### 博客更新\n\n**A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry**\nOpenAI 与 Molecule.one 合作展示了通过近乎自主的 AI 化学家（使用 GPT-5.4 模型）优化药物制造关键反应的成果。这项研究显著提高了药物合成效率，并为医药化学研究带来了新的突破，预示着 AI 在科学发现领域的巨大潜力。\n🔗 https://openai.com/index/ai-chemist-improves-reaction"
+}
