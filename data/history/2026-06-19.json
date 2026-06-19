@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-19",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-19T01:02:24.100Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "published_at": "2026-06-18T17:00:00.000Z",
+          "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Improving health intelligence in ChatGPT",
+          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+          "published_at": "2026-06-18T11:00:00.000Z",
+          "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+          "published_at": "2026-06-18T08:00:00.000Z",
+          "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "New usage analytics and updated spend controls for enterprises",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "published_at": "2026-06-18T17:00:00.000Z",
+          "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Improving health intelligence in ChatGPT",
+          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+          "published_at": "2026-06-18T11:00:00.000Z",
+          "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+          "published_at": "2026-06-18T08:00:00.000Z",
+          "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-19T01:02:36.721Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-19T01:02:41.877Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 - 2026年6月19日\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在过去24小时内的模型与 API 变更及相关新闻。\n\n### OpenAI\n\nOpenAI 今日主要发布了企业级功能更新和多项健康医疗领域的AI应用进展。\n\n**新模型发布**\n*暂无新模型发布*\n\n**参数变更**\n*暂无参数变更*\n\n**API 变更**\n*暂无 API 变更*\n\n**行业新闻 / 博客更新**\n\n**New usage analytics and updated spend controls for enterprises**\nOpenAI 为 ChatGPT Enterprise 推出了新的使用分析工具和更新的支出控制功能。这些功能旨在帮助企业客户更好地管理成本、监控AI使用情况，并确保在大规模部署AI时的信心和效率。对于开发者而言，这意味着企业客户将有更精细的预算管理能力，可能影响企业级API的消费策略。\n🔗 https://openai.com/index/chatgpt-enterprise-spend-controls\n\n**Improving health intelligence in ChatGPT**\nOpenAI 宣布 GPT-5.5 Instant 模型显著提升了 ChatGPT 在健康和保健领域的响应能力。通过更强的推理能力、更好的上下文理解、更清晰的沟通以及医生参与的评估，该模型能提供更准确和有用的健康信息。这表明OpenAI正积极拓展AI在专业领域的应用深度，并强调了其在医疗信息处理上的可靠性进步。\n🔗 https://openai.com/index/improving-health-intelligence-in-chatgpt\n\n**Using AI to help physicians diagnose rare genetic diseases affecting children**\nOpenAI 的一项研究展示了其推理模型如何协助医生诊断罕见遗传病。该研究成功在之前未解决的病例中识别出18个新的诊断，突显了AI在复杂医疗诊断，尤其是在罕见病领域的巨大潜力。这为开发者提供了AI在医疗辅助诊断方面应用的实际案例和未来方向。\n🔗 https://openai.com/index/diagnose-rare-childhood-diseases\n\n### Anthropic\n\n*暂无更新*\n\n### Google Gemini\n\n*暂无更新*"
+}
