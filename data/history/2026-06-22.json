@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-22",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-22T01:01:35.416Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+          "published_at": "2026-06-21T23:00:00.000Z",
+          "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+          "published_at": "2026-06-21T23:00:00.000Z",
+          "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-22T01:01:51.147Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-22T01:01:59.115Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年6月22日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在过去24小时内的模型与 API 变更及相关新闻。\n\n---\n\n### OpenAI\n\nOpenAI 今日主要发布了企业合作新闻。\n\n**Samsung Electronics 将 ChatGPT 和 Codex 引入员工工作流程**\n三星电子已在全球范围内向其员工部署 ChatGPT Enterprise 和 Codex，标志着 OpenAI 最大规模的企业级 AI 部署之一。此次合作将使三星员工能够利用 OpenAI 的先进 AI 工具提升生产力，同时确保企业数据安全和隐私。对于开发者而言，这表明企业级 AI 解决方案的市场需求持续增长，并可能推动更多定制化企业应用场景的开发。\n🔗 https://openai.com/index/samsung-electronics-chatgpt-codex-deployment\n\n---"
+}
