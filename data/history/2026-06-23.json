@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-23",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-23T01:01:05.575Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Daybreak: Tools for securing every organization in the world",
+          "url": "https://openai.com/index/daybreak-securing-the-world",
+          "published_at": "2026-06-22T10:00:00.000Z",
+          "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Codex-maxxing for long-running work",
+          "url": "https://openai.com/index/codex-maxxing-long-running-work",
+          "published_at": "2026-06-22T00:00:00.000Z",
+          "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Daybreak: Tools for securing every organization in the world",
+          "url": "https://openai.com/index/daybreak-securing-the-world",
+          "published_at": "2026-06-22T10:00:00.000Z",
+          "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Codex-maxxing for long-running work",
+          "url": "https://openai.com/index/codex-maxxing-long-running-work",
+          "published_at": "2026-06-22T00:00:00.000Z",
+          "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-23T01:01:24.564Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-23T01:01:32.327Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年06月23日**\n\n### OpenAI\n\n#### 博客更新\n\n**Daybreak: Tools for securing every organization in the world**\nOpenAI 发布了名为 Daybreak 的新工具集，旨在帮助组织提升网络安全能力。其中包含 Codex Security 和 GPT-5.5-Cyber 两款关键工具，它们能够协助开发者和企业大规模地发现、验证并修复潜在的安全漏洞，从而增强整体防御体系。\n🔗 https://openai.com/index/daybreak-securing-the-world\n\n**Codex-maxxing for long-running work**\n这篇文章介绍了 Jason Liu 如何利用 Codex 模型来优化长时间运行的工作流程。通过有效利用 Codex，开发者可以更好地保留上下文信息，管理复杂的项目，并确保工作能够超越单个提示的限制，实现更高效、持续的开发。\n🔗 https://openai.com/index/codex-maxxing-long-running-work"
+}
