@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-24",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-24T01:05:00.979Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+          "url": "https://openai.com/index/gpt-5-immunology-mystery",
+          "published_at": "2026-06-23T17:00:00.000Z",
+          "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Omio is building the future of conversational travel",
+          "url": "https://openai.com/index/omio",
+          "published_at": "2026-06-23T00:00:00.000Z",
+          "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+          "url": "https://openai.com/index/gpt-5-immunology-mystery",
+          "published_at": "2026-06-23T17:00:00.000Z",
+          "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Omio is building the future of conversational travel",
+          "url": "https://openai.com/index/omio",
+          "published_at": "2026-06-23T00:00:00.000Z",
+          "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-24T01:05:21.419Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] Introducing Claude Tag",
+          "url": "https://www.anthropic.com/news/introducing-claude-tag",
+          "published_at": "2026-06-23T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+          "published_at": "2026-06-17T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-24T01:05:27.709Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026年06月24日)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在过去24小时内的模型与 API 变更及相关新闻。\n\n### OpenAI\n\nOpenAI 今日主要发布了博客更新，涉及 GPT-5 在特定领域的应用案例。\n\n**行业新闻 / 博客更新**\n\n**How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery**\n这篇博客介绍了 GPT-5 Pro 如何协助免疫学家 Derya Unutmaz 解决了一个长达三年的免疫学难题，成功揭示了 T 细胞行为的深层机制。这一突破性进展不仅展示了 GPT-5 在科学研究中的强大辅助能力，也预示着其在癌症和自身免疫疾病研究领域的巨大应用潜力，为开发者提供了模型实际应用价值的参考。\n🔗 https://openai.com/index/gpt-5-immunology-mystery\n\n**How Omio is building the future of conversational travel**\nOmio 的案例展示了如何利用 OpenAI 的技术构建会话式旅行体验，加速产品开发，并向 AI 原生公司转型。这表明 OpenAI 的模型不仅限于内容生成，还能赋能企业实现业务流程的智能化和用户体验的升级，对希望将 AI 融入自身产品的开发者具有借鉴意义。\n🔗 https://openai.com/index/omio\n\n### Anthropic\n\nAnthropic 今日发布了产品新闻和公司战略更新。\n\n**产品新闻**\n\n**[News] Introducing Claude Tag**\nAnthropic 推出了新功能 Claude Tag，具体细节需要查看原文了解。这项功能可能旨在提升用户在与 Claude 交互时的体验或管理能力，开发者应关注其是否会影响现有 API 的使用方式或提供新的集成点。\n🔗 https://www.anthropic.com/news/introducing-claude-tag\n\n**行业新闻**\n\n**Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem**\nAnthropic 宣布在首尔设立办事处，并与韩国 AI 生态系统建立了新的合作伙伴关系。这一举措表明 Anthropic 正积极拓展其全球市场和合作网络，可能预示着未来在亚洲地区会有更多的产品本地化或服务推出，对该区域的开发者而言是一个积极信号。\n🔗 https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem\n\n### Google Gemini\n\nGoogle Gemini 今日暂无新的模型、API 变更或 RSS 更新。"
+}
