@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-25",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-25T01:03:16.824Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+          "published_at": "2026-06-24T06:00:00.000Z",
+          "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+          "published_at": "2026-06-24T06:00:00.000Z",
+          "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Update] OpenAI Changelog 2026-06-24 [GPT-5.5]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-06-24T00:00:00Z",
+          "summary": "Update \n\nchat-latest\n\nUpdated the chat-latest snapshot, which points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-5.5 for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more here .",
+          "source": "OpenAI Changelog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-06-23",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-06-23T00:00:00Z",
+          "summary": "Feature \n\nReleased the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on safety_identifier values sent on requests to identify end users. Visit the Safety dashboard .",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-25T01:03:39.610Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-05-04",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-05-04T00:00:00Z",
+          "summary": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentica",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2026-04-29",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-04-29T00:00:00Z",
+          "summary": "We&#x27;ve released the Claude API skill , an open-source Agent Skill that gives Claude up-to-date reference material for building on the Messages API and Claude Managed Agents across 8 languages. The skill is bundled with Claude Code and available in the Anthropic skills reposi",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-25T01:03:49.753Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-06-24",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-06-24T00:00:00Z",
+          "summary": "Computer Use : Launched public preview support for the\n Computer Use tool in Gemini 3.5 Flash. This\nrelease includes simplified actions with intents, built-in support for\nbrowser, mobile, and desktop environments, configurable safety policies, and\nadvanced prompt injectio",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n### OpenAI\n\n**[Update] OpenAI Changelog 2026-06-24 [GPT-5.5]**\nOpenAI 更新了 `chat-latest` 快照，该快照现在指向最新的 Instant 模型，目前在 ChatGPT 中使用。OpenAI 推荐开发者在生产 API 中使用 GPT-5.5 模型，而 `chat-latest` 可用于测试最新的聊天功能改进。该底层模型快照将定期更新。\n🔗 https://developers.openai.com/api/docs/changelog\n\n**OpenAI and Broadcom unveil LLM-optimized inference chip**\nOpenAI 与 Broadcom 合作推出了名为 Jalapeño 的定制 AI 芯片，专为大型语言模型 (LLM) 推理设计。这款芯片旨在显著提升 AI 系统的性能、效率和可扩展性。对于开发者而言，这意味着未来可能享受到更低延迟和更高吞吐量的模型推理服务。\n🔗 https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n\n**[Feature] OpenAI Changelog 2026-06-23**\nOpenAI 在其 API 平台发布了安全使用仪表板（Safety Usage Dashboard）。该仪表板允许开发者查看基于 `safety_identifier` 值被阻止的请求，从而更好地识别和管理终端用户的安全相关请求。这有助于开发者监控和优化其应用程序的安全策略。\n🔗 https://developers.openai.com/api/docs/changelog\n\n### Anthropic\n\n**Anthropic Changelog 2026-05-04**\nAnthropic 正式推出了工作负载身份联合（Workload Identity Federation）功能。现在，开发者可以使用来自自身身份提供商（如 AWS IAM, Google Cloud, GitHub Actions 等）的短期 OIDC 令牌来验证工作负载对 Claude API 的访问，替代了长期静态 API 密钥。这显著提升了认证的安全性与管理便利性。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**[Feature] Anthropic Changelog 2026-04-29**\nAnthropic 发布了 Claude API 技能，这是一个开源的 Agent Skill，为 Claude 提供了关于 Messages API 和 Claude Managed Agents 的最新参考资料。该技能支持 8 种语言，并已集成到 Claude Code 中，将帮助开发者更高效地利用 Claude 进行开发。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n### Google Gemini\n\n**[Feature] Google Gemini Changelog 2026-06-24**\nGoogle Gemini 3.5 Flash 推出了“计算机使用”（Computer Use）工具的公开预览支持。此功能包含了简化的意图操作、对浏览器、移动和桌面环境的内置支持，以及可配置的安全策略和高级提示注入防御。这使得开发者能够更灵活地构建与计算机环境交互的 AI 应用。\n🔗 https://ai.google.dev/gemini-api/docs/changelog"
+}
