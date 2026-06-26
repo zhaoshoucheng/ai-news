@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-26",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-26T01:04:49.207Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "published_at": "2026-06-25T02:00:00.000Z",
+          "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "published_at": "2026-06-25T02:00:00.000Z",
+          "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-26T01:05:07.349Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-26T01:05:17.225Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Our latest Google Finance upgrades, including a new app",
+          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+          "published_at": "2026-06-25T16:00:00.000Z",
+          "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年6月26日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更和行业动态，旨在帮助开发者及时了解并适配最新技术。\n\n---\n\n### OpenAI\n\n#### 博客更新\n\n**How agents are transforming work**\nOpenAI 发布了一篇研究论文，探讨了 AI 代理（agents）如何通过处理更长、更复杂的任务来变革工作模式。这表明未来 AI 模型的应用将更侧重于自动化和提高跨职能的生产力，开发者可以关注如何将代理能力集成到自己的应用中。\n🔗 https://openai.com/index/how-agents-are-transforming-work\n\n---\n\n### Google Gemini\n\n#### 博客更新\n\n**Our latest Google Finance upgrades, including a new app**\nGoogle Finance 宣布推出正式版，并同步发布了全新的 Android 应用程序。虽然这不是直接关于 Gemini 模型或 API 的更新，但它展示了 Google 在产品集成和用户体验方面的最新进展，可能预示着未来更多 AI 驱动的应用将从测试阶段走向成熟。\n🔗 https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+}
