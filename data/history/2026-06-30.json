@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-30",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-06-30T01:05:01.623Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-06-30T01:05:15.170Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-06-30T01:05:24.485Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Ask an AI expert: What exactly is the full stack?",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+          "published_at": "2026-06-29T16:00:00.000Z",
+          "summary": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-06-30T01:05:29.568Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-28T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.5 Instant (June 2026) Intelligence Index: 29",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] OpenAI performance results now available GPT-5.5 Instant (June",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-28T00:00:00Z",
+          "summary": "OpenAI performance results now available GPT-5.5 Instant (June",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemma 4 31B (Reasoning) Loading more en",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-04-03T00:00:00Z",
+          "summary": "Google performance results now available Gemma 4 31B (Reasoning) Loading more entries... Artificial Analysis Get notified about new articles Email address Subscribe Artificial Analysis Explore LLM Leaderboard Image Arena Video Arena AI Agents Evaluations Company Methodology Services Contact Articles FAQ X LinkedIn YouTube Rednote Discord © 2026 Artificial Analysis Terms of Use Privacy Policy",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n### Google Gemini\n\n#### 博客更新\n\n**Ask an AI expert: What exactly is the full stack?**\nGoogle AI 专家解释了“全栈 AI”的含义及其在 Google AI 工作中的基础作用。这表明 Google 在 AI 研发中强调端到端的整合能力，从底层硬件到上层应用，对开发者而言，理解这一理念有助于更好地利用 Google 的 AI 生态系统。\n🔗 https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/\n\n### 行业新闻 (Artificial Analysis)\n\n#### 博客更新\n\n**[Artificial Analysis] New evaluation: GPT-5.5**\nArtificial Analysis 发布了对 OpenAI 新模型 GPT-5.5 Instant (June 2026) 的评估结果。该模型在 Intelligence Index 中获得 29 分，为开发者提供了衡量其性能的新基准，有助于评估该模型在实际应用中的潜力。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] OpenAI performance results now available GPT-5.5 Instant (June**\nArtificial Analysis 现已提供 OpenAI GPT-5.5 Instant (June) 模型的性能评估结果。这为开发者提供了关于该模型实际表现的详细数据，有助于在选择模型时做出更明智的决策。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Google performance results now available Gemma 4 31B (Reasoning) Loading more en**\nArtificial Analysis 公布了 Google Gemma 4 31B (Reasoning) 模型的性能评估结果。这为关注 Google 模型的开发者提供了新的参考数据，尤其是在推理能力方面，有助于了解其在特定任务上的表现。\n🔗 https://artificialanalysis.ai/changelog"
+}
