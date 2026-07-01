@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-01",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-01T01:04:11.806Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How ChatGPT adoption has expanded",
+          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+          "published_at": "2026-06-30T09:00:00.000Z",
+          "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing GeneBench-Pro",
+          "url": "https://openai.com/index/introducing-genebench-pro",
+          "published_at": "2026-06-30T00:00:00.000Z",
+          "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Inside Genebench-Pro",
+          "url": "https://openai.com/index/genebench-pro/case-studies",
+          "published_at": "2026-06-30T00:00:00.000Z",
+          "summary": "",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How ChatGPT adoption has expanded",
+          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+          "published_at": "2026-06-30T09:00:00.000Z",
+          "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing GeneBench-Pro",
+          "url": "https://openai.com/index/introducing-genebench-pro",
+          "published_at": "2026-06-30T00:00:00.000Z",
+          "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Inside Genebench-Pro",
+          "url": "https://openai.com/index/genebench-pro/case-studies",
+          "published_at": "2026-06-30T00:00:00.000Z",
+          "summary": "",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-01T01:04:30.769Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] Introducing Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[News] Claude Science, an AI workbench for scientists, is now available",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-01T01:04:38.589Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+          "published_at": "2026-06-30T06:00:00.000Z",
+          "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-01T01:04:42.770Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Claude Sonnet 5: strong agentic performance at a higher cost per task Claude Sonnet 5 achieves 53 on the Artificial Anal",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "🔔 New article published Claude Sonnet 5: strong agentic performance at a higher cost per task Claude Sonnet 5 achieves 53 on the Artificial Analysis Intelligence Index, but without promotional pricing will cost more per task than Opus 4.8",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Adaptive Reasoning, Low Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Adaptive Reasoning, Medium Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Adaptive Reasoning, High Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Adaptive Reasoning, Xhigh Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Adaptive Reasoning, Max Effort) Intelligence Index: 53",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Amazon Bedrock performance results now available Claude Sonnet 5 (Adaptive Reaso",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "Amazon Bedrock performance results now available Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Anthropic performance results now available Claude Sonnet 5 (Adaptive Reasoning,",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "Anthropic performance results now available Claude Sonnet 5 (Adaptive Reasoning, High Effort) Claude Sonnet 5 (Adaptive Reasoning, Medium Effort) Claude Sonnet 5 (Adaptive Reasoning, Low Effort) Claude Sonnet 5 (Adaptive Reasoning, Xhigh Effort) Claude Sonnet 5 (Adaptive Reasoning, Max E",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] CompactifAI performance results now available gpt-oss-120b (high) gpt-oss-20B (h",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-04-30T00:00:00Z",
+          "summary": "CompactifAI performance results now available gpt-oss-120b (high) gpt-oss-20B (high)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月1日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更及相关行业新闻，旨在帮助开发者及时了解并适配最新动态。\n\n---\n\n### Anthropic 更新\n\n**新模型发布**\n\n**[News] Introducing Claude Sonnet 5**\nAnthropic 正式发布了新模型 Claude Sonnet 5。这是 Claude 系列的最新迭代，预计在性能和能力上有所提升，尤其是在代理（agentic）任务处理方面。开发者应关注其具体能力提升和潜在的成本变化，以便评估其在应用中的适用性。\n🔗 https://www.anthropic.com/news/claude-sonnet-5\n\n**行业新闻**\n\n**[Artificial Analysis] Claude Sonnet 5: strong agentic performance at a higher cost per task Claude Sonnet 5 achieves 53 on the Artificial Anal**\n根据 Artificial Analysis 的评估，Claude Sonnet 5 在代理性能方面表现强劲，在 Intelligence Index 上取得了 53 分。然而，该报告指出，如果不考虑促销定价，其每任务成本可能高于 Opus 4.8。开发者在选择模型时需要权衡其性能优势与成本效益。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Sonnet 5**\nArtificial Analysis 发布了 Claude Sonnet 5 的新评估结果，涵盖了不同努力程度（Low Effort, Medium Effort, High Effort, Xhigh Effort, Max Effort）下的自适应推理能力。这些详细评估为开发者提供了更全面的性能参考，有助于理解模型在不同复杂任务下的表现。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Amazon Bedrock performance results now available Claude Sonnet 5 (Adaptive Reaso**\nAmazon Bedrock 平台现已提供 Claude Sonnet 5 (Adaptive Reasoning, Max Effort) 的性能测试结果。这表明 Claude Sonnet 5 已集成到主流云服务平台，开发者可以通过 Bedrock 访问并利用其能力。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Anthropic performance results now available Claude Sonnet 5 (Adaptive Reasoning,**\nAnthropic 官方也公布了 Claude Sonnet 5 在不同努力程度下（Low Effort, Medium Effort, High Effort, Xhigh Effort, Max Effort）的自适应推理性能结果。这些官方数据进一步证实了模型的能力，为开发者提供了直接的性能参考。\n🔗 https://artificialanalysis.com/changelog\n\n**博客更新**\n\n**[News] Claude Science, an AI workbench for scientists, is now available**\nAnthropic 推出了 Claude Science，这是一个专为科学家设计的 AI 工作台。该工具旨在利用 Claude 的能力辅助科学研究，可能包括数据分析、假设生成等功能。这为科学领域的开发者和研究人员提供了新的AI应用工具。\n🔗 https://www.anthropic.com/news/claude-science-ai-workbench\n\n---\n\n### OpenAI 更新\n\n**博客更新**\n\n**How ChatGPT adoption has expanded**\nOpenAI 发布了新的 Signals 数据，展示了 ChatGPT 在全球范围内的用户增长和使用扩展。报告指出用户正在增加使用频率、探索更多功能，并推动了跨地区和语言的增长。这表明 ChatGPT 的普及度持续提高，为开发者构建相关应用提供了更广阔的用户基础。\n🔗 https://openai.com/index/how-chatgpt-adoption-has-expanded\n\n**Introducing GeneBench-Pro**\nOpenAI 推出 GeneBench-Pro，这是一个用于测试 AI 在基因组学、生物学和科学研究中表现的新基准测试。该基准使用复杂的真实世界数据集，旨在更准确地评估 AI 在生命科学领域的潜力。这对于专注于生物医药和基因研究的开发者来说是一个重要的评估工具。\n🔗 https://openai.com/index/introducing-genebench-pro\n\n**Inside Genebench-Pro**\nOpenAI 提供了 GeneBench-Pro 的案例研究，深入探讨了其内部运作和应用场景。这些案例研究将帮助开发者更好地理解 GeneBench-Pro 的设计理念和如何利用它来评估和改进其在生物科学领域的 AI 模型。\n🔗 https://openai.com/index/genebench-pro/case-studies\n\n---\n\n### Google Gemini 更新\n\n**博客更新**\n\n**Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers**\nGoogle UK 发布了最新的经济影响报告，探讨了如何帮助更多人利用 AI 驱动技术带来的益处，以提升英国的生产力。这篇博客强调了 AI 在经济发展中的作用，并可能预示着 Google 在英国市场将加大对 AI 技术的推广和支持。\n🔗 https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/\n\n---"
+}

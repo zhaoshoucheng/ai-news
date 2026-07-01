@@ -1,12 +1,14 @@
 {
   "slugs": [
+    "claude-sonnet-5",
+    "claude-science-ai-workbench",
     "introducing-claude-tag",
     "seoul-office-partnerships-korean-ai-ecosystem",
     "fable-mythos-access",
     "anthropic-public-record",
     "tcs-anthropic-partnership",
-    "claude-corps",
     "dxc-anthropic-alliance",
+    "claude-corps",
     "claude-fable-5-mythos-5",
     "services-track-partner-hub",
     "AI-enabled-cyber-threats-mitre-attack",
@@ -242,6 +244,6 @@
     "anthropic-raises-series-b-to-build-safe-reliable-ai",
     "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
   ],
-  "updated_at": "2026-06-30T01:05:15.170Z",
-  "count": 241
+  "updated_at": "2026-07-01T01:04:30.769Z",
+  "count": 243
 }
