@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "redeploying-fable-5",
     "claude-sonnet-5",
     "claude-science-ai-workbench",
     "introducing-claude-tag",
@@ -14,8 +15,8 @@
     "AI-enabled-cyber-threats-mitre-attack",
     "expanding-project-glasswing",
     "confidential-draft-s1-sec",
-    "claude-opus-4-8",
     "series-h",
+    "claude-opus-4-8",
     "milan-office-opening",
     "kiyoung-choi-representative-director-anthropic-korea",
     "chris-olah-pope-leo-encyclical",
@@ -244,6 +245,6 @@
     "anthropic-raises-series-b-to-build-safe-reliable-ai",
     "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
   ],
-  "updated_at": "2026-07-01T01:04:30.769Z",
-  "count": 243
+  "updated_at": "2026-07-02T01:04:55.767Z",
+  "count": 244
 }

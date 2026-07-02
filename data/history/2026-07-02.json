@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-02",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-02T01:04:37.361Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-02T01:04:55.768Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] Redeploying Fable 5",
+          "url": "https://www.anthropic.com/news/redeploying-fable-5",
+          "published_at": "2026-06-30T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-02T01:05:05.848Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "The latest AI news we announced in June 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+          "published_at": "2026-07-01T18:15:00.000Z",
+          "summary": "Here are Google’s latest AI updates from June 2026.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-02T01:05:11.131Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Sonnet 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-01T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Sonnet 5 (Non-reasoning, High Effort) Intelligence Index: 42",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Anthropic performance results now available Claude Sonnet 5 (Non-reasoning, High",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-01T00:00:00Z",
+          "summary": "Anthropic performance results now available Claude Sonnet 5 (Non-reasoning, High Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Claude Sonnet 5 (Adaptive Reasoning, Ma",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-01T00:00:00Z",
+          "summary": "Google performance results now available Claude Sonnet 5 (Adaptive Reasoning, Max E",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Clarifai performance results now available gpt-oss-20b (low) gpt-oss-20b (high)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-04-30T00:00:00Z",
+          "summary": "Clarifai performance results now available gpt-oss-20b (low) gpt-oss-20b (high)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] CompactifAI performance results now available gpt-oss-120b (high) gpt-oss-20b (h",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-04-30T00:00:00Z",
+          "summary": "CompactifAI performance results now available gpt-oss-120b (high) gpt-oss-20b (high)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月2日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更及相关行业新闻，旨在帮助开发者及时了解并适配最新动态。\n\n---\n\n### Anthropic 更新\n\n**[News] Redeploying Fable 5**\nAnthropic 宣布重新部署其 Fable 5 模型。这意味着该模型可能经历了重要的更新或修复，开发者应关注其性能、行为或潜在的 API 变化，以确保现有集成不受影响。具体的改进细节可能需要查阅官方公告。\n🔗 https://www.anthropic.com/news/redeploying-fable-5\n\n---\n\n### Google Gemini 更新\n\n**The latest AI news we announced in June 2026**\nGoogle 发布了2026年6月份的AI更新汇总。这份博客文章通常会涵盖 Gemini 模型的最新进展、API 功能的增强、新的研究成果或应用案例，开发者可以从中了解 Google AI 生态系统的整体发展方向和潜在的新工具。\n🔗 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/\n\n---\n\n### 行业新闻与分析 (来自 Artificial Analysis)\n\n**[Artificial Analysis] New evaluation: Claude Sonnet 5**\nArtificial Analysis 发布了对 Anthropic Claude Sonnet 5 模型的最新评估结果。该模型在“非推理、高努力”场景下的智能指数为42，这为开发者提供了其在特定任务类型下的性能基准，有助于选择合适的模型。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Anthropic performance results now available Claude Sonnet 5 (Non-reasoning, High**\nArtificial Analysis 提供了 Anthropic Claude Sonnet 5 模型在“非推理、高努力”任务中的具体性能结果。这些详细数据对于开发者评估模型在特定应用场景中的表现至关重要，尤其是在需要处理大量非推理性但计算密集型任务时。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Google performance results now available Claude Sonnet 5 (Adaptive Reasoning, Ma**\nArtificial Analysis 公布了 Google 对 Claude Sonnet 5 模型在“自适应推理、最大努力”场景下的性能评估结果。这表明 Google 也在积极评估第三方模型，其结果可以帮助开发者了解 Claude Sonnet 5 在复杂推理任务中的表现上限。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Clarifai performance results now available gpt-oss-20b (low) gpt-oss-20b (high)**\nArtificial Analysis 发布了 Clarifai 对 gpt-oss-20b 模型的性能评估结果，包括“低”和“高”两种配置。这些数据对于使用或考虑使用 Clarifai 平台及其集成模型的开发者来说，是了解模型性能和选择部署方案的重要参考。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] CompactifAI performance results now available gpt-oss-120b (high) gpt-oss-20b (h**\nArtificial Analysis 提供了 CompactifAI 对 gpt-oss-120b（高）和 gpt-oss-20b（高）模型的性能评估结果。这些评估有助于开发者对比不同规模和优化程度的开源模型在实际应用中的表现，为模型选型和资源配置提供依据。\n🔗 https://artificialanalysis.ai/changelog"
+}
