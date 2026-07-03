@@ -1,0 +1,59 @@
+{
+  "date": "2026-07-03",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-03T01:06:29.666Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-03T01:06:47.252Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+          "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+          "published_at": "2026-07-02T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-03T01:06:54.906Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-03T01:06:58.708Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Microsoft Azure performance results now available Claude Sonnet 5 (Adaptive Reas",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-02T00:00:00Z",
+          "summary": "Microsoft Azure performance results now available Claude Sonnet 5 (Adaptive Reasoning, Max E",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月3日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 模型与 API 的最新变更，以及重要的行业新闻，旨在帮助开发者及时了解并适配。\n\n---\n\n### Anthropic\n\n**More details on Fable 5’s cyber safeguards and our jailbreak framework**\nAnthropic 详细介绍了其 Fable 5 模型的网络安全防护措施和越狱框架。这表明 Anthropic 在提升模型安全性方面投入了更多精力，并致力于防止滥用，对于开发者而言，理解这些安全机制有助于更好地集成和使用 Fable 5 模型，确保应用符合安全规范。\n🔗 https://www.anthropic.com/news/fable-safeguards-jailbreak-framework\n\n---\n\n### 行业新闻 (Artificial Analysis)\n\n**[Artificial Analysis] Microsoft Azure performance results now available Claude Sonnet 5 (Adaptive Reas**\nArtificial Analysis 发布了 Claude Sonnet 5 在 Microsoft Azure 上的性能测试结果。这为开发者提供了在 Azure 环境下部署和使用 Claude Sonnet 5 的重要参考数据，特别是其“自适应推理”能力在云平台上的表现，有助于评估其在特定应用场景下的效率和成本效益。\n🔗 https://artificialanalysis.ai/changelog"
+}
