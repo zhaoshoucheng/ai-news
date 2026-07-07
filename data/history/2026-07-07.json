@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-07",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-07T01:05:05.602Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] OpenAI Changelog 2026-07-06 [gpt-realtime-2.1, gpt-realtime-2.1-mini, GPT-Realtime-2.1, v1/realtime]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-07-06T00:00:00Z",
+          "summary": "Feature \n\ngpt-realtime-2.1\n\ngpt-realtime-2.1-mini\n\nv1/realtime\n\nReleased GPT-Realtime-2.1 , an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released GPT-Realtime-2.1 mini , a faster, lower-cost distilled reasoning model for realtime voice applications.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-07T01:05:22.278Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+          "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+          "published_at": "2026-07-06T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-07T01:05:31.726Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月7日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新动态，旨在为开发者提供及时、专业的变更信息。\n\n---\n\n### OpenAI\n\n#### 新模型发布\n\n**[Feature] OpenAI Changelog 2026-07-06 [gpt-realtime-2.1, gpt-realtime-2.1-mini, GPT-Realtime-2.1, v1/realtime]**\nOpenAI 发布了两个新的实时推理模型：GPT-Realtime-2.1 和 GPT-Realtime-2.1 mini。GPT-Realtime-2.1 增强了字母数字识别、静音和噪声处理以及打断行为的能力。GPT-Realtime-2.1 mini 则是其精简版，提供更快的速度和更低的成本，专为实时语音应用设计，为开发者在实时交互场景提供了更多选择。\n🔗 https://developers.openai.com/api/docs/changelog\n\n---\n\n### Anthropic\n\n#### 行业新闻\n\n**Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems**\n加拿大艾伯塔省政府正在利用 Anthropic 的 Claude 模型来识别和修复其政府系统中的网络安全漏洞。这表明大型语言模型在实际应用中，特别是在高敏感度的网络安全领域，展现出强大的分析和辅助能力，为开发者提供了LLM在企业级安全解决方案中的应用案例。\n🔗 https://www.anthropic.com/news/alberta-government-claude-cybersecurity\n\n---\n\n### Google Gemini\n\n暂无重大更新。"
+}
