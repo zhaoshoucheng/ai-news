@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-08",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-08T01:04:42.084Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "url": "https://openai.com/index/australian-payments-plus",
+          "published_at": "2026-07-07T00:00:00.000Z",
+          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "MUFG aims to become AI-native with OpenAI",
+          "url": "https://openai.com/index/mufg",
+          "published_at": "2026-07-07T00:00:00.000Z",
+          "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "url": "https://openai.com/index/australian-payments-plus",
+          "published_at": "2026-07-07T00:00:00.000Z",
+          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "MUFG aims to become AI-native with OpenAI",
+          "url": "https://openai.com/index/mufg",
+          "published_at": "2026-07-07T00:00:00.000Z",
+          "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-08T01:04:56.414Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-08T01:05:05.716Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "published_at": "2026-07-07T08:54:00.000Z",
+          "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月8日**\n\n本报告汇总了OpenAI、Anthropic和Google Gemini在过去24小时内的模型与API变更及相关新闻。\n\n---\n\n### OpenAI 更新\n\n#### 博客更新\n\n**Australian Payments Plus moves faster with ChatGPT and Codex**\n澳大利亚支付公司 Australian Payments Plus (AP+) 正利用 ChatGPT Enterprise 和 Codex 加速其支付流程。通过集成这些 AI 工具，AP+ 显著提升了效率、改进了代码质量，并确保了人类判断在复杂决策中的核心地位，从而实现了更快、更可靠的业务运营。\n🔗 https://openai.com/index/australian-payments-plus\n\n**MUFG aims to become AI-native with OpenAI**\n日本三菱日联金融集团 (MUFG) 正在与 OpenAI 合作，旨在转型为“AI 原生”组织。MUFG 利用 ChatGPT Enterprise 优化内部工作流程，并大规模推出由 AI 驱动的创新金融服务，以提升其在金融行业中的竞争力。\n🔗 https://openai.com/index/mufg\n\n---\n\n### Google Gemini 更新\n\n#### 博客更新\n\n**Expanding Managed Agents in Gemini API: background tasks, remote MCP and more**\nGoogle Gemini API 宣布扩展其托管代理 (Managed Agents) 功能，为开发者提供更多新能力。这些更新包括支持后台任务和远程多方计算 (MCP) 等，旨在帮助开发者构建更可靠、更具生产就绪性的 AI 代理应用。\n🔗 https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+}
