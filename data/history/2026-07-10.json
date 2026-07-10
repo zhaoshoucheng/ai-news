@@ -1,0 +1,299 @@
+{
+  "date": "2026-07-10",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-10T01:05:23.944Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+          "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+          "published_at": "2026-07-09T13:00:00.000Z",
+          "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "ChatGPT is now a partner for your most ambitious work",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-5.5 Bio Bug Bounty",
+          "url": "https://openai.com/index/bio-bug-bounty",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "Details about the OpenAI Bio Bounty program",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "url": "https://openai.com/index/gpt-5-6",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+          "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+          "published_at": "2026-07-09T13:00:00.000Z",
+          "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "ChatGPT is now a partner for your most ambitious work",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-5.5 Bio Bug Bounty",
+          "url": "https://openai.com/index/bio-bug-bounty",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "Details about the OpenAI Bio Bounty program",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "url": "https://openai.com/index/gpt-5-6",
+          "published_at": "2026-07-09T10:00:00.000Z",
+          "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-10T01:05:36.506Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-07-08",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-07-08T00:00:00Z",
+          "summary": "You can now set an expiration when you create an API key or an Admin API key in the Claude Console . Choose a preset, a custom duration, or Never . For keys with a lifetime of at least 7 days, Anthropic emails the creator before expiration. Existing keys are unaffected. The Admin API reports each key&#x27;s expiration in the expires_at field. See Authenti",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2026-07-02 [v1/memory_stores]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-07-02T00:00:00Z",
+          "summary": "We&#x27;ve added the agent-memory-2026-07-22 beta header, which changes how listing memories ( GET /v1/memory_stores/{memory_store_id}/memories ) behaves: results are returned in a stable, server-defined order and the order_by and order parameters are ignored; depth accepts only 0 , 1 , or being omitted (other values return a 400 error); and path_prefix must end with / and matches whole path segments instead of a substring. Page cursors issued without the header aren&#x27;t valid with it, so res",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[News] Inviting hard questions",
+          "url": "https://www.anthropic.com/news/hard-questions",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "UST is bringing Claude to physical AI",
+          "url": "https://www.anthropic.com/news/ust-claude",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[News] Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+          "url": "https://www.anthropic.com/news/ben-bernanke",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "Introducing a way to reflect on how you use Claude",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-10T01:05:45.146Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Google Gemini Changelog 2026-07-06",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-07-06T00:00:00Z",
+          "summary": "Developer logs support for the\nInteractions API: logs for supported Interactions API calls are now viewable\nin the AI Studio",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-10T01:05:49.736Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] GPT-5.6 benchmarks across Intelligence, Speed and Cost GPT-5.6 Sol comes close second to Claude Fable 5 in the Artificia",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "🔔 New article published GPT-5.6 benchmarks across Intelligence, Speed and Cost GPT-5.6 Sol comes close second to Claude Fable 5 in the Artificial Analysis Intelligence Index at one third of the cost, and leads the Artificial Analysis Coding Agent Index in OpenAI’s Codex harness",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (xhigh) Intelligence Index: 58",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (max) Intelligence Index: 59",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (high) Intelligence Index: 56",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (medium) Intelligence Index: 54",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (low) Intelligence Index: 49",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (max) Intelligence Index: 55",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (xhigh) Intelligence Index: 52",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (high) Intelligence Index: 49",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (medium) Intelligence Index: 46",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (low) Intelligence Index: 40",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (max) Intelligence Index: 51",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (xhigh) Intelligence Index: 49",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (high) Intelligence Index: 46",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (medium) Intelligence Index: 38",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (low) Intelligence Index: 33",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Luna (Non-reasoning) Intelligence Index: 27",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Sol (Non-reasoning) Intelligence Index: 41",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-5.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-5.6 Terra (Non-reasoning) Intelligence Index: 34",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] OpenAI performance results now available GPT-5.6 Terra (max) GPT-5.6 Sol (xhigh)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-09T00:00:00Z",
+          "summary": "OpenAI performance results now available GPT-5.6 Terra (max) GPT-5.6 Sol (xhigh) GPT-5.6 Terra (Non-reasoning) GPT-5.6 Luna (low) GPT-5.6 Terra (xhigh) GPT-5.6 Sol (medium) GPT-5.6 Terra (medium) GPT-5.6 Luna (medium) GPT-5.6 Luna (max) GPT-5.6 Sol (Non-reasoning) GPT-5.6 Sol (low) GPT-5.6 Terra (high) GPT-5.6 Luna (xhigh) GPT-5.6 Luna (Non-reasoning) GPT-5.6 Terra (low) GPT-5.6 Sol (max) GPT-5.6",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Grok 4.5 brings SpaceXAI to the intelligence frontier SpaceXAI’s Grok 4.5 scores 54 to place fourth on the Artificial An",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-08T00:00:00Z",
+          "summary": "🔔 New article published Grok 4.5 brings SpaceXAI to the intelligence frontier SpaceXAI’s Grok 4.5 scores 54 to place fourth on the Artificial Analysis Intelligence Index following only Fable 5, GPT-5.5, and Opus 4.8. It scores on par with GPT-5.5 in Codex on the Artificial Analysis Coding Agent Index in the Grok Build harness, at much lower cost",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型每日变更报告 - 2026年07月10日\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更，以及相关行业新闻，旨在帮助开发者及时了解并适配最新进展。\n\n---\n\n### OpenAI 更新\n\n#### 新模型发布\n\n**GPT-5.6: Frontier intelligence that scales with your ambition**\nOpenAI 正式发布了 GPT-5.6 模型，该模型在每个 token 上提供了更高的智能，提升了单位成本性能，并能为复杂任务提供更强的能力。这表明 OpenAI 在模型效率和能力上取得了显著进步，开发者可以期待更强大且成本效益更高的AI应用。\n🔗 https://openai.com/index/gpt-5-6\n\n#### API 变更\n\n**GPT-5.5 Bio Bug Bounty**\nOpenAI 宣布启动 GPT-5.5 生物漏洞赏金计划。该计划旨在通过社区力量发现并修复 GPT-5.5 在生物相关应用中的潜在漏洞，提升模型的安全性和可靠性。开发者和研究人员有机会参与其中，共同保障AI技术的健康发展。\n🔗 https://openai.com/index/bio-bug-bounty\n\n#### 行业新闻与博客更新\n\n**GPT-5.6 is now the preferred model in Microsoft 365 Copilot**\nGPT-5.6 已成为 Microsoft 365 Copilot 的首选模型，为 Word、Excel、PowerPoint、Chat 和 Cowork 等应用提供更强大的 AI 能力。这意味着用户将体验到更快、更高质量的工作流，开发者也应关注 GPT-5.6 在企业级应用中的集成潜力。\n🔗 https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot\n\n**ChatGPT is now a partner for your most ambitious work**\nOpenAI 推出了 ChatGPT Work，这是一个能够跨应用程序和文件执行操作的智能代理。它能够长时间处理项目，并将目标转化为实际成果，预示着 AI 助手在自动化复杂工作流程方面迈出了重要一步。\n🔗 https://openai.com/index/chatgpt-for-your-most-ambitious-work\n\n---\n\n### Anthropic 更新\n\n#### API 变更\n\n**Anthropic Changelog 2026-07-08**\nAnthropic 更新了 API，现在用户在 Claude Console 中创建 API 密钥或管理员 API 密钥时可以设置有效期。用户可以选择预设、自定义时长或永不失效，为API密钥管理提供了更高的灵活性和安全性。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**[Feature] Anthropic Changelog 2026-07-02 [v1/memory_stores]**\nAnthropic 引入了 `agent-memory-2026-07-22` beta header，改变了列出记忆（`GET /v1/memory_stores/{memory_store_id}/memories`）的行为。现在结果以稳定的服务器定义顺序返回，`order_by` 和 `order` 参数被忽略；`depth` 参数仅接受 0、1 或省略；`path_prefix` 必须以 `/` 结尾并匹配整个路径段。开发者需要注意这些变化以适配记忆存储API。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n#### 行业新闻与博客更新\n\n**[News] Inviting hard questions**\nAnthropic 发布了一篇新闻，主题是“邀请提出难题”。这可能表明 Anthropic 鼓励公众和研究人员对其AI模型提出更深入、更具挑战性的问题，以促进技术发展和负责任的AI部署。\n🔗 https://www.anthropic.com/news/hard-questions\n\n**UST is bringing Claude to physical AI**\nUST 正在将 Anthropic 的 Claude 模型引入物理 AI 领域。这意味着 Claude 的高级语言理解和生成能力将与现实世界的机器人或物理系统结合，有望在自动化、智能设备等领域带来创新应用。\n🔗 https://www.anthropic.com/news/ust-claude\n\n**[News] Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust**\n前美联储主席本·伯南克被任命为 Anthropic 长期利益信托的成员。这一任命突显了 Anthropic 对其AI技术长期社会影响的重视，以及对负责任AI治理的承诺。\n🔗 https://www.anthropic.com/news/ben-bernanke\n\n**Introducing a way to reflect on how you use Claude**\nAnthropic 推出了一种新的方式，允许用户反思他们如何使用 Claude。这可能是一个旨在提高用户对AI使用意识的工具或功能，鼓励负责任和有益的交互。\n🔗 https://www.anthropic.com/news/reflect-with-claude\n\n---\n\n### Google Gemini 更新\n\n#### API 变更\n\n**Google Gemini Changelog 2026-07-06**\nGoogle Gemini 更新了开发者日志，现在 AI Studio 中可以查看 Interactions API 的支持日志。这意味着开发者可以更方便地监控和调试其与 Interactions API 的交互，提升开发效率。\n🔗 https://ai.google.dev/gemini-api/docs/changelog\n\n---\n\n### 行业基准与评估 (Artificial Analysis)\n\n#### 新模型评估\n\n**[Artificial Analysis] GPT-5.6 benchmarks across Intelligence, Speed and Cost GPT-5.6 Sol comes close second to Claude Fable 5 in the Artificia**\nArtificial Analysis 发布了 GPT-5.6 的基准测试报告，涵盖了智能、速度和成本。报告指出，GPT-5.6 Sol 在其智能指数中接近 Claude Fable 5，但成本仅为其三分之一，并在 OpenAI 的 Codex harness 中领导了编码代理指数。这表明 GPT-5.6 在性能和成本效益上具有竞争力。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (xhigh) Intelligence Index: 58**\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (max) Intelligence Index: 59**\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (high) Intelligence Index: 56**\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (medium) Intelligence Index: 54**\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (low) Intelligence Index: 49**\n**[Artificial Analysis] New evaluation: GPT-5.6 Sol (Non-reasoning) Intelligence Index: 41**\nArtificial Analysis 提供了 GPT-5.6 Sol 系列模型的详细评估结果，其中 Sol (max) 在智能指数中得分最高为 59，Sol (xhigh) 为 58。这些细分评估有助于开发者根据具体应用场景选择最合适的模型版本。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (max) Intelligence Index: 55**\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (xhigh) Intelligence Index: 52**\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (high) Intelligence Index: 49**\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (medium) Intelligence Index: 46**\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (low) Intelligence Index: 40**\n**[Artificial Analysis] New evaluation: GPT-5.6 Terra (Non-reasoning) Intelligence Index: 34**\nArtificial Analysis 公布了 GPT-5.6 Terra 系列模型的评估结果，其中 Terra (max) 在智能指数中得分 55。Terra 系列提供了不同智能水平的模型，开发者可以根据需求选择。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (max) Intelligence Index: 51**\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (xhigh) Intelligence Index: 49**\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (high) Intelligence Index: 46**\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (medium) Intelligence Index: 38**\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (low) Intelligence Index: 33**\n**[Artificial Analysis] New evaluation: GPT-5.6 Luna (Non-reasoning) Intelligence Index: 27**\nArtificial Analysis 发布了 GPT-5.6 Luna 系列模型的评估结果，其中 Luna (max) 在智能指数中得分 51。Luna 系列提供了更广泛的智能等级选择，包括非推理版本，以满足多样化的应用场景。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Grok 4.5 brings SpaceXAI to the intelligence frontier SpaceXAI’s Grok 4.5 scores 54 to place fourth on the Artificial An**\nSpaceXAI 的 Grok 4.5 模型在 Artificial Analysis 智能指数中得分 54，位列第四，仅次于 Fable 5、GPT-5.5 和 Opus 4.8。Grok 4.5 在编码代理指数上与 GPT-5.5 表现相当，但成本更低，显示出其在特定领域的强大竞争力。\n🔗 https://artificialanalysis.ai/changelog"
+}
