@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-14",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-14T01:03:38.987Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-14T01:03:58.598Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-14T01:04:08.905Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-14T01:04:13.670Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] How GPT-5.6 Sol, Terra, Luna compare on intelligence vs cost GPT-5.6 Sol and Luna are ahead of Terra at every point on t",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-13T00:00:00Z",
+          "summary": "🔔 New article published How GPT-5.6 Sol, Terra, Luna compare on intelligence vs cost GPT-5.6 Sol and Luna are ahead of Terra at every point on the Intelligence vs Cost per Task chart. GPT-5.6 Luna stands out as a particularly cost efficient model",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026年7月14日)\n\n本报告汇总了 OpenAI、Anthropic、Google Gemini 及相关第三方模型与 API 在过去24小时内的主要变更。\n\n### 第三方分析\n\n**[Artificial Analysis] GPT-5.6 Sol, Terra, Luna 智能与成本对比**\nArtificial Analysis 发布了一篇新文章，对比了 GPT-5.6 系列中 Sol、Terra 和 Luna 三个模型的智能与成本效益。分析指出，GPT-5.6 Sol 和 Luna 在“智能 vs 每任务成本”图表中全面领先于 Terra，其中 Luna 模型尤其以其出色的成本效益脱颖而出。这为开发者在选择模型时提供了重要的参考依据，尤其关注性能与经济性平衡的场景。\n🔗 https://artificialanalysis.ai/changelog\n\n---\n**免责声明：** 本报告基于公开信息整理，旨在为开发者提供快速概览。请开发者查阅官方文档以获取最准确和详细的信息。"
+}
