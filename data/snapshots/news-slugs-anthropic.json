@@ -1,5 +1,7 @@
 {
   "slugs": [
+    "claude-for-teachers",
+    "canadian-ai-research",
     "hard-questions",
     "ust-claude",
     "ben-bernanke",
@@ -251,6 +253,6 @@
     "anthropic-raises-series-b-to-build-safe-reliable-ai",
     "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
   ],
-  "updated_at": "2026-07-14T01:03:58.597Z",
-  "count": 250
+  "updated_at": "2026-07-15T01:06:49.935Z",
+  "count": 252
 }

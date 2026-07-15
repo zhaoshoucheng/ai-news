@@ -1,0 +1,109 @@
+{
+  "date": "2026-07-15",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-15T01:06:25.667Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "published_at": "2026-07-14T10:00:00.000Z",
+          "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How data science teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How sales teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "published_at": "2026-07-14T10:00:00.000Z",
+          "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How data science teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How sales teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-15T01:06:49.936Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] Introducing Claude for Teachers",
+          "url": "https://www.anthropic.com/news/claude-for-teachers",
+          "published_at": "2026-07-14T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "Anthropic commits $10 million to Canadian AI research",
+          "url": "https://www.anthropic.com/news/canadian-ai-research",
+          "published_at": "2026-07-14T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-15T01:07:05.874Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-15T01:07:11.165Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Amazon Bedrock performance results now available Claude 4 Sonnet (Reasoning)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-13T00:00:00Z",
+          "summary": "Amazon Bedrock performance results now available Claude 4 Sonnet (Reasoning)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年07月15日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更和行业动态，旨在为开发者提供及时、专业的参考。\n\n---\n\n### OpenAI 更新\n\n#### 博客更新\n\n**How to manage AI investments in the agentic era**\nOpenAI 发布了一篇关于在“智能体时代”管理AI投资的文章。文章强调了企业应通过衡量单位投入的有效工作量、提高效率以及扩展高价值工作流来优化AI投资，这对于希望最大化AI应用回报的开发者和企业决策者具有指导意义。\n🔗 https://openai.com/index/managing-ai-investments-in-agentic-era\n\n**How data science teams use ChatGPT Work**\n此博客介绍了数据科学团队如何利用 ChatGPT Work 来提升工作效率。具体用例包括生成根本原因分析简报、影响报告、KPI 备忘录、范围分析以及基于实际工作输入的仪表板规范，为数据科学家提供了实际应用案例。\n🔗 https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n\n**How sales teams use ChatGPT Work**\nOpenAI 分享了销售团队如何通过 ChatGPT Work 优化日常工作流程。文章展示了如何利用该工具创建销售渠道简报、会议准备材料、销售预测回顾、客户账户计划以及诊断停滞交易，为销售专业人士提供了提高生产力的具体方法。\n🔗 https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n\n---\n\n### Anthropic 更新\n\n#### 行业新闻\n\n**[News] Introducing Claude for Teachers**\nAnthropic 宣布推出“Claude for Teachers”项目，旨在将 Claude AI 的能力引入教育领域，支持教师进行教学工作。这一举措可能为教育技术开发者带来新的集成机会，以利用 Claude 协助教学内容创建或学生辅导。\n🔗 https://www.anthropic.com/news/claude-for-teachers\n\n**Anthropic commits $10 million to Canadian AI research**\nAnthropic 承诺向加拿大 AI 研究投入 1000 万美元。这项投资旨在促进加拿大本土的 AI 创新和发展，可能为当地的 AI 研究机构和初创公司带来合作与资助机会。\n🔗 https://www.anthropic.com/news/canadian-ai-research\n\n---\n\n### Google Gemini 更新\n\n今日无相关更新。\n\n---\n\n### 第三方分析\n\n**[Artificial Analysis] Amazon Bedrock performance results now available Claude 4 Sonnet (Reasoning)**\nArtificial Analysis 发布了 Amazon Bedrock 上 Claude 4 Sonnet (Reasoning) 模型的性能测试结果。这为开发者评估 Claude 4 Sonnet 在推理任务上的表现提供了独立的第三方数据，有助于在选择模型时做出更明智的决策。\n🔗 https://artificialanalysis.ai/changelog"
+}
