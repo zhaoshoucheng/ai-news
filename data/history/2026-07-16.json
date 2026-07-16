@@ -1,0 +1,63 @@
+{
+  "date": "2026-07-16",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-16T01:05:05.129Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "The US is advancing AI safety through state and federal action",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "published_at": "2026-07-15T12:00:00.000Z",
+          "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "published_at": "2026-07-15T10:00:00.000Z",
+          "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "The US is advancing AI safety through state and federal action",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "published_at": "2026-07-15T12:00:00.000Z",
+          "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "published_at": "2026-07-15T10:00:00.000Z",
+          "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-16T01:05:32.110Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-16T01:05:42.503Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年07月16日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型和 API 方面的最新变更及相关新闻，旨在帮助开发者及时了解并适配最新进展。\n\n---\n\n### OpenAI 更新\n\n#### 博客更新\n\n**The US is advancing AI safety through state and federal action**\nOpenAI 提出了一种“逆向联邦制”的 AI 治理方法，强调州级法律在构建国家级安全、民主 AI 框架中的作用。这表明 OpenAI 正在积极参与政策制定，并倡导通过多层次的法律法规来确保 AI 的负责任发展，对未来 AI 监管方向具有指导意义。\n🔗 https://openai.com/index/advancing-ai-safety-through-state-and-federal-action\n\n**GPT-Red: Unlocking Self-Improvement for Robustness**\nOpenAI 介绍了 GPT-Red，这是一个利用自博弈（self-play）的自动化红队系统，旨在提高 AI 的安全性、对齐性以及抵御提示注入攻击的鲁棒性。这表明 OpenAI 在提升模型安全性方面取得了新进展，开发者可以期待未来模型在对抗性攻击和误用方面的表现将更加稳定。\n🔗 https://openai.com/index/unlocking-self-improvement-gpt-red\n\n---\n\n### Anthropic 更新\n\n*暂无最新变更。*\n\n---\n\n### Google Gemini 更新\n\n*暂无最新变更。*"
+}
