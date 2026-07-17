@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-17",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-17T01:05:30.179Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Why teens deserve access to safe AI",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "published_at": "2026-07-16T16:00:00.000Z",
+          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Why teens deserve access to safe AI",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "published_at": "2026-07-16T16:00:00.000Z",
+          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-17T01:05:46.591Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-17T01:05:59.296Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Create, edit and star in videos with two Google Vids updates",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+          "published_at": "2026-07-16T16:00:00.000Z",
+          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026-07-17)\n\n本报告汇总了 OpenAI 和 Google Gemini 在模型、API 及相关新闻方面的最新动态，旨在为开发者提供及时、专业的更新信息。\n\n### OpenAI\n\n#### 博客更新\n\n**Why teens deserve access to safe AI**\nOpenAI 发布了一篇关于为青少年提供安全 AI 访问的文章。文章强调了 OpenAI 如何通过年龄保护、学习工具、家长控制和专家合作，使 ChatGPT 对青少年更安全。这表明 OpenAI 在用户群体扩展和负责任的 AI 部署方面持续投入，开发者在集成相关服务时应关注其安全和伦理指导。\n🔗 https://openai.com/index/why-teens-deserve-access-safe-ai\n\n### Google Gemini\n\n#### 博客更新\n\n**Create, edit and star in videos with two Google Vids updates**\nGoogle 宣布了 Google Vids 的两项重要更新，引入了 Gemini Omni 和个人头像功能。这些更新旨在简化视频创作过程，让用户能更容易地创建、编辑并作为主角出现在视频中。对于开发者而言，这预示着 Google 在多模态内容生成领域的进一步发力，未来可能会有更多与视频创作相关的 API 或集成机会。\n🔗 https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
+}
