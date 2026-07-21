@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-21",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-21T01:02:17.914Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Safety and alignment in an era of long-horizon models",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "published_at": "2026-07-20T10:00:00.000Z",
+          "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Safety and alignment in an era of long-horizon models",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "published_at": "2026-07-20T10:00:00.000Z",
+          "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-21T01:02:44.691Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+          "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+          "published_at": "2026-07-20T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-21T01:02:55.589Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026-07-21)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在模型与 API 方面的最新变更和动态，旨在帮助开发者及时了解并适配。\n\n---\n\n### OpenAI\n\n#### 博客更新\n\n**Safety and alignment in an era of long-horizon models**\nOpenAI 分享了部署长期运行 AI 模型（如自动化代理）的经验教训，强调了此类模型带来的新型安全风险。文章讨论了观察到的失败模式以及通过迭代部署和改进防护措施来增强安全性的方法，为开发者在构建复杂 AI 系统时提供了重要的安全考量。\n🔗 https://openai.com/index/safety-alignment-long-horizon-models\n\n---\n\n### Anthropic\n\n#### 行业新闻\n\n**Apply for Anthropic’s AI for Science rare disease research grants**\nAnthropic 宣布启动“AI for Science”罕见病研究资助计划，邀请研究人员申请利用其 AI 技术进行罕见病研究。此举表明 Anthropic 正积极推动 AI 在科学研究和医疗领域的应用，为开发者和研究机构提供了与 Anthropic 合作的机会。\n🔗 https://www.anthropic.com/news/rare-disease-research-grants\n\n---\n\n### Google Gemini\n\n今日未检测到 Google Gemini 的模型、API 变更或新闻更新。"
+}
