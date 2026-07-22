@@ -1,0 +1,145 @@
+{
+  "date": "2026-07-22",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-22T01:05:09.859Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Introducing the ChatGPT for small business program",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "published_at": "2026-07-21T17:00:00.000Z",
+          "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "published_at": "2026-07-21T07:00:00.000Z",
+          "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing the ChatGPT for small business program",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "published_at": "2026-07-21T17:00:00.000Z",
+          "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "published_at": "2026-07-21T07:00:00.000Z",
+          "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-22T01:05:28.581Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Update] Anthropic Changelog 2026-07-17 [v1/experimental/generate_prompt, v1/experimental/improve_prompt, v1/experimental/templatize_prompt]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-07-17T00:00:00Z",
+          "summary": "The legacy Workbench ( platform.claude.com/workbench ) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated Workbench . You can export any data you want to keep from the banner and under your Organizational Settings . For more, see How do I use the Workbench? in the Claude Help Center.\n\nThe experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prom",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Introducing Agent Skills",
+          "url": "https://www.anthropic.com/news/skills",
+          "published_at": "2025-10-16T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-22T01:05:43.056Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-07-21 [gemini-3.6-flash, gemini-3.5-flash-lite]",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "Gemini 3.6 Flash and Gemini 3.5 Flash-Lite generally available (GA) :\nReleased stable, production-ready versions of our latest 3.x Flash models:\n\n \n\n Gemini 3.6 Flash ( gemini-3.6-flash ): Features improved token\nefficiency and code/agentic planning capabilities at a lower price point\nthan 3.5 Flash, resolving developer feedback around output verbosity.\n\n Gemini 3.5 Flash-Lite ( gemini-3.5-flash-lite ): Offers a\nlow-latency, highly cost-effective subagent option designed for\nhigh-volume automati",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-22T01:05:48.399Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Gemini 3.6 Flash and Gemini 3.5 Flash-Lite: Halving Time per Task Google has released Gemini 3.6 Flash and Gemini 3.5 Fl",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "🔔 New article published Gemini 3.6 Flash and Gemini 3.5 Flash-Lite: Halving Time per Task Google has released Gemini 3.6 Flash and Gemini 3.5 Flash-Lite. Both halve time per task relative to their predecessors and increase token efficiency, Gemini 3.5 Flash-Lite improves by 11 Intelligence Index points while Gemini 3.6 Flash does not improve in intelligence over 3.5 Flash",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 3.6",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 3.6 Flash (high) Intelligence Index: 50",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 3.5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 3.5 Flash-Lite Intelligence Index: 36",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 3.5 Flas",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "Google performance results now available Gemini 3.5 Flas",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Databricks performance results now available Claude Sonnet 5 (Non-reasoning, Hig",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-20T00:00:00Z",
+          "summary": "Databricks performance results now available Claude Sonnet 5 (Non-reasoning, High Effort)",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 3.6 Flash",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-10T00:00:00Z",
+          "summary": "Google performance results now available Gemini 3.6 Flash",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] CompactifAI performance results now available gpt-oss-120b (high)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-04-30T00:00:00Z",
+          "summary": "CompactifAI performance results now available gpt-oss-120b (high)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年07月22日**\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 近期模型与 API 的主要变更及相关行业新闻，旨在帮助开发者及时了解并适配最新技术进展。\n\n---\n\n### Google Gemini\n\n#### 新模型发布\n\n**[Feature] Google Gemini Changelog 2026-07-21 [gemini-3.6-flash, gemini-3.5-flash-lite]**\nGoogle 正式发布了 Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite 模型。Gemini 3.6 Flash 在降低价格的同时，提高了 token 效率并优化了代码/智能体规划能力，解决了开发者对输出冗余的反馈。Gemini 3.5 Flash-Lite 则是一款低延迟、高成本效益的子智能体选项，专为高吞吐量自动化任务设计，对需要处理大量请求的开发者具有重要意义。\n🔗 https://ai.google.dev/gemini-api/docs/changelog\n\n---\n\n### Anthropic\n\n#### API 变更\n\n**[Update] Anthropic Changelog 2026-07-17 [v1/experimental/generate_prompt, v1/experimental/improve_prompt, v1/experimental/templatize_prompt]**\nAnthropic 宣布将于2026年8月17日停止对旧版 Workbench (platform.claude.com/workbench) 的访问。同时，用于生成、改进和模板化提示的实验性 API ( `/v1/experimental/generate_prompt`, `/v1/experimental/improve_prompt`, `/v1/experimental/templatize_prompt`) 也将被弃用。开发者应注意及时导出旧版 Workbench 中的数据，并调整其使用这些实验性提示工具 API 的集成。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n#### 博客更新\n\n**Introducing Agent Skills**\nAnthropic 发布了关于“智能体技能”的新闻。这表明 Anthropic 正在探索或推出新的功能，允许开发者为 Claude 智能体添加或增强特定能力，以执行更复杂、更专业的任务。\n🔗 https://www.anthropic.com/news/skills\n\n---\n\n### OpenAI\n\n#### 博客更新\n\n**Introducing the ChatGPT for small business program**\nOpenAI 推出了面向小型企业的 ChatGPT 项目，旨在帮助企业主提升 AI 技能，实现工作自动化，并通过 ChatGPT Work 实现业务增长。这为小型企业提供了利用 AI 提高效率和竞争力的机会。\n🔗 https://openai.com/index/introducing-chatgpt-small-business-program\n\n**OpenAI and Hugging Face partner to address security incident during model evaluation**\nOpenAI 与 Hugging Face 合作，公布了在 AI 模型评估过程中发现的安全事件的初步调查结果。此次合作强调了在 AI 模型开发和部署中，安全评估的重要性以及应对高级网络威胁的必要性，为 AI 社区提供了宝贵的经验教训。\n🔗 https://openai.com/index/hugging-face-model-evaluation-security-incident\n\n---\n\n### 行业新闻 (来自 Artificial Analysis)\n\n**[Artificial Analysis] Gemini 3.6 Flash and Gemini 3.5 Flash-Lite: Halving Time per Task Google has released Gemini 3.6 Flash and Gemini 3.5 Fl**\nArtificial Analysis 报告称，Google 新发布的 Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite 模型在任务处理时间上比其前代产品缩短了一半。这两款模型都提高了 token 效率，其中 Gemini 3.5 Flash-Lite 在 Intelligence Index 上提升了11点，而 Gemini 3.6 Flash 的智能水平与 3.5 Flash 持平，但侧重于效率提升。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Gemini 3.6**\nArtificial Analysis 发布了对 Gemini 3.6 Flash 的最新评估结果，其 Intelligence Index 为50。这为开发者提供了衡量该模型性能的独立基准，有助于选择合适的模型进行应用开发。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Gemini 3.5**\nArtificial Analysis 发布了对 Gemini 3.5 Flash-Lite 的最新评估结果，其 Intelligence Index 为36。这一评估结果为开发者提供了该模型在智能方面的参考数据，尤其适用于对成本和延迟敏感的自动化任务。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Google performance results now available Gemini 3.5 Flas**\nArtificial Analysis 提供了 Gemini 3.5 Flash 的性能结果。这些数据对于需要进行模型选型和性能优化的开发者来说，是重要的参考信息。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Databricks performance results now available Claude Sonnet 5 (Non-reasoning, Hig**\nArtificial Analysis 发布了 Databricks 对 Claude Sonnet 5 (非推理、高努力度版本) 的性能评估结果。这为开发者在特定场景下选择 Anthropic 模型提供了额外的性能数据。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Google performance results now available Gemini 3.6 Flash**\nArtificial Analysis 提供了 Gemini 3.6 Flash 的性能结果。这进一步补充了 Google 最新模型的性能数据，帮助开发者全面了解其表现。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] CompactifAI performance results now available gpt-oss-120b (high)**\nArtificial Analysis 发布了 CompactifAI 对 gpt-oss-120b (高版本) 的性能评估结果。这提供了第三方开源模型在特定评估工具下的表现数据，为开发者提供了更多选择和参考。\n🔗 https://artificialanalysis.ai/changelog"
+}
