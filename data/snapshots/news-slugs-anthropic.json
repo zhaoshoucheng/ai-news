@@ -1,5 +1,8 @@
 {
   "slugs": [
+    "economic-futures-research-fund-agenda",
+    "anthropic-economic-index-connector",
+    "donation-public-first-action",
     "rare-disease-research-grants",
     "claude-for-teachers",
     "canadian-ai-research",
@@ -255,6 +258,6 @@
     "anthropic-raises-series-b-to-build-safe-reliable-ai",
     "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
   ],
-  "updated_at": "2026-07-22T01:05:28.580Z",
-  "count": 254
+  "updated_at": "2026-07-23T01:05:54.342Z",
+  "count": 257
 }

@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-23",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-23T01:05:35.135Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Building AI infrastructure with the Effingham County community",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "published_at": "2026-07-22T13:00:00.000Z",
+          "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How news organizations are using AI to advance their vital missions",
+          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+          "published_at": "2026-07-22T13:00:00.000Z",
+          "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing OpenAI Presence",
+          "url": "https://openai.com/index/introducing-openai-presence",
+          "published_at": "2026-07-22T05:30:00.000Z",
+          "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "url": "https://openai.com/index/ntt-data",
+          "published_at": "2026-07-22T00:00:00.000Z",
+          "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Building AI infrastructure with the Effingham County community",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "published_at": "2026-07-22T13:00:00.000Z",
+          "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How news organizations are using AI to advance their vital missions",
+          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+          "published_at": "2026-07-22T13:00:00.000Z",
+          "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing OpenAI Presence",
+          "url": "https://openai.com/index/introducing-openai-presence",
+          "published_at": "2026-07-22T05:30:00.000Z",
+          "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "url": "https://openai.com/index/ntt-data",
+          "published_at": "2026-07-22T00:00:00.000Z",
+          "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-07-22",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-07-22T00:00:00Z",
+          "summary": "Feature \n\nAdded hard spend limits for organizations and projects on the OpenAI API platform. Set a monthly cap that causes affected API requests to return a 429 error when tracked spend reaches the limit. Use spend alerts for notification before traffic is interrupted. Read more in the spend limits guide .",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-23T01:05:54.343Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] A research agenda for the Economic Futures Research Fund",
+          "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+          "published_at": "2026-07-22T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "Ask Claude about the Anthropic Economic Index",
+          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+          "published_at": "2026-07-22T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "Anthropic is donating another $20 million to Public First Action",
+          "url": "https://www.anthropic.com/news/donation-public-first-action",
+          "published_at": "2026-07-21T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-23T01:06:01.062Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "3 Google updates from Galaxy Unpacked 2026",
+          "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+          "published_at": "2026-07-22T13:00:00.000Z",
+          "summary": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告 (2026年7月23日)\n\n本报告汇总了 OpenAI、Anthropic 和 Google Gemini 在过去一天内的模型与 API 变更及重要新闻。\n\n---\n\n### OpenAI\n\n#### API 变更\n\n**[Feature] OpenAI Changelog 2026-07-22**\nOpenAI API 平台新增了组织和项目的硬性消费限制功能。开发者现在可以设置月度消费上限，当API请求达到此限制时，将返回429错误。此外，还提供了消费警报功能，以便在流量中断前收到通知，帮助开发者更好地管理和控制API成本。\n🔗 https://developers.openai.com/api/docs/changelog\n\n#### 博客更新\n\n**Introducing OpenAI Presence**\nOpenAI 推出了 Presence 平台，这是一个企业级 AI 代理平台，旨在帮助组织部署可信赖的语音和聊天代理。该平台支持客户服务和内部工作流程，通过自动化和智能化提升企业运营效率。\n🔗 https://openai.com/index/introducing-openai-presence\n\n**Building AI infrastructure with the Effingham County community**\nOpenAI 宣布了在乔治亚州埃芬汉姆县的“山茶花项目”（Project Camellia）。该项目承诺在AI基础设施建设中注重负责任的能源使用、社区投资、创造就业机会，并提供 Codex 访问权限，旨在促进当地经济发展并确保AI项目的可持续性。\n🔗 https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community\n\n**How news organizations are using AI to advance their vital missions**\nOpenAI 探讨了新闻机构如何利用 AI 技术来加强报道、扩大受众并优化业务运营。报告指出，OpenAI 的工具正在全球范围内支持记者和出版商，帮助他们更好地完成新闻使命。\n🔗 https://openai.com/index/how-news-organizations-are-using-ai\n\n**NTT DATA Group cuts incident analysis to 30 minutes with Codex**\nNTT DATA Group 成功利用 ChatGPT Enterprise 和 Codex，将其事件分析时间缩短至30分钟。这项技术帮助9,000名员工实现工作自动化，并安全地扩展了AI的应用，显著提升了运营效率。\n🔗 https://openai.com/index/ntt-data\n\n---\n\n### Anthropic\n\n#### 行业新闻\n\n**A research agenda for the Economic Futures Research Fund**\nAnthropic 发布了经济未来研究基金的研究议程。该议程将指导基金的未来研究方向，旨在探索AI对经济的长期影响及潜在机遇。\n🔗 https://www.anthropic.com/news/economic-futures-research-fund-agenda\n\n**Ask Claude about the Anthropic Economic Index**\nAnthropic 宣布用户现在可以通过 Claude 了解 Anthropic 经济指数。这表明 Anthropic 正在将其AI模型与经济数据分析结合，提供更便捷的经济信息查询服务。\n🔗 https://www.anthropic.com/news/anthropic-economic-index-connector\n\n**Anthropic is donating another $20 million to Public First Action**\nAnthropic 再次向 Public First Action 捐赠2000万美元。这笔捐款体现了 Anthropic 在社会责任方面的持续投入，支持公共利益相关的项目和研究。\n🔗 https://www.anthropic.com/news/donation-public-first-action\n\n---\n\n### Google Gemini\n\n#### 博客更新\n\n**3 Google updates from Galaxy Unpacked 2026**\nGoogle 在 Galaxy Unpacked 2026 活动中公布了三项更新，旨在提升三星用户的生产力。这些更新将应用于即将推出的可折叠手机、智能手表和智能眼镜，帮助用户更高效地利用设备，节省时间。\n🔗 https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
+}
