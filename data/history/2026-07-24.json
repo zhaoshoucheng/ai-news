@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-24",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-24T01:03:05.301Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Launching Health in ChatGPT",
+          "url": "https://openai.com/index/health-in-chatgpt",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Launching Health in ChatGPT",
+          "url": "https://openai.com/index/health-in-chatgpt",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-24T01:03:30.633Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[dev] Claude for Creative Work",
+          "url": "https://www.anthropic.com/news/claude-for-creative-work-dev",
+          "published_at": "2026-04-28T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-24T01:03:37.076Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "以下是今日 AI 模型与 API 变更报告，面向需要适配这些 API 的开发者：\n\n## OpenAI 更新\n\n**Launching Health in ChatGPT**\nOpenAI 为美国符合条件的用户推出了 ChatGPT 健康功能。该功能允许用户安全地连接医疗记录和 Apple Health 数据，以获取更个性化的健康洞察和更好的理解。这标志着 ChatGPT 在医疗健康领域的应用迈出了重要一步，开发者未来可能需要关注相关数据接口和隐私合规性。\n🔗 https://openai.com/index/health-in-chatgpt\n\n## Anthropic 更新\n\n**[dev] Claude for Creative Work**\nAnthropic 发布了关于 Claude 在创意工作领域应用的更新。此内容可能探讨了 Claude 如何辅助艺术创作、内容生成或设计等任务，展示了其在理解和生成复杂创意内容方面的能力。开发者可以关注 Claude 在特定创意场景下的性能表现和潜在应用。\n🔗 https://www.anthropic.com/news/claude-for-creative-work-dev\n\n## Google Gemini 更新\n\n今日暂无 Google Gemini 的模型或 API 变更。\n"
+}
