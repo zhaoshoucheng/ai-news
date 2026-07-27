@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "claude-opus-5",
     "economic-futures-research-fund-agenda",
     "anthropic-economic-index-connector",
     "donation-public-first-action",
@@ -259,6 +260,6 @@
     "anthropic-raises-series-b-to-build-safe-reliable-ai",
     "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
   ],
-  "updated_at": "2026-07-24T01:03:30.632Z",
-  "count": 258
+  "updated_at": "2026-07-27T01:03:00.216Z",
+  "count": 259
 }

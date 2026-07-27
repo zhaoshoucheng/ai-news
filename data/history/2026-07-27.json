@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-27",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-07-27T01:02:45.220Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-07-27T01:03:00.216Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[News] Introducing Claude Opus 5",
+          "url": "https://www.anthropic.com/news/claude-opus-5",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-07-27T01:03:10.309Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-07-27T01:03:15.948Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Claude Opus 5: the new leader in agentic knowledge work Claude Opus 5 is the new leader on our agentic knowledge work be",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "🔔 New article published Claude Opus 5: the new leader in agentic knowledge work Claude Opus 5 is the new leader on our agentic knowledge work benchmark, AA-Briefcase, outperforming Claude Fable 5 by nearly 150 Elo while reducing Cost per Task by 20%",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Opus 5: Fable 5 level intelligence at a lower cost per task Claude Opus 5 is narrowly the most intelligent model on the",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "🔔 New article published Opus 5: Fable 5 level intelligence at a lower cost per task Claude Opus 5 is narrowly the most intelligent model on the Artificial Analysis Intelligence Index, offering comparable intelligence to Fable 5 at 26% lower Cost per Task",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Opus 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Opus 5 (Adaptive Reasoning, Low Effort) Intelligence Index: 51",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Opus 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Opus 5 (Adaptive Reasoning, Medium Effort) Intelligence Index: 56",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Opus 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Opus 5 (Adaptive Reasoning, High Effort) Intelligence Index: 59",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Opus 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Opus 5 (Adaptive Reasoning, Xhigh Effort) Intelligence Index: 60",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Opus 5",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Opus 5 (Adaptive Reasoning, Max Effort) Intelligence Index: 61",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Anthropic performance results now available Claude Opus 5 (Adaptive Reasoning, L",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-07-24T00:00:00Z",
+          "summary": "Anthropic performance results now available Claude Opus 5 (Adaptive Reasoning, Low Effort) Claude Opus 5 (Adaptive Reasoning, Medium Effort) Claude Opus 5 (Adaptive Reasoning, High Effort) Claude Opus 5 (Adaptive Reasoning, Xhigh Effort) Claude Opus 5 (Adaptive Reasoning, Max E",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "## AI 模型与 API 变更报告\n\n**报告日期：2026年7月27日**\n\n本报告旨在为开发者提供 OpenAI、Anthropic 和 Google Gemini 模型与 API 的最新变更信息，以便及时进行适配。\n\n---\n\n### Anthropic\n\n**[News] Introducing Claude Opus 5**\nAnthropic 正式发布了其新一代旗舰模型 Claude Opus 5。作为 Opus 系列的最新成员，Opus 5 预计在推理能力、上下文理解和复杂任务处理方面有显著提升，为开发者提供更强大的 AI 能力。\n🔗 https://www.anthropic.com/news/claude-opus-5\n\n---\n\n### 行业新闻与分析 (Artificial Analysis)\n\n**[Artificial Analysis] Claude Opus 5: the new leader in agentic knowledge work**\nArtificial Analysis 的基准测试显示，Claude Opus 5 在代理式知识工作（AA-Briefcase）方面表现卓越，超越 Claude Fable 5 约 150 Elo，并显著降低了 20% 的每任务成本。这表明 Opus 5 在自动化复杂任务和提高效率方面具有巨大潜力。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Opus 5: Fable 5 level intelligence at a lower cost per task**\n根据 Artificial Analysis 的评估，Claude Opus 5 在智能水平上与 Fable 5 相当，但每任务成本降低了 26%。这意味着开发者可以以更低的成本获得顶级智能模型的能力，从而优化资源使用并扩大应用范围。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Opus 5 (Adaptive Reasoning, Low Effort)**\nArtificial Analysis 发布了 Claude Opus 5 在“自适应推理，低投入”场景下的评估结果，其智能指数为 51。这为开发者提供了 Opus 5 在不同工作负载和复杂性下的性能参考。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Opus 5 (Adaptive Reasoning, Medium Effort)**\nClaude Opus 5 在“自适应推理，中等投入”场景下的智能指数评估结果为 56。这进一步细化了 Opus 5 在不同计算资源和任务要求下的表现，有助于开发者选择合适的模型配置。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Opus 5 (Adaptive Reasoning, High Effort)**\n在“自适应推理，高投入”场景中，Claude Opus 5 的智能指数达到 59。这表明 Opus 5 在处理更复杂、需要更多推理能力的任务时仍能保持高性能。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)**\nClaude Opus 5 在“自适应推理，超高投入”场景下的智能指数为 60。这一结果凸显了 Opus 5 在极限复杂推理任务中的强大能力和稳定性。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] New evaluation: Claude Opus 5 (Adaptive Reasoning, Max Effort)**\n在最高级别的“自适应推理，最大投入”场景中，Claude Opus 5 的智能指数达到了 61。这证实了 Opus 5 作为 Anthropic 旗舰模型在处理最严苛推理任务方面的领先地位。\n🔗 https://artificialanalysis.ai/changelog\n\n**[Artificial Analysis] Anthropic performance results now available**\nArtificial Analysis 现已提供 Claude Opus 5 在不同自适应推理（从低投入到最大投入）场景下的详细性能结果。这些全面的评估数据为开发者深入了解 Opus 5 的能力边界和应用潜力提供了宝贵参考。\n🔗 https://artificialanalysis.ai/changelog"
+}
