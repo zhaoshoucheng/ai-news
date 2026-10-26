@@ -75,7 +75,7 @@ export async function sendEmail(opts: MailOptions): Promise<void> {
 
 /**
  * 极简 Markdown -> HTML 转换。
- * 支持标题、加粗、斜体、链接、列表、分隔线、换行，满足报告排版需求。
+ * 支持标题、加粗、斜体、链接、无序 / 有序列表、引用块、分隔线、换行，满足报告排版需求。
  */
 function markdownToHtml(md: string): string {
   const escapeHtml = (s: string) =>
@@ -86,7 +86,7 @@ function markdownToHtml(md: string): string {
 
   const lines = md.split("\n");
   const out: string[] = [];
-  let inList = false;
+  let listType: "ul" | "ol" | null = null;
 
   const inline = (text: string): string => {
     let t = escapeHtml(text);
@@ -104,10 +104,17 @@ function markdownToHtml(md: string): string {
   };
 
   const closeList = () => {
-    if (inList) {
-      out.push("</ul>");
-      inList = false;
+    if (listType) {
+      out.push(`</${listType}>`);
+      listType = null;
     }
+  };
+
+  const openList = (type: "ul" | "ol") => {
+    if (listType === type) return;
+    closeList();
+    out.push(`<${type} style="margin:8px 0;padding-left:20px;">`);
+    listType = type;
   };
 
   for (const raw of lines) {
@@ -129,12 +136,23 @@ function markdownToHtml(md: string): string {
       continue;
     }
     if (/^\s*[-*•]\s+/.test(line)) {
-      if (!inList) {
-        out.push('<ul style="margin:8px 0;padding-left:20px;">');
-        inList = true;
-      }
+      openList("ul");
       const content = line.replace(/^\s*[-*•]\s+/, "");
       out.push(`<li style="margin:4px 0;">${inline(content)}</li>`);
+      continue;
+    }
+    if (/^\s*\d+[.)]\s+/.test(line)) {
+      openList("ol");
+      const content = line.replace(/^\s*\d+[.)]\s+/, "");
+      out.push(`<li style="margin:4px 0;">${inline(content)}</li>`);
+      continue;
+    }
+    if (/^\s*>/.test(line)) {
+      closeList();
+      const content = line.replace(/^\s*>\s?/, "");
+      out.push(
+        `<blockquote style="margin:8px 0;padding:6px 12px;border-left:3px solid #d0d7de;color:#57606a;">${inline(content)}</blockquote>`
+      );
       continue;
     }
     closeList();
