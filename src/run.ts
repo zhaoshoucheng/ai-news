@@ -54,7 +54,7 @@ async function main(): Promise<void> {
         cwd: resolve(__dirname, ".."),
         stdio: "inherit",
         env: process.env,
-        timeout: 180000,
+        timeout: 600000,
       });
     } catch (err: any) {
       console.error("[Run] Daily check failed:", err.message);
@@ -70,7 +70,7 @@ async function main(): Promise<void> {
           cwd: resolve(__dirname, ".."),
           stdio: "inherit",
           env: process.env,
-          timeout: 180000,
+          timeout: 600000,
         });
       } catch (err: any) {
         console.error("[Run] Weekly summary failed:", err.message);

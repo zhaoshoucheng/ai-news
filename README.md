@@ -42,8 +42,8 @@ config/sources.json（数据源配置）
 | **RSS 博客监控** | 抓取官方博客和 changelog，过滤模型/API 相关文章 |
 | **智能过滤** | 关键词过滤 + URL 去重，只推送真正相关的变更 |
 | **LLM 报告生成** | 自动生成结构化中文报告，包含开发者影响分析 |
-| **每日检测** | 每天 9:00 自动运行，有变更才推送 |
-| **每周总结** | 每周五 20:00 生成周报，汇总本周所有变更 |
+| **每日检测** | 每个工作日 13:00（北京时间）自动运行，有变更才推送 |
+| **每周总结** | 每周五 13:00 随每日检测一起生成周报，汇总本周所有变更 |
 | **零外部依赖** | 无需数据库，配置存于 `main`，运行数据存于 `data-snapshots` 分支 |
 
 ---
@@ -126,6 +126,17 @@ pnpm install
 
 > 注：即使没有 API Key，系统仍会通过 RSS 监控博客更新。API Key 用于更精确地检测模型列表变化。
 
+**LLM 模型（可选）**
+
+报告由 Manus 内置的 OpenAI 兼容接口生成（`OPENAI_API_KEY` / `OPENAI_BASE_URL` 由运行环境预置）。
+
+| 变量名 | 说明 | 默认值 |
+| :--- | :--- | :--- |
+| `LLM_MODEL` | 模型 ID，必须在 `$OPENAI_API_BASE/models` 目录中 | 见 `src/llm.ts` 的 `DEFAULT_MODEL` |
+| `LLM_REASONING_EFFORT` | 推理强度，如 `low` / `medium` | 模型默认值 |
+
+> 更换模型：修改 `.env` 中的 `LLM_MODEL` 即可，无需改代码。GPT 系列自动使用 `max_completion_tokens`，Gemini 系列使用 `max_tokens`。
+
 **快照持久化（定时任务必填）**
 
 运行数据（快照 / 历史 / 周报）保存在独立的 `data-snapshots` 分支，`main` 只保留代码。脚本通过 GitHub Fine-grained PAT 推送该分支，需配置以下变量：
@@ -147,21 +158,35 @@ pnpm daily -- --dry-run
 # 每日检测（正式模式，发送邮件）
 pnpm daily
 
+# 每日检测，临时放宽条目时效（例如补发近 30 天内容）
+pnpm daily -- --max-age-days=30
+
+# 只建立基线：把当前所有条目标记为已读，不生成报告、不发邮件
+# 用于长时间停运后恢复，避免一次推送大量积压内容
+pnpm daily -- --baseline
+
 # 每周总结
 pnpm weekly
 ```
+
+### 条目时效
+
+`config/sources.json` 的 `settings` 中有两个时间参数：
+
+- `fetch_window_hours`（默认 80）：RSS 文章的时间窗。80 小时可覆盖周五 13:00 到周一 13:00 的周末。重复文章由最近 7 天的 URL 历史去重。
+- `max_item_age_days`（默认 7）：changelog、news 和第三方条目的最大时效。超过该天数的条目不推送。这样页面改版导致去重 ID 失效时，旧条目不会一次性刷屏。
 
 ---
 
 ## 定时调度
 
-在 Manus 中配置一个定时任务即可（统一入口会自动判断是否周五）：
+在 Manus 中配置一个定时任务即可（统一入口会自动判断是否周五），cron 为 `0 0 13 * * 1-5`：
 
 ```bash
 cd /home/ubuntu/ai-news && pnpm run run
 ```
 
-- 每天早上 9:00 触发：执行每日检测，有变更才发邮件
+- 每个工作日 13:00（北京时间）触发：执行每日检测，有变更才发邮件
 - 周五会额外生成并推送周报
 
 ## 数据持久化机制（data-snapshots 分支）

@@ -44,6 +44,8 @@ export interface ApiEndpoint {
 export interface Settings {
   fetch_window_hours: number;
   similarity_threshold: number;
+  /** changelog / news / 第三方条目的最大时效（天），超过则不推送；0 表示不限制 */
+  max_item_age_days?: number;
 }
 
 // ── 模型快照相关 ──────────────────────────────────────────────────

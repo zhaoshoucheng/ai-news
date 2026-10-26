@@ -33,6 +33,14 @@ if [ -n "$PUSH_URL" ]; then
 fi
 
 if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH"; then
+  # 本地数据比远端新时不覆盖。推送失败或未配置 GITHUB_TOKEN 时，远端会停留在旧快照，
+  # 覆盖本地会让已推送过的条目再次被判定为新增。
+  LOCAL_LATEST="$(ls data/history/*.json 2>/dev/null | xargs -r -n1 basename | sort | tail -1 || true)"
+  REMOTE_LATEST="$(git ls-tree --name-only "origin/$BRANCH" data/history/ 2>/dev/null | xargs -r -n1 basename | sort | tail -1 || true)"
+  if [ -n "$LOCAL_LATEST" ] && [[ "$LOCAL_LATEST" > "$REMOTE_LATEST" ]]; then
+    echo "[Snapshots] Local data (${LOCAL_LATEST%.json}) is newer than origin/$BRANCH (${REMOTE_LATEST:-none}), keeping local."
+    exit 0
+  fi
   echo "[Snapshots] Restoring data/ from origin/$BRANCH ..."
   # 从远端分支检出 data/ 目录覆盖本地（不切换当前分支）
   git checkout "origin/$BRANCH" -- data/ 2>/dev/null || {

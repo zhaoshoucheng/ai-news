@@ -1,11 +1,25 @@
 /**
  * LLM 调用模块
  * 使用 OpenAI 兼容接口生成变更报告
+ *
+ * 模型配置（写在 .env，不进入 git）：
+ *   LLM_MODEL             模型 ID，默认 DEFAULT_MODEL
+ *   LLM_REASONING_EFFORT  推理强度（如 low / medium），默认 DEFAULT_REASONING_EFFORT；
+ *                         设为空字符串则不传该参数，使用模型自身默认值
  */
 
 import OpenAI from "openai";
 
 const client = new OpenAI();
+
+/** 默认模型。可用模型以内置 LLM 目录（$OPENAI_API_BASE/models）为准。 */
+const DEFAULT_MODEL = "gpt-6-luna";
+/** 默认推理强度。日报是摘要任务，low 足够且更快。 */
+const DEFAULT_REASONING_EFFORT = "low";
+
+export function getModel(): string {
+  return (process.env.LLM_MODEL ?? "").trim() || DEFAULT_MODEL;
+}
 
 /**
  * 调用 LLM 生成文本
@@ -16,16 +30,31 @@ export async function invokeLLM(params: {
   jsonMode?: boolean;
 }): Promise<string> {
   const { systemPrompt, userPrompt, jsonMode } = params;
+  const model = getModel();
+  const effort = (process.env.LLM_REASONING_EFFORT ?? DEFAULT_REASONING_EFFORT).trim();
+  // GPT 家族用 max_completion_tokens（不限制推理 token）；Gemini / Claude 用 max_tokens
+  const isOpenAIFamily = /^(gpt-|o\d)/i.test(model);
+  const tokenParam = isOpenAIFamily
+    ? { max_completion_tokens: 32768 }
+    : { max_tokens: 16384 };
 
+  console.log(`[LLM] model=${model}${effort ? ` effort=${effort}` : ""}`);
   const response = await client.chat.completions.create({
-    model: "gemini-2.5-flash",
+    model,
     messages: [
       { role: "system", content: systemPrompt },
       { role: "user", content: userPrompt },
     ],
-    max_tokens: 16384,
+    ...tokenParam,
+    ...(effort ? { reasoning: { effort } } : {}),
     ...(jsonMode ? { response_format: { type: "json_object" } } : {}),
-  });
+  } as any);
+
+  // 代理可能以 HTTP 200 + error 字段返回错误
+  const err = (response as any).error;
+  if (err) {
+    throw new Error(`LLM error: ${typeof err === "string" ? err : JSON.stringify(err)}`);
+  }
 
   return response.choices?.[0]?.message?.content ?? "";
 }

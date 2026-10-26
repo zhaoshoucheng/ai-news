@@ -76,7 +76,8 @@
     }
   ],
   "settings": {
-    "fetch_window_hours": 36,
-    "similarity_threshold": 0.65
+    "fetch_window_hours": 80,
+    "similarity_threshold": 0.65,
+    "max_item_age_days": 7
   }
 }

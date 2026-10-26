@@ -95,21 +95,40 @@ export async function fetchNewsForProvider(
 
 // ── Anthropic News 解析 ──────────────────────────────────────────────
 // 页面是 Next.js SSR，HTML 中嵌入了 escaped JSON 数据
+//
+// 页面里的文章对象有两种字段顺序：
+//   A: {"_id":..,"title":..,"slug":{"current":..},"publishedOn":..,"category":..}
+//   B: {"_id":..,"publishedOn":..,"slug":{"_type":"slug","current":..},"summary":..,"title":..}
+// 旧实现用一条跨对象的正则匹配，会把相邻文章的日期配错。
+// 新实现先定位每个 slug，再在它所属的对象范围内（前后两个 "_id" 之间）提取字段。
 
 function parseAnthropicNews(html: string): NewsArticle[] {
   const articles: NewsArticle[] = [];
   const seen = new Set<string>();
 
-  // 从 HTML 中提取 escaped JSON 格式的文章数据
-  // 格式: \"publishedOn\":\"2026-06-09T17:00:00.000Z\"...\"current\":\"slug\"...\"title\":\"Title\"
-  const pattern = /\\?"publishedOn\\?":\\?"([^\\]+)\\?".*?\\?"current\\?":\\?"([^\\]+)\\?".*?\\?"title\\?":\\?"([^\\]*?)\\?"/g;
+  // 去掉一层转义，便于按普通 JSON 字段匹配
+  const text = html.replace(/\\"/g, '"');
+  const idPositions = [...text.matchAll(/"_id":"/g)].map((m) => m.index!);
+  const slugPattern = /"slug":\{(?:"_type":"slug",)?"current":"([^"]+)"\}/g;
 
   let match;
-  while ((match = pattern.exec(html)) !== null) {
-    const [, dateStr, slug, rawTitle] = match;
+  while ((match = slugPattern.exec(text)) !== null) {
+    const slug = match[1];
+    const slugPos = match.index;
 
     // 去重（页面中同一篇文章可能出现多次）
     if (seen.has(slug)) continue;
+
+    // 确定所属文章对象的范围
+    const start = lastBefore(idPositions, slugPos);
+    if (start === undefined) continue;
+    const end = firstAfter(idPositions, slugPos) ?? Math.min(text.length, slugPos + 4000);
+    const obj = text.slice(start, end);
+    const relSlugPos = slugPos - start;
+
+    const dateStr = obj.match(/"publishedOn":"(\d{4}-\d{2}-\d{2})/)?.[1];
+    const rawTitle = closestMatch(obj, /"title":"((?:[^"\\]|\\.)*)"/g, relSlugPos);
+    if (!dateStr || !rawTitle) continue;
     seen.add(slug);
 
     // 清理标题中的转义字符
@@ -119,20 +138,24 @@ function parseAnthropicNews(html: string): NewsArticle[] {
       .replace(/\\\\/g, "\\")
       .trim();
 
-    // 解析日期
-    const publishedAt = dateStr.split("T")[0]; // YYYY-MM-DD
+    // 分类：优先 category，其次 newsCategories 的第一个值
+    const category =
+      obj.match(/"category":"([^"]+)"/)?.[1] ??
+      obj.match(/"newsCategories":\["([^"]+)"/)?.[1];
 
-    // 尝试提取分类（在 publishedOn 之前通常有 subjects）
-    const category = extractCategory(html, slug);
-
-    // 构建完整 URL
-    const url = `https://www.anthropic.com/news/${slug}`;
+    // 构建完整 URL：优先使用 linkedUrl，否则使用 /news/<slug>
+    const linked = obj.match(/"linkedUrl":"([^"]+)"/)?.[1];
+    const url = linked
+      ? linked.startsWith("http")
+        ? linked
+        : `https://www.anthropic.com${linked.startsWith("/") ? "" : "/"}${linked}`
+      : `https://www.anthropic.com/news/${slug}`;
 
     articles.push({
       title,
       slug,
       url,
-      published_at: publishedAt + "T00:00:00Z",
+      published_at: dateStr + "T00:00:00Z",
       category,
       id: slug,
     });
@@ -144,31 +167,36 @@ function parseAnthropicNews(html: string): NewsArticle[] {
   return articles;
 }
 
-function extractCategory(html: string, slug: string): string | undefined {
-  // 尝试在 slug 附近找到 subjects/label
-  const slugIdx = html.indexOf(`"current":"${slug}"`);
-  if (slugIdx === -1) {
-    const escapedIdx = html.indexOf(`\\"current\\":\\"${slug}\\"`);
-    if (escapedIdx === -1) return undefined;
-    // Look backwards for subjects
-    const chunk = html.slice(Math.max(0, escapedIdx - 500), escapedIdx);
-    const labelMatch = chunk.match(/\\?"label\\?":\\?"([^\\]+)\\?"/g);
-    if (labelMatch && labelMatch.length > 0) {
-      const last = labelMatch[labelMatch.length - 1];
-      const val = last.match(/:\\?"([^\\]+)\\?"/);
-      return val ? val[1] : undefined;
-    }
-    return undefined;
+/** 有序数组中小于 pos 的最大值 */
+function lastBefore(sorted: number[], pos: number): number | undefined {
+  let result: number | undefined;
+  for (const p of sorted) {
+    if (p < pos) result = p;
+    else break;
   }
+  return result;
+}
 
-  const chunk = html.slice(Math.max(0, slugIdx - 500), slugIdx);
-  const labelMatch = chunk.match(/"label":"([^"]+)"/g);
-  if (labelMatch && labelMatch.length > 0) {
-    const last = labelMatch[labelMatch.length - 1];
-    const val = last.match(/"label":"([^"]+)"/);
-    return val ? val[1] : undefined;
+/** 有序数组中大于 pos 的最小值 */
+function firstAfter(sorted: number[], pos: number): number | undefined {
+  for (const p of sorted) {
+    if (p > pos) return p;
   }
   return undefined;
+}
+
+/** 返回离 pos 最近的一次匹配的第 1 个捕获组 */
+function closestMatch(text: string, pattern: RegExp, pos: number): string | undefined {
+  let best: string | undefined;
+  let bestDist = Infinity;
+  for (const m of text.matchAll(pattern)) {
+    const dist = Math.abs(m.index! - pos);
+    if (dist < bestDist) {
+      bestDist = dist;
+      best = m[1];
+    }
+  }
+  return best;
 }
 
 // ── 网络请求 ──────────────────────────────────────────────────────────
