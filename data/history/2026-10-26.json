@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-26",
+  "has_changes": false,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-10-26T07:36:17.076Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "published_at": "2026-10-23T17:00:00.000Z",
+          "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Securing our frontier model training environment",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "published_at": "2026-10-23T10:00:00.000Z",
+          "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Update] OpenAI Changelog 2026-10-22 [gpt-6-luna, v1/decisions]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": "Update \n\ngpt-6-luna\n\nv1/decisions\n\nThe Decisions API is now generally available with gpt-6-luna . Cache shared input across requests for prompt-cache discounts, include images in individual question instructions, and pass structured data directly with input_json . Each request now supports up to 400 questions, increased from 200 in public beta. Review the changes since public beta .",
+          "source": "OpenAI Changelog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-10-21",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-10-21T00:00:00Z",
+          "summary": "Feature \n\nYou can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See service tier errors .",
+          "source": "OpenAI Changelog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-10-20 [v1/responses]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-10-20T00:00:00Z",
+          "summary": "Feature \n\nv1/responses\n\nYou can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart. 12-hour cache writes cost 2.5x the input token price. Read more here .",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-10-26T07:36:37.824Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-10-22",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": " \n\n \n\nWe&#x27;ve launched Claude Models on Google Cloud (Anthropic managed) , the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.\n\n Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2026-10-21",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-21T00:00:00Z",
+          "summary": " \n \n\nWe&#x27;ve released API version 2026-10-21 . Migrating to API version 2026-10-21 shows how to upgrade.\n\nWe&#x27;ve released new versions of the client SDKs and the ant CLI that send API version 2026-10-21 by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK 2.0.0, and ant CLI 2.0.0. See Switch to 2026-10-21 .\n\nThe new SDK and CLI versions also have breaking changes that don&#x27;t depend on the API version, and they are li",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2026-10-20 [claude-tag-2026-10-21, v1/organizations/claude_tag]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-20T00:00:00Z",
+          "summary": " \n \n\nThe Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope. It is not available t",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2026-10-20 [v1/user_profiles, v1/organizations/webhooks]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-20T00:00:00Z",
+          "summary": " \n\n \n\n Inference hooks are out of beta for Claude Enterprise organizations.\n\nWe&#x27;ve launched user profiles , so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints .\n\nWe&#x27;ve added organization webhooks to the Admin API , in beta with the we",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Alignment] An alignment assessment of the UK AISI cybertesting incident",
+          "url": "https://www.anthropic.com/news/alignment-assessment-ukaisi",
+          "published_at": "2026-10-23T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[product] Donating Agent Skills to the Agentic AI Foundation",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[announcements] Open call for guest investigators in the life sciences",
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[Frontier Red Team] LLMs are making formal software verification feasible at a much larger scale",
+          "url": "https://www.anthropic.com/news/formal-verification",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[announcements] Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "published_at": "2026-10-21T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        },
+        {
+          "title": "[Frontier Red Team] Using Claude to reduce the attack surface of code",
+          "url": "https://www.anthropic.com/news/attack-surface-reduction",
+          "published_at": "2026-10-20T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-10-26T07:36:49.185Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "Baseline run: 15 items marked as seen, not reported."
+}
