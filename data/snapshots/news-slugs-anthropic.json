@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "s1-sec",
     "alignment-assessment-ukaisi",
     "donating-agent-skills-to-the-agentic-ai-foundation",
     "open-call-guest-investigators-life-sciences",
@@ -58,7 +59,6 @@
     "expanding-project-glasswing",
     "confidential-draft-s1-sec",
     "glasswing-initial-update",
-    "anthropic-acquires-stainless",
     "gates-foundation-partnership",
     "pwc-expanded-partnership",
     "claude-for-small-business",
@@ -76,7 +76,6 @@
     "building-c-compiler",
     "anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
     "gov-UK-partnership",
-    "claude-on-mars",
     "mariano-florentino-long-term-benefit-trust",
     "donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
     "anthropic-accenture-partnership",
@@ -112,6 +111,6 @@
     "frontier-threats-red-teaming-for-ai-safety",
     "100k-context-windows"
   ],
-  "updated_at": "2026-10-26T07:36:37.822Z",
-  "count": 111
+  "updated_at": "2026-10-27T05:06:18.803Z",
+  "count": 110
 }

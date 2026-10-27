@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-27",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-10-27T05:06:04.660Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "published_at": "2026-10-26T22:00:00.000Z",
+          "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "published_at": "2026-10-26T14:30:00.000Z",
+          "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "published_at": "2026-10-26T13:45:00.000Z",
+          "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "ChatGPT’s expanding world of work",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "published_at": "2026-10-26T10:00:00.000Z",
+          "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Fanatics and OpenAI streamline the fan experience",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "published_at": "2026-10-26T07:00:00.000Z",
+          "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "published_at": "2026-10-26T00:00:00.000Z",
+          "summary": "Bringing fast and capable computer use to everyone",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-10-26 [gpt-6.1-terra, GPT-6.1, GPT-6, v1/responses, v1/chat/completions]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "Feature \n\ngpt-6.1-terra\n\nv1/responses\n\nv1/chat/completions\n\nReleased GPT-6.1 Terra , a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.\n\nSee the GPT-6 guide for prompting and migration guidance.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-10-27T05:06:18.803Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-10-23 [claude-tag-2026-10-21, v1/organizations/claude_tag]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-23T00:00:00Z",
+          "summary": " \n \n\n The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope. It is not available ",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[announcements] Anthropic files S-1 with the SEC for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-10-27T05:06:28.181Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Google Gemini Changelog 2026-10-26",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "Generate Content API storage on by default : New projects using the\nGenerate Content API ( generateContent , streamGenerateContent , and\n batchGenerateContent ) on the paid tier now store requests by default\n( store=true ), matching the Interactions API. Existing projects\nkeep their current setting. To opt out, set store=false on individual\nrequests or turn off Generate Content API logging in the Settings panel\nof the Logs and Datasets dashboard. See\n Logs and datasets for",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-10-27T05:06:30.895Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontie",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "🔔 New article published GPT-6.1 Terra pushes the cost efficiency frontier OpenAI has released GPT-6.1 Terra, pushing the cost efficiency frontier. It is the first Terra-class model since GPT-5.6, and is more intelligent for less than a third of the cost",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (Non-reasoning) Intelligence Index: 33",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (Low) Intelligence Index: 36",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (Medium) Intelligence Index: 41",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (High) Intelligence Index: 44",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (Xhigh) Intelligence Index: 45",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.1",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.1 Terra (Max) Intelligence Index: 48",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 T",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-26T00:00:00Z",
+          "summary": "OpenAI performance results now available GPT-6.1 Terra (Non-reasoning) GPT-6.1 Terra (Low) GPT-6.1 Terra (Medium) GPT-6.1 Terra (High) GPT-6.1 Terra (Xhigh) GPT-6.1 Terra",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-10-27**\n\n## 新模型与模型评测\n\n### OpenAI\n\n**GPT-6.1 Terra 发布**\nOpenAI 发布 GPT-6.1 Terra，主打快速、高效的视觉推理、精准计算机操作和自然写作。公告未提供上下文窗口或价格等具体参数；需要适配的开发者可参考 GPT-6 指南了解提示词与迁移方式。\n🔗 https://openai.com/index/introducing-gpt-6-1-terra\n\n### 第三方评测\n\n**Artificial Analysis：GPT-6.1 Terra 的成本效率**\nArtificial Analysis 称，GPT-6.1 Terra 是自 GPT-5.6 以来首款 Terra 系列模型，在提升智能表现的同时，成本不到此前相关模型的三分之一。该评测可作为选型参考，但摘要未给出具体对比对象和价格数字。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（Non-reasoning）评测**\nGPT-6.1 Terra 非推理模式的 Intelligence Index 为 **33**。该结果可供开发者初步比较不同模式的能力，但摘要未提供评测细项或与旧模型的对照数据。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（Low）评测**\nGPT-6.1 Terra 的 Low 推理档位 Intelligence Index 为 **36**，高于非推理档的 33。开发者可将其作为低推理配置的能力参考；摘要未披露对应的延迟或成本数据。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（Medium）评测**\nGPT-6.1 Terra 的 Medium 推理档位 Intelligence Index 为 **41**。与 Low 档相比高 5 分，显示推理档位选择可能影响评测表现；实际调用成本和耗时仍需结合 API 数据验证。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（High）评测**\nGPT-6.1 Terra 的 High 推理档位 Intelligence Index 为 **44**，较 Medium 档高 3 分。对复杂任务可将其纳入测试，但当前数据未说明相应的推理开销。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（Xhigh）评测**\nGPT-6.1 Terra 的 Xhigh 推理档位 Intelligence Index 为 **45**，比 High 档高 1 分。开发者可据此评估高推理配置是否值得用于关键任务，仍需结合延迟和成本测试。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：GPT-6.1 Terra（Max）评测**\nGPT-6.1 Terra 的 Max 推理档位 Intelligence Index 为 **48**，是本组已报告档位中的最高值。该结果提示其可能适用于对能力要求较高的任务，但摘要未提供对应的资源消耗数据。\n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：开放 GPT-6.1 Terra 性能结果**\nArtificial Analysis 已提供 GPT-6.1 Terra 非推理及 Low、Medium、High、Xhigh、Max 档位的性能结果。开发者可以按任务要求比较不同配置；摘要未包含具体性能指标或延迟数值。\n🔗 https://artificialanalysis.ai/changelog\n\n## API 与平台变更\n\n### OpenAI\n\n**GPT-6.1 Terra 接入 Responses 与 Chat Completions**\nOpenAI Changelog 将 GPT-6.1 Terra 列为新发布模型，并注明可用于 `v1/responses` 和 `v1/chat/completions`。本次摘要未提及接口参数、默认值或弃用项变更；开发者可按现有调用方式评估接入，并参考 GPT-6 指南迁移。\n🔗 https://developers.openai.com/api/docs/changelog\n\n### Anthropic\n\n**Claude Tag API 开放 Beta**\nClaude Tag API 面向 Claude Enterprise 组织开放 Beta，需使用 `experimental-claude-tag-2026-10-21` Beta header，并通过 `/v1/organizations/claude_tag` 相关端点管理 Slack 频道和工作区设置、查看设置来源及附加 Access bundles。调用须使用主所有者创建、具备 `read:claude_tag` 或 `write:claude_tag` scope 的 Admin API key；摘要显示该功能并非普遍开放。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n### Google Gemini\n\n**Generate Content API 付费新项目默认开启存储**\nGemini Generate Content API 的付费层新项目现在默认将请求存储设为 `store=true`，涵盖 `generateContent`、`streamGenerateContent` 和 `batchGenerateContent`，与 Interactions API 的默认行为一致；既有项目设置不变。若需关闭存储，可对单次请求设置 `store=false`，或在 Logs and Datasets 仪表板设置中关闭 Generate Content API 日志。\n🔗 https://ai.google.dev/gemini-api/docs/changelog\n\n## 行业新闻与应用案例\n\n### OpenAI\n\n**Greptile 使用 GPT-6 Astra 扩展代码缺陷检测**\nGreptile 将 GPT-6 Astra 用于测试用户工作流，并结合 Daybreak 加强安全、用 Codex 减少返工，业务范围从代码审查延伸至工作流与安全测试。对开发者而言，该案例展示了多种模型和工具协同处理代码质量问题的实践。\n🔗 https://openai.com/index/greptile-code-review-codex-astra\n\n**OpenAI 分享模型参与科学研究的进展**\nOpenAI 介绍模型在 Kakeya 猜想、指数时间假说和量子色动力学等方向上的结果，并强调研究人员如何验证和进一步发展这些工作。摘要未披露具体模型名称或实验指标；对开发者和研究者而言，重点是结果验证与可复现协作。\n🔗 https://openai.com/index/building-scientific-understanding-with-academic-communities\n\n**CodeRabbit 使用 GPT-6.1 Sol 分析代码安全风险**\nCodeRabbit 将 GPT-6.1 Sol 用于复杂代码库中的安全风险调查，并通过安全代理协助开发者审查发现和建议修复方案。该案例显示模型可参与安全审查工作流，但摘要未提供检测准确率或修复效果数据。\n🔗 https://openai.com/index/gpt-6-1-sol-coderabbit-code-security\n\n**OpenAI 发布 ChatGPT 工作场景使用分析**\nOpenAI Signals 汇总了近 100 个国家、165 项工作活动中的 ChatGPT 使用情况，并观察其使用方式随时间的变化。该数据可帮助开发者了解实际工作场景分布，但摘要未给出具体使用比例或行业排名。\n🔗 https://openai.com/index/chatgpt-expanding-world-of-work\n\n**Fanatics 的个性化购物测试提升互动率**\nFanatics 使用 OpenAI 推出 Shop the Look，帮助球迷搭配比赛日服饰；针对约 **30,000 件 MLB 商品**的测试显示，用户互动率提高 **10%**。对开发者而言，这提供了生成式 AI 用于商品发现与购物体验优化的量化案例。\n🔗 https://openai.com/index/fanatics-streamline-fan-experience\n\n### Anthropic\n\n**Anthropic 向 SEC 提交拟议 IPO 的 S-1 文件**\nAnthropic 宣布已向美国证券交易委员会提交拟议首次公开募股（IPO）的 S-1 文件。现有摘要未提供发行时间、规模或财务细节；此消息属于公司资本市场动态，不涉及已报告的 API 参数变更。\n🔗 https://www.anthropic.com/news/s1-sec"
+}
