@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-28",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-10-28T05:05:38.442Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "url": "https://openai.com/index/retell-ai",
+          "published_at": "2026-10-27T15:00:00.000Z",
+          "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "published_at": "2026-10-27T07:00:00.000Z",
+          "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "url": "https://openai.com/index/check-point-daybreak",
+          "published_at": "2026-10-27T00:00:00.000Z",
+          "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-10-28T05:05:58.279Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-10-22",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-22T00:00:00Z",
+          "summary": " \n\n \n\nWe’ve launched Claude Models on Google Cloud (Anthropic managed) , the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.\n\n Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[partnerships] Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "published_at": "2026-10-27T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-10-28T05:06:08.908Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-10-27 [gemini-api]",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "published_at": "2026-10-27T00:00:00Z",
+          "summary": "Gemini API CLI ( gemini-api ) beta : Released the Gemini API\nCLI ( gemini-api ), a stateless, zero-dependency\ncommand-line client for AI coding agents, scripts, and CI pipelines. Use\n gemini-api on the Interactions API to\ngenerate text and media, analyze files, and run Gemini managed\nagents . See the Gemini API CLI\nguide to get",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-10-28**\n\n## API 与开发者工具\n\n**Google Gemini API CLI（`gemini-api`）开启 Beta**\nGoogle 发布无状态、零依赖的命令行客户端，面向 AI 编程代理、脚本及 CI 流水线。它可通过 Interactions API 生成文本与媒体、分析文件并运行 Gemini 托管代理，开发者可将相关能力接入命令行工作流。\n🔗 https://ai.google.dev/gemini-api/docs/changelog\n\n**Claude Models 登陆 Google Cloud**\nAnthropic 推出由其管理、通过 Google Cloud 项目访问的 Claude API 服务；访问权限由 Google Cloud IAM 控制，账单通过 Google Cloud Marketplace 处理。变更记录还提到 Claude Opus 5.5 的 Fast mode 可用，但摘要未提供具体配置或价格信息。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## 行业与合作动态\n\n**Anthropic 扩大与美国总务管理局（GSA）的合作**\nAnthropic 宣布扩大与 GSA 的合作，目标是将 Claude 带给各级政府机构。此次数据未附正文摘要，因此暂无法确认适用部门、接入方式或具体上线时间；政府项目开发者应以原文后续细节为准。\n🔗 https://www.anthropic.com/news/expanding-partnership-gsa\n\n**OpenAI 与 Oracle 扩大合作，将业务应用引入 ChatGPT**\n双方计划把企业业务应用和 AI 智能体带入 ChatGPT，并为 Oracle 推出新的产品与服务。对开发者而言，这意味着 ChatGPT 与企业应用的集成场景将扩展，但当前摘要未披露接口、可用范围或发布时间。\n🔗 https://openai.com/index/oracle-apps-in-chatgpt\n\n**Retell 借助 OpenAI 模型支撑每月 1 亿次通话**\nRetell 使用 OpenAI 模型构建语音智能体；摘要称 GPT-6 Astra 在其语音智能体基准测试中排名领先，Codex 则助力其达到每名员工年化收入 160 万美元。数据未给出基准测试方法或与旧模型的量化对比，开发者可将其视为应用案例，而非通用性能结论。\n🔗 https://openai.com/index/retell-ai\n\n**Check Point 使用 OpenAI Daybreak 加速漏洞研究**\nCheck Point 借助 Daybreak 加快漏洞研究，将漏洞情报转化为客户防护措施的流程提速。摘要未提供具体耗时、准确率或接口细节；安全产品开发者可关注其研究辅助与防御落地的应用方式。\n🔗 https://openai.com/index/check-point-daybreak\n\n## 模型与参数变更\n\n本次检测未发现 OpenAI、Anthropic 或 Google Gemini 的新模型、下架模型或模型参数变更。"
+}

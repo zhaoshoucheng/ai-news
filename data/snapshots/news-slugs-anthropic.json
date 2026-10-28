@@ -1,7 +1,7 @@
 {
   "slugs": [
+    "expanding-partnership-gsa",
     "s1-sec",
-    "alignment-assessment-ukaisi",
     "donating-agent-skills-to-the-agentic-ai-foundation",
     "open-call-guest-investigators-life-sciences",
     "formal-verification",
@@ -18,7 +18,6 @@
     "singapore-office-opening",
     "redesigning-source-control",
     "distillation-defenses",
-    "investigating-unintended-model-actions",
     "anthropic-cyber-mission",
     "2026-usage-policy-update",
     "genesis-mission-commitment",
@@ -35,8 +34,6 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program",
     "claude-mythos-and-fable-5-1",
-    "alignment-assessment-cybersecurity-incidents",
-    "enterprise-frontier-safeguards",
     "improving-alignment-security-efforts",
     "model-hardware-standard-research-preview",
     "expanding-support-for-scientists",
@@ -67,7 +64,6 @@
     "narasimhan-board",
     "introducing-anthropic-science",
     "claude-partner-network",
-    "statement-department-of-war",
     "acquires-vercept",
     "detecting-and-preventing-distillation-attacks",
     "anthropic-rwanda-mou",
@@ -90,7 +86,6 @@
     "claude-for-financial-services",
     "lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
     "introducing-the-anthropic-economic-futures-program",
-    "confidential-inference-trusted-vms",
     "reed-hastings",
     "introducing-the-anthropic-economic-advisory-council",
     "detecting-and-countering-malicious-uses-of-claude-march-2025",
@@ -111,6 +106,6 @@
     "frontier-threats-red-teaming-for-ai-safety",
     "100k-context-windows"
   ],
-  "updated_at": "2026-10-27T05:06:18.803Z",
-  "count": 110
+  "updated_at": "2026-10-28T05:05:58.279Z",
+  "count": 105
 }
