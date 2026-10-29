@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-29",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-10-29T05:02:59.723Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "published_at": "2026-10-28T13:15:00.000Z",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "url": "https://openai.com/index/legora",
+          "published_at": "2026-10-28T09:30:00.000Z",
+          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-10-28",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "Feature \n\nEligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from ChatGPT or API Platform by linking an API organization you own. See API credits for ChatGPT subscribers for credit amounts, eligibility, and how to claim.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-10-29T05:03:22.139Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[announcements] AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-10-29T05:03:39.342Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-10-29T05:03:42.685Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google’s Gemini 4 Carbon is the new #1 on",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "🔔 New article published Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5 Google’s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilo",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "🔔 New article published GitHub Copilot Fusion orchestrates Anthropic and OpenAI models to balance performance and cost itHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models. It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Carbon (High) Intelligence Index: 59",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Carbon (High) Intelligence Index: 59",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Carbon (High)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Carbon (High)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**日期：2026-10-29**\n\n## OpenAI\n\n### API 与产品权益\n**ChatGPT Pro、Business 用户可领取 API 额度**\n符合条件的 ChatGPT Pro 与 Business 订阅用户，每月可领取最高 **500 美元**的 API 额度。需在 ChatGPT 或 API Platform 关联自有 API 组织；开发者可据此降低 API 使用成本，具体资格与领取规则以官方说明为准。  \n🔗 https://developers.openai.com/api/docs/changelog\n\n### 合作与应用动态\n**OpenAI 与 ServiceNow 扩大企业工作流合作**\n双方将把 OpenAI 模型和智能体引入 ServiceNow，同时让 ServiceNow 工作流接入 ChatGPT 与 Codex。对企业开发者而言，这意味着两边的工具与流程将进一步打通，但本次公告摘要未提供 API 接口或模型参数变更信息。  \n🔗 https://openai.com/index/openai-servicenow-partnership-expansion\n\n**Legora 使用 OpenAI 技术加速法律工作**\n法律科技公司 Legora 使用 OpenAI 模型、ChatGPT 和 Codex，支持法律工作流、合同分析等任务，目标是让律师把精力转向更高价值的工作。该案例展示了模型与编程工具在专业服务场景中的组合方式；摘要未披露具体模型、性能数据或 API 改动。  \n🔗 https://openai.com/index/legora\n\n## Anthropic\n\n### 行业动态\n**AI for Science 扩展至基金会与研究机构**\nAnthropic 公告称其 AI for Science 项目将扩展至基金会和研究机构。检测数据未提供正文摘要，因此合作范围、参与机构及模型或 API 支持细节尚无法确认；开发者可关注原文后续信息。  \n🔗 https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions\n\n## Google Gemini\n\n本次未检测到 Gemini 官方模型、参数或 API 变更，也没有官方博客更新。\n\n## 第三方动态与评测\n\n### 模型评测\n**Artificial Analysis：Gemini 4 Carbon 登上 Intelligence Index v5 榜首**\nArtificial Analysis 称 Gemini 4 Carbon 位列其 **Intelligence Index v5 第一**，在 Coding Agent Index 中则仅次于 Claude Opus 5.5。这是第三方评测结果，并非 Google 官方模型或 API 发布信息；开发者应结合自身任务和评测条件判断其适用性。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Carbon (High) 的 Intelligence Index 得分为 59**\nArtificial Analysis 新增 Gemini 4 Carbon (High) 的评测结果，公布其 Intelligence Index 得分为 **59**。该数据可作为模型横向比较的参考，但检测信息未提供测试细节或与其他模型的完整分差。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Carbon (High) 性能结果上线**\nArtificial Analysis 表示已公布 Gemini 4 Carbon (High) 的 Google 性能结果。当前摘要未列出具体指标、测试环境或数值，暂不能据此判断延迟、吞吐量等部署表现；建议查看原文数据后再做选型。  \n🔗 https://artificialanalysis.ai/changelog\n\n### 编码工具与成本\n**GitHub Copilot Fusion 编排 Anthropic 与 OpenAI 模型**\nArtificial Analysis 报告称，GitHub Copilot Fusion 会在 Anthropic 与 OpenAI 模型之间进行编排，以平衡性能和成本。在其 Coding Agent Index 对比中，Fusion 比 Claude Code 使用 Opus 5.5 低 **2 分**，但每项任务成本约为后者的**一半**；该结论属于第三方评测。  \n🔗 https://artificialanalysis.ai/changelog\n\n## 本次变更概览\n\n本次未检测到 OpenAI、Anthropic 或 Google Gemini 的官方新模型、模型下架或模型参数变更。主要开发者相关信息是 OpenAI 订阅用户可领取 API 额度；Gemini 4 Carbon 的榜单与性能信息来自第三方评测，而非官方 API 更新。"
+}

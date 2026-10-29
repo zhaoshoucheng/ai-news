@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "ai-for-science-expands-foundations-research-institutions",
     "expanding-partnership-gsa",
     "s1-sec",
     "donating-agent-skills-to-the-agentic-ai-foundation",
@@ -12,7 +13,6 @@
     "ai-expectations-gap",
     "employment-at-anthropic",
     "expectations-for-the-future",
-    "ecdsa-curve-origins",
     "an-update-on-independent-evaluators",
     "2026-us-midterms",
     "singapore-office-opening",
@@ -21,7 +21,6 @@
     "anthropic-cyber-mission",
     "2026-usage-policy-update",
     "genesis-mission-commitment",
-    "the-missing-map-of-the-sky",
     "claude-haiku-5-5",
     "cyber-verification-program",
     "claude-frontier-academy",
@@ -95,7 +94,6 @@
     "introducing-anthropic-transparency-hub",
     "visible-extended-thinking",
     "mou-uk-government",
-    "lyft-announcement",
     "3-5-models-and-computer-use",
     "us-elections-readiness",
     "contextual-retrieval",
@@ -106,6 +104,6 @@
     "frontier-threats-red-teaming-for-ai-safety",
     "100k-context-windows"
   ],
-  "updated_at": "2026-10-28T05:05:58.279Z",
-  "count": 105
+  "updated_at": "2026-10-29T05:03:22.139Z",
+  "count": 103
 }
