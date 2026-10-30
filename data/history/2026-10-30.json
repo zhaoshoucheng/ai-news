@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-30",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-10-30T05:03:18.918Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "url": "https://openai.com/index/updated-model-spec",
+          "published_at": "2026-10-29T17:00:00.000Z",
+          "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "published_at": "2026-10-29T09:00:00.000Z",
+          "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-10-30T05:03:30.602Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-10-29 [v1/organizations/analytics/usage, v1/organizations/analytics/cost]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-29T00:00:00Z",
+          "summary": " \n\n \n\nWe’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header. Its /v1/organizations/analytics/usage and /v1/organizations/analytics/cost endpoints report token usage and cost for Claude Console and Claude Enterprise organizations. You can filter and group results by dimensions such as model, workspace, API key, and the user or service account behind each request.\n\nThe Usage and Cost API is now a legacy API, and so are the usage_report , cost",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2026-10-28",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-10-28T00:00:00Z",
+          "summary": " \n\n \n\nWe’ve raised the maximum request size for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Clau",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Science] Early progress on accelerating drug development with Claude",
+          "url": "https://www.anthropic.com/news/early-progress-drug-development",
+          "published_at": "2026-10-27T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-10-30T05:03:37.845Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-10-30**\n\n今日未检测到新模型发布、模型下线或模型参数变更。主要变化来自 Anthropic API：分析接口进入 beta，且 Messages 与 Token Counting API 的请求上限提高。\n\n## API 变更\n\n### Anthropic\n\n**Usage and Cost Analytics API 发布 beta**\nAnthropic 推出组织级用量与成本分析 API，新增 `/v1/organizations/analytics/usage` 和 `/v1/organizations/analytics/cost`，需使用 `analytics-usage-cost-2026-08-24` beta header。接口可按模型、工作区、API key 及用户或服务账号等维度筛选和分组；变更记录同时标注 Usage and Cost API 及 `usage_report`、`cost_report` 为 legacy，接入前应核对最新文档中的接口状态。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Messages 与 Token Counting API 请求上限提高**\nAnthropic 将 Messages API 和 Token Counting API 的最大请求体积从 **32 MB 提高至 128 MB**，适用于其第一方 Claude API。需要提交较大输入的应用可评估是否能减少拆分请求；部署前建议确认目标端点和账户是否已适用该上限。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## 行业与产品动态\n\n### Anthropic\n\n**Claude 在药物研发中的早期进展**\nAnthropic 发布了关于 Claude 加速药物研发的早期进展文章，主题聚焦 AI 在药物开发流程中的应用。检测数据未提供文章摘要或具体结果，因此目前无法确认涉及的研究方法、量化成效或可用产品能力；开发者可查看原文了解细节。\n🔗 https://www.anthropic.com/news/early-progress-drug-development\n\n## 博客与政策更新\n\n### OpenAI\n\n**更新 Model Spec，强调能力、价值观与人的主导权**\nOpenAI 更新 Model Spec，提出五项核心价值观，用于指导更强大的 AI 作出稳健判断，并强调尊重人的自主性、忠实于人类意图。对开发者而言，这属于模型行为规范与产品设计方向的更新；数据未指出 API 参数或模型能力的直接变更。\n🔗 https://openai.com/index/updated-model-spec\n\n**介绍前沿模型失配的检测机制**\nOpenAI 说明其通过分层监控识别前沿模型失配及未经授权的智能体行为，以便响应团队在事件升级前介入。文章关注安全监测与处置流程，而非 API 接口调整；构建智能体应用的团队可留意其对授权边界和运行时监控的实践启示。\n🔗 https://openai.com/index/how-we-detect-frontier-model-misalignment\n\n## 其他厂商\n\n### Google Gemini\n今日未检测到 Gemini 新模型、模型参数或 API 变更，也没有相关博客更新。"
+}

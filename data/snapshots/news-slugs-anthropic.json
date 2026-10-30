@@ -1,6 +1,7 @@
 {
   "slugs": [
     "ai-for-science-expands-foundations-research-institutions",
+    "early-progress-drug-development",
     "expanding-partnership-gsa",
     "s1-sec",
     "donating-agent-skills-to-the-agentic-ai-foundation",
@@ -59,6 +60,7 @@
     "pwc-expanded-partnership",
     "claude-for-small-business",
     "Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "anthropic-nec",
     "election-safeguards-update",
     "narasimhan-board",
     "introducing-anthropic-science",
@@ -81,14 +83,16 @@
     "a-postmortem-of-three-recent-issues",
     "detecting-countering-misuse-aug-2025",
     "usage-policy-update",
+    "offering-expanded-claude-access-across-all-three-branches-of-government",
     "claude-opus-4-1",
     "claude-for-financial-services",
-    "lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
     "introducing-the-anthropic-economic-futures-program",
     "reed-hastings",
+    "ai-for-science-program",
     "introducing-the-anthropic-economic-advisory-council",
     "detecting-and-countering-malicious-uses-of-claude-march-2025",
     "claude-code-best-practices",
+    "introducing-claude-for-education",
     "strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
     "anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam",
     "introducing-anthropic-transparency-hub",
@@ -98,12 +102,12 @@
     "us-elections-readiness",
     "contextual-retrieval",
     "model-safety-bug-bounty",
-    "anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
     "challenges-in-red-teaming-ai-systems",
     "reflections-on-our-responsible-scaling-policy",
     "frontier-threats-red-teaming-for-ai-safety",
-    "100k-context-windows"
+    "100k-context-windows",
+    "partnering-with-scale"
   ],
-  "updated_at": "2026-10-29T05:03:22.139Z",
-  "count": 103
+  "updated_at": "2026-10-30T05:03:30.600Z",
+  "count": 107
 }
