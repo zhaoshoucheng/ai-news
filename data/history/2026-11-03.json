@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-03",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-03T05:01:27.677Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "published_at": "2026-11-02T15:00:00.000Z",
+          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-03T05:01:41.683Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-11-02",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-02T00:00:00Z",
+          "summary": " \n \n\nLong conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with message threads , in beta with the message-threads-2026-08-12 beta header. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour after its last use. Message threads are available on the Claude API, Claude Platform on AWS , Claude Models on ",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-03T05:01:54.340Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "The latest AI news we announced in October 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+          "published_at": "2026-11-02T17:45:00.000Z",
+          "summary": "Here are Google’s latest AI updates from October 2026",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-03T05:01:57.119Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Carbon (Low) Intelligence Index: 54",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-02T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Carbon (Low) Intelligence Index: 54",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Carbon",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-02T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Carbon",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Carbon (Medium) Intelligence Index: 58",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-01T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Carbon (Medium) Intelligence Index: 58",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Carbon (Medium)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-01T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Carbon (Medium)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**日期：2026 年 11 月 3 日**\n\n## 模型发布与参数变更\n本次检测未发现 OpenAI、Anthropic 或 Google Gemini 的新模型、下架模型或已记录的模型参数变更。\n\n## API 变更\n\n**Anthropic：Messages API 新增服务端消息线程（Beta）**  \n长对话和 Agent 循环现可通过 `message-threads-2026-08-12` Beta 请求头使用消息线程；后续请求只需发送新增消息，减少请求体并降低首 token 延迟。线程在最后一次请求后 5 分钟过期，并会在最后使用后不超过 1 小时删除；开发者需在请求中启用该 Beta 功能。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## 行业与产品动态\n\n**OpenAI：启动 Grid Protectors Program**  \nOpenAI 将与公用事业公司合作，帮助未来的计算园区支持电网可靠性，并保护消费者电费成本。对规划数据中心或大规模算力基础设施的开发者而言，该计划显示 OpenAI 正将电力供应与电网影响纳入扩张布局。  \n🔗 https://openai.com/index/grid-protectors-program\n\n## 博客与评测更新\n\n**Google：汇总 2026 年 10 月 AI 更新**  \nGoogle 发布 10 月 AI 动态汇总，但本次检测提供的摘要仅说明其覆盖 Google 当月最新 AI 更新，未列出具体产品、模型或 API 项目。开发者可查看原文确认是否有影响集成或部署的更新。  \n🔗 https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/\n\n**Artificial Analysis：发布 Gemini 4 Carbon（Low）评测结果**  \nArtificial Analysis 新增 Gemini 4 Carbon（Low）的语言模型评测，Intelligence Index 为 **54**。该结果可作为外部能力对比参考，但不是 Google 发布的官方模型规格或 API 变更。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：新增 Gemini 4 Carbon 性能结果**  \nArtificial Analysis 开始提供 Gemini 4 Carbon 的性能结果；检测数据未给出具体性能指标，因此无法据此比较延迟或吞吐量。开发者可查看评测页面获取详细结果，并注意其属于第三方测试。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：发布 Gemini 4 Carbon（Medium）评测结果**  \nGemini 4 Carbon（Medium）的 Intelligence Index 为 **58**，比 Low 版本的 54 高 4 分。该分数反映第三方评测结果，不代表官方承诺的模型能力或 API 性能。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis：新增 Gemini 4 Carbon（Medium）性能结果**  \nArtificial Analysis 新增 Gemini 4 Carbon（Medium）的性能数据；本次检测未提供具体数值，无法判断其速度或资源效率表现。此信息可供后续选型参考，但应结合完整测试方法与实际工作负载验证。  \n🔗 https://artificialanalysis.ai/changelog"
+}
