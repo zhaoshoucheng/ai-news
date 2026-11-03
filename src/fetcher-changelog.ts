@@ -7,7 +7,7 @@
  * 支持的页面：
  * - OpenAI: developers.openai.com/api/docs/changelog
  * - Anthropic: platform.claude.com/docs/en/release-notes/overview
- * - Gemini: ai.google.dev/gemini-api/docs/changelog
+ * - Gemini: aistudio.google.com/docs/changelog（2026-11 从 ai.google.dev/gemini-api/docs/changelog 迁移）
  */
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
@@ -191,9 +191,55 @@ function parseAnthropicChangelog(html: string): ChangelogEntry[] {
 }
 
 // ── Gemini Changelog 解析 ─────────────────────────────────────────────
-// 结构: "June 1, 2026" 后跟列表项
+// 2026-11 起页面迁移到 aistudio.google.com/docs/changelog，正文是 <pre> 中的 Markdown：
+//   ## November 2, 2026  {% id="11-02-2026" %}
+//   *   **Gemini 2.5 Pro deprecation**: [`gemini-2.5-pro`](/docs/models/...) is ...
+// 旧页面结构: "June 1, 2026" 后跟列表项（保留为后备解析）
 
 function parseGeminiChangelog(html: string): ChangelogEntry[] {
+  const markdownEntries = parseGeminiMarkdownChangelog(htmlToText(html));
+  if (markdownEntries.length >= 3) return markdownEntries;
+  return parseGeminiLegacyChangelog(html);
+}
+
+function parseGeminiMarkdownChangelog(text: string): ChangelogEntry[] {
+  const entries: ChangelogEntry[] = [];
+  const headingPattern =
+    /^#{2,3}\s+((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4})[^\n]*$/gim;
+  const headings = [...text.matchAll(headingPattern)];
+
+  for (let i = 0; i < headings.length; i++) {
+    const date = parseDate(headings[i][1]);
+    if (!date) continue;
+    const start = headings[i].index! + headings[i][0].length;
+    const end = i + 1 < headings.length ? headings[i + 1].index! : text.length;
+    const block = cleanMarkdown(text.slice(start, end));
+    if (block.length < 20) continue;
+
+    const tags = extractAllTags(block);
+    const type = inferType(block);
+    const content = block.slice(0, 800).trim();
+    const id = generateId(date, content);
+    entries.push({ date, type, tags, content, id });
+  }
+
+  return entries;
+}
+
+/** 去掉 Markdown 标记，便于生成稳定 ID 和给 LLM 阅读 */
+function cleanMarkdown(md: string): string {
+  return md
+    .replace(/\{%[\s\S]*?%\}/g, "")              // 模板标记 {% ... %}
+    .replace(/!?\[([^\]]*)\]\([^)]*\)/g, "$1")   // [text](url) → text
+    .replace(/\*\*([^*]+)\*\*/g, "$1")           // **bold** → bold
+    .replace(/`([^`]+)`/g, "$1")                 // `code` → code
+    .replace(/^\s*[*-]\s+/gm, "\n- ")            // 列表项统一为 "- "
+    .replace(/[ \t]*\n[ \t]+(?!- )/g, " ")       // 合并折行
+    .replace(/\n{2,}/g, "\n")
+    .trim();
+}
+
+function parseGeminiLegacyChangelog(html: string): ChangelogEntry[] {
   const entries: ChangelogEntry[] = [];
   const text = htmlToText(html);
 
@@ -309,7 +355,7 @@ function fetchWithCurl(
       // 使用简单 bot UA 避免 Google OAuth 重定向循环
       // Chrome UA 会触发 Google 的登录流程，bot UA 直接返回 SSR 内容
       const html = execSync(
-        `curl -s --max-time 45 --connect-timeout 10 ` +
+        `curl -s -L --max-redirs 5 --max-time 45 --connect-timeout 10 ` +
         `-H "User-Agent: Mozilla/5.0 (compatible; AINewsBot/1.0)" ` +
         `-H "Accept: text/html,application/xhtml+xml,*/*" ` +
         `"${url}"`,
