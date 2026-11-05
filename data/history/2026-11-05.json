@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-05",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-05T05:01:35.396Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "published_at": "2026-11-04T07:00:00.000Z",
+          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing Images 2.6",
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "published_at": "2026-11-04T00:00:00.000Z",
+          "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "url": "https://openai.com/index/devrev-enterprise-self-service",
+          "published_at": "2026-11-04T00:00:00.000Z",
+          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-04 [gpt-image-2.6-sunburst, gpt-image-2.6-flare, GPT-Image-2.6, v1/images/generations, v1/images/edits]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-04T00:00:00Z",
+          "summary": "Feature \n\ngpt-image-2.6-sunburst\n\ngpt-image-2.6-flare\n\nv1/images/generations\n\nv1/images/edits\n\nReleased GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.\n\nSee the image generation guide .",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-05T05:01:45.182Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Science] Investigating vault particles with Claude",
+          "url": "https://www.anthropic.com/news/investigating-vault-particles-with-claude",
+          "published_at": "2026-11-04T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-05T05:01:51.454Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-04 [gemini-3.8-flash-tts]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-04T00:00:00Z",
+          "summary": "- Voice remixing for Gemini 3.8 TTS: Released Voice remixing, which lets you modify an existing prebuilt or designed voice using natural-language instructions to create a new, independent stored voice. Use POST /v1beta/voices with gemini-3.8-flash-tts (or remix interactively in Google AI Studio) to generate a voice_... ID, then synthesize speech with Gemini 3.8 Flash TTS or Gemini 3.8 Flash-Lite TTS. See the Voice remixing guide to get started.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-05**  \n**概览：**本批数据未检测到模型新增、移除或既有模型参数变更；重点是 OpenAI 图像生成 API 功能更新，以及 Gemini 语音 API 新增声音混音能力。\n\n## OpenAI\n\n### API 与功能更新\n\n**GPT-Image-2.6 新增模型与图像 API 功能**  \nOpenAI 发布 GPT-Image-2.6 Sunburst 和 Flare，支持可调复杂度、SVG 生成及动画 GIF 生成；`v1/images/generations` 和 `v1/images/edits` 现已支持相关能力。针对兼容的 GPT Image 2.5 和 2.6 模型，还新增基于标记的编辑功能，开发者可据此扩展图像生成与编辑流程。  \n🔗 https://developers.openai.com/api/docs/changelog\n\n**Images 2.6 带来更快生成与更精细编辑**  \nImages 2.6 在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和精细编辑，并引入新的 API 控制项。摘要未列出具体参数或接口值变化，接入时应以官方文档为准。  \n🔗 https://openai.com/index/introducing-images-2-6\n\n### 行业与产品动态\n\n**Daybreak Red 通过 Amazon Bedrock 登陆 AWS GovCloud**  \nDaybreak Red 已面向获批客户在 AWS GovCloud（US-East）提供，通过 Amazon Bedrock 访问 GPT-5.6 Cyber。该部署面向获授权的网络安全工作，使用前需确认账户和工作负载符合相关授权要求。  \n🔗 https://openai.com/index/daybreak-red-aws-govcloud\n\n**DevRev 使用 GPT-6.1 Sol 支持企业自助服务**  \nDevRev 将 GPT-6.1 Sol 用于其 Computer 和 Operator 产品，以支持自主化企业服务，并在推理能力、响应速度与成本之间取得平衡。该案例体现了模型在企业服务场景中的应用，但原文摘要未提供性能或价格对比数据。  \n🔗 https://openai.com/index/devrev-enterprise-self-service\n\n## Google Gemini\n\n### API 与功能更新\n\n**Gemini 3.8 Flash TTS 新增语音混音**  \n开发者可通过自然语言修改预置或设计好的声音，生成独立保存的新声音；接口为 `POST /v1beta/voices`，可使用 `gemini-3.8-flash-tts` 创建 `voice_...` ID。生成的声音随后可用于 Gemini 3.8 Flash TTS 或 Flash-Lite TTS 语音合成，也可在 Google AI Studio 中交互式操作。  \n🔗 https://aistudio.google.com/docs/changelog\n\n## Anthropic\n\n### 研究与行业动态\n\n**Anthropic 发布 Claude 研究 vault particles 的文章**  \nAnthropic 新闻条目介绍了利用 Claude 调查 vault particles 的研究主题；本次检测数据未提供文章摘要，因此无法确认具体方法、发现或模型能力细节。开发者可查看原文了解研究内容，当前没有可确认的 API 或模型变更信息。  \n🔗 https://www.anthropic.com/news/investigating-vault-particles-with-claude"
+}
