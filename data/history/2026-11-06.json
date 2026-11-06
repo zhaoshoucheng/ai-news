@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-06",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-06T05:04:37.588Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Australian universities are creating AI-native graduates",
+          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "published_at": "2026-11-05T17:00:00.000Z",
+          "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "published_at": "2026-11-05T09:00:00.000Z",
+          "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Merge builds product and business tools with OpenAI technology",
+          "url": "https://openai.com/index/merge-builds-with-openai",
+          "published_at": "2026-11-05T08:00:00.000Z",
+          "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "published_at": "2026-11-05T02:00:00.000Z",
+          "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Flipsnack grows product signups with conversion optimization",
+          "url": "https://openai.com/ads/customers/flipsnack",
+          "published_at": "2026-11-05T00:45:15.000Z",
+          "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-05 [gpt-6-cyber, GPT-6-Cyber]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-05T00:00:00Z",
+          "summary": "Feature \n\ngpt-6-cyber\n\nUse GPT-6-Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-06T05:04:55.891Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-11-05 [v1/organizations/users]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-05T00:00:00Z",
+          "summary": " \n\n \n \n\nYou can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up.\n\nYou can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API ref",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2026-11-02",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-02T00:00:00Z",
+          "summary": " \n\n \n\nLong conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with message threads , in beta with the message-threads-2026-08-12 beta header. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour after its last use. Message threads are available on the Claude API, Claude Platform on AWS , Claude Models on",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-06T05:05:07.456Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "published_at": "2026-11-05T17:00:00.000Z",
+          "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-05 [gemini-omni-1.2-flash, gemini-omni-1.1-flash]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-05T00:00:00Z",
+          "summary": "- Gemini Omni 1.2 Flash generally available (GA): Released Gemini Omni 1.2 Flash (gemini-omni-1.2-flash), featuring up to 15-second video generation and conversational editing (3 to 10 seconds for first and last frame interpolation, and 3 to 10 seconds per-turn video extension up to 30 seconds total length), improved character and subject consistency across up to 6 reference images, 30% lower video output pricing ($12.00 per 1M tokens), and doubled paid-tier rate limits. See the Gemini Omni Flas",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-06**\n\n## 重点摘要\n\n- **新模型 / 能力：** Google Gemini Omni 1.2 Flash 已 GA，支持最长 15 秒视频生成与编辑，视频输出价格降低 30%；OpenAI 发布面向授权安全测试的 GPT-6 Cyber。\n- **API / 安全变更：** Anthropic 新增组织 IP 白名单（Beta）及通过 Admin API 远程登出成员的能力；Messages API 的 message threads（Beta）可减少长对话重复传输。\n- **其他更新：** OpenAI 发布 AI 基础设施政策，并介绍高校教育、企业应用及 ChatGPT Ads 案例。\n\n## Google Gemini\n\n### 新模型与 API 更新\n\n**Gemini Omni 1.2 Flash 正式发布**\nGemini Omni 1.2 Flash 已正式 GA，支持最长 15 秒的视频生成与对话式编辑，单次扩展最长 10 秒，视频总长可达 30 秒；也支持首尾帧插值。相比摘要未提供 Omni 1.1 Flash 的具体能力基准，但本次明确增强主体一致性（最多 6 张参考图），视频输出价格降低 30% 至每百万 tokens **$12**，付费层级速率限制翻倍。\n🔗 https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\n**Gemini Omni 1.2 Flash API 变更记录**\nGoogle changelog 确认 `gemini-omni-1.2-flash` 已 GA，并列出最长 15 秒生成、对话式编辑、最多 6 张参考图的一致性增强等能力。开发者可将其用于视频生成及迭代编辑；视频输出价格为每百万 tokens **$12**，付费层级速率限制较此前翻倍。\n🔗 https://aistudio.google.com/docs/changelog\n\n## OpenAI\n\n### 新模型与 API 更新\n\n**GPT-6 Cyber：面向授权安全工作的网络安全模型**\nOpenAI 推出 GPT-6 Cyber，用于发现可利用漏洞、复现漏洞并协助制定修复方案；模型训练强调在授权范围内开展工作。现有数据未提供与同系列旧模型在上下文窗口、价格或能力指标上的对比，开发者接入前应查看产品说明确认适用条件。\n🔗 https://openai.com/index/introducing-gpt-6-cyber\n\n**OpenAI API 支持 GPT-6-Cyber**\nOpenAI API changelog 新增 `gpt-6-cyber`，用于调查漏洞、在授权测试环境中复现问题并验证修复。首次请求前需按说明完成 Daybreak 设置；记录未提供价格、上下文窗口或旧模型迁移参数。\n🔗 https://developers.openai.com/api/docs/changelog\n\n### 行业与产品动态\n\n**澳大利亚高校培养 AI 原生毕业生**\n澳大利亚高校正扩大 ChatGPT 使用范围，并将 AI 纳入教学与学习，目标是帮助学生为 AI 深度参与的职场做好准备。对教育领域开发者而言，这显示高校应用重点正在从单纯提供工具扩展到课程与学习流程整合。\n🔗 https://openai.com/index/australian-universities-ai-native-graduates\n\n**OpenAI 发布负责任 AI 基础设施政策**\nOpenAI 提出 National Community Compact 与 Compute Campus Policy Blueprint，聚焦保护当地资源、创造就业机会，并为 AI 基础设施建设提供指引。相关方可据此关注数据中心项目的社区影响与基础设施规划要求。\n🔗 https://openai.com/index/setting-new-standard-responsible-ai-infrastructure\n\n**Merge 使用 OpenAI 技术支持产品与业务流程**\nMerge 将 GPT-6 Astra、ChatGPT 和 Codex 用于产品代码审查与营销工作，也用于规划高管晚宴和准备销售更新。案例展示了模型在工程和日常业务流程中的组合应用，但未披露量化效率或成本数据。\n🔗 https://openai.com/index/merge-builds-with-openai\n\n**Flipsnack 通过 ChatGPT Ads 优化注册转化**\nFlipsnack 将 ChatGPT Ads 活动重点放在促使用户试用产品，并报告注册量增长、单次注册成本下降。文章未给出具体增长幅度或成本数据；对广告开发者而言，案例强调以注册转化而非曝光作为投放优化目标。\n🔗 https://openai.com/ads/customers/flipsnack\n\n## Anthropic\n\n### API 与管理功能\n\n**Claude Console 新增组织 IP 白名单（Beta）**\n组织管理员可在 Claude Console 配置 IP 白名单，支持 IPv4、IPv6 地址及 CIDR 范围，每个组织最多配置 **1,000** 条；来自未列入名单地址的受覆盖服务请求将被拒绝。该功能可限制泄露的 API 密钥从非授权网络使用，启用前需确认具体服务覆盖范围。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Admin API 支持远程登出 Claude Enterprise 成员**\nAnthropic 新增通过 Admin API 将 Claude Enterprise（claude.ai）组织成员从所有会话中登出的能力。管理员可将其用于集中处理账号访问撤销；变更记录提及相关接口，但本次数据未包含端点名称或请求参数。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Messages API 新增 message threads（Beta）**\nAnthropic 的 message threads 可将对话保存在服务端，后续请求只需提交新增消息，从而减少长对话和 Agent 循环中的重复传输，并降低首 token 等待时间。需使用 `message-threads-2026-08-12` Beta header；线程在最后一次请求后 5 分钟过期，并在最后使用后不超过 1 小时删除。\n🔗 https://platform.claude.com/docs/en/release-notes/overview"
+}
