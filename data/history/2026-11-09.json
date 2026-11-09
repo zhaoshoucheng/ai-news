@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-09",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-09T05:04:24.318Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-09T05:04:57.013Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Science] Teaching AI to build scientific models",
+          "url": "https://www.anthropic.com/news/teaching-ai-to-build-scientific-models",
+          "published_at": "2026-11-06T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-09T05:05:19.681Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Deprecation] Google Gemini Changelog 2026-11-06 [gemini-embedding-2-preview, gemini-embedding-2]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-06T00:00:00Z",
+          "summary": "- Gemini Embedding 2 Preview deprecation: gemini-embedding-2-preview is deprecated. Effective November 6, 2026, API requests to gemini-embedding-2-preview route to gemini-embedding-2 at Gemini Embedding 2 rates. Update your model string to gemini-embedding-2. gemini-embedding-2 uses the same API schema, pricing, and embedding space, so no other code changes or vector re-indexing are needed.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n\n**检测日期：2026-11-09**\n\n## API 变更与弃用\n\n### Google Gemini\n\n**`gemini-embedding-2-preview` 弃用并转向正式版**\n自 2026 年 11 月 6 日起，针对 `gemini-embedding-2-preview` 的 API 请求将自动路由至 `gemini-embedding-2`，并按后者费率计费。两者使用相同的 API schema、价格和 embedding 空间；开发者应更新模型名称，无需修改其他代码或重新建立向量索引。  \n🔗 https://aistudio.google.com/docs/changelog\n\n## 行业新闻与博客更新\n\n### Anthropic\n\n**Teaching AI to build scientific models**\nAnthropic 发布了关于“教 AI 构建科学模型”的文章，主题聚焦 AI 与科学建模。检测数据未提供正文摘要，因此无法确认具体方法、实验结果或对开发者的直接影响。  \n🔗 https://www.anthropic.com/news/teaching-ai-to-build-scientific-models\n\n## 其他厂商\n\n### OpenAI\n\n**未检测到模型或 API 变更**\n本次检测未发现新模型、下线模型、模型参数变化或 RSS 更新。开发者暂无需要据此调整的 OpenAI API 配置。"
+}

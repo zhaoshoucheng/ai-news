@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "teaching-ai-to-build-scientific-models",
     "investigating-vault-particles-with-claude",
     "ai-for-science-expands-foundations-research-institutions",
     "early-progress-drug-development",
@@ -114,6 +115,6 @@
     "100k-context-windows",
     "partnering-with-scale"
   ],
-  "updated_at": "2026-11-06T05:04:55.890Z",
-  "count": 113
+  "updated_at": "2026-11-09T05:04:57.012Z",
+  "count": 114
 }
