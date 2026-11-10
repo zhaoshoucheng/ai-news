@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "claude-fable-and-mythos-5-2",
     "teaching-ai-to-build-scientific-models",
     "investigating-vault-particles-with-claude",
     "ai-for-science-expands-foundations-research-institutions",
@@ -13,11 +14,11 @@
     "christopher-stubbs-joins-long-term-benefit-trust",
     "attack-surface-reduction",
     "public-benefit-fund",
+    "ecdsa-curve-origins",
+    "designing-efficient-quantum-circuits",
     "ai-expectations-gap",
     "employment-at-anthropic",
     "expectations-for-the-future",
-    "designing-efficient-quantum-circuits",
-    "ecdsa-curve-origins",
     "an-update-on-independent-evaluators",
     "2026-us-midterms",
     "singapore-office-opening",
@@ -26,7 +27,6 @@
     "anthropic-cyber-mission",
     "2026-usage-policy-update",
     "genesis-mission-commitment",
-    "the-missing-map-of-the-sky",
     "claude-haiku-5-5",
     "cyber-verification-program",
     "claude-frontier-academy",
@@ -39,6 +39,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program",
     "claude-mythos-and-fable-5-1",
+    "formalizing-fermats-last-theorem",
     "improving-alignment-security-efforts",
     "model-hardware-standard-research-preview",
     "expanding-support-for-scientists",
@@ -103,7 +104,6 @@
     "introducing-anthropic-transparency-hub",
     "visible-extended-thinking",
     "mou-uk-government",
-    "lyft-announcement",
     "3-5-models-and-computer-use",
     "us-elections-readiness",
     "contextual-retrieval",
@@ -115,6 +115,6 @@
     "100k-context-windows",
     "partnering-with-scale"
   ],
-  "updated_at": "2026-11-09T05:04:57.012Z",
+  "updated_at": "2026-11-10T05:04:59.203Z",
   "count": 114
 }

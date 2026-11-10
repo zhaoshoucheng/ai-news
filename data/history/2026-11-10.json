@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-10",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-10T05:04:40.403Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "published_at": "2026-11-09T19:00:00.000Z",
+          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "url": "https://openai.com/index/control-room",
+          "published_at": "2026-11-09T13:00:00.000Z",
+          "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "published_at": "2026-11-09T08:00:00.000Z",
+          "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "url": "https://openai.com/index/kuken",
+          "published_at": "2026-11-09T08:00:00.000Z",
+          "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-10T05:04:59.203Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-09 [claude-fable-5-2, claude-mythos-5-2]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": " \n\n \n\nWe’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program . Both models have a 1M token context window , 128k max output tokens, and always-on adaptive thinking . They cost $8 USD per MTok of input and $40 USD per MTok of output (Claude Fable 5.1 and Cla",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[announcements] Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-10T05:05:11.290Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-10T05:05:16.027Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Meta&#x27;s Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta&#x27;s newest model Muse Ember sc",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "🔔 New article published Meta&#x27;s Muse Ember is the cheapest model scoring 36 on the Intelligence Index Meta&#x27;s newest model Muse Ember scores 36 on the Artificial Analysis Intelligence Index, matching Claude Haiku 5.5 (max) at a third of the Cost per Task",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Fable 5.2 (Max, Default Fallback) Intelligence Index: 65",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Fable 5.2 (Low, Default Fallback) Intelligence Index: 54",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Fable 5.2 (Medium, Default Fallback) Intelligence Index: 56",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Fable 5.2 (High, Default Fallback) Intelligence Index: 62",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Claude Fable 5.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "New language model evaluation results available Claude Fable 5.2 (Xhigh, Default Fallback) Intelligence Index: 62",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fal",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-09T00:00:00Z",
+          "summary": "Anthropic performance results now available Claude Fable 5.2 (Xhigh, Default Fallback) Claude Fable 5.2 (Medium, Default Fallback) Claude Fable 5.2 (Low, Default Fallback) Claude Fable 5.2 (High, Default Fallback) Claude Fable 5.2 (Max, Default Fallback)",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**日期：2026 年 11 月 10 日**\n\n## 一、新模型发布\n\n### Anthropic\n\n**Claude Fable 5.2 与 Claude Mythos 5.2 发布**\nAnthropic 推出面向复杂推理和长周期智能体任务的 Claude Fable 5.2；Claude Mythos 5.2 能力相同，但仅向通过验证计划（如 Cyber Verification Program）的组织开放。两者均提供 **100 万 token 上下文、最高 128k 输出 token**及持续自适应思考，输入/输出价格分别为 **每百万 token 8 美元 / 40 美元**；数据未完整提供与 5.1 版的价格对比。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Anthropic 发布公告：Claude Fable 5.2 与 Claude Mythos 5.2**\n公告确认两款模型面向高难度推理和长程智能体工作，Mythos 5.2 采用受限访问方式。对开发者而言，Fable 5.2 可重点评估其百万 token 上下文和 128k 输出上限；使用 Mythos 5.2 则需满足 Anthropic 的组织验证要求。\n🔗 https://www.anthropic.com/claude-fable-and-mythos-5-2\n\n## 二、第三方评测与行业动态\n\n### Artificial Analysis\n\n**Meta Muse Ember：智能指数 36，任务成本较低**\nArtificial Analysis 称，Meta 最新模型 Muse Ember 的 Intelligence Index 得分为 **36**，与 Claude Haiku 5.5（max）持平。其每项任务成本约为后者的三分之一，适合开发者在成本敏感型工作负载中纳入评估。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2（Max）：智能指数 65**\nArtificial Analysis 发布 Fable 5.2 的 Max 模式评测，Intelligence Index 得分为 **65**。该结果提供了模型高强度推理配置的第三方参考，可与其他思考档位的分数一并用于选型。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2（Low）：智能指数 54**\nLow 模式的 Intelligence Index 为 **54**，是本批已公布配置中得分最低的一档。开发者可将其作为较低思考强度下的能力基线，但数据未提供相应延迟或成本指标。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2（Medium）：智能指数 56**\nMedium 模式得分为 **56**，高于 Low 模式 2 分。该结果可用于评估中等思考强度下的能力表现，但单凭指数无法判断其在具体应用中的速度或费用优势。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2（High）：智能指数 62**\nHigh 模式的 Intelligence Index 为 **62**，较 Medium 模式高 6 分。开发者可据此将 High 作为高要求任务的候选配置，并结合自身任务测试成本与效果。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2（Xhigh）：智能指数 62**\nXhigh 模式得分同为 **62**，与 High 模式持平。现有数据未显示提升思考档位后指数继续上升，建议开发者用实际工作负载验证 Xhigh 是否带来其他收益。\n🔗 https://artificialanalysis.ai/changelog\n\n**Claude Fable 5.2 多档位性能结果上线**\nArtificial Analysis 汇总发布了 Fable 5.2 的 Low、Medium、High、Xhigh 和 Max 五种配置评测，分数分别为 **54、56、62、62、65**。结果显示分数随配置提高总体上升，但 High 与 Xhigh 持平，可作为配置选择的参考。\n🔗 https://artificialanalysis.ai/changelog\n\n## 三、OpenAI 博客与行业动态\n\n### OpenAI\n\n**ChatGPT Enterprise 入驻 AWS Marketplace**\nChatGPT Enterprise 现可通过 AWS Marketplace 采购，企业可沿用现有 AWS 采购与账单关系完成购买。对开发者及企业采购团队而言，这简化了采购流程，但公告未提及 API 或模型参数变更。\n🔗 https://openai.com/index/chatgpt-enterprise-aws-marketplace\n\n**Control Room：集中追踪并停止研究模型工作负载**\nOpenAI 介绍了用于追踪其研究基础设施中模型工作负载的 Control Room，并称在出现安全或安保问题时可快速停止相关工作负载。该内容聚焦内部治理与应急控制机制，未公布面向外部 API 的新接口或参数。\n🔗 https://openai.com/index/control-room\n\n**CodeRabbit 借助 Codex 提升软件交付量**\nOpenAI 分享 CodeRabbit 使用其模型管理和审查 AI 生成代码，并借助 Codex 提升软件交付效率的案例；同一工程团队的交付量据称达到原来的 **20 倍**。该案例体现了模型在软件开发流程中的应用，但未提供可直接复现的 API 配置细节。\n🔗 https://openai.com/index/coderabbit-codex-daybreak\n\n**Kuken Industries 将数十年工程图纸检索缩短至数分钟**\nKuken Industries 使用 OpenAI API 搜索 70 年的冷却塔图纸，工程师查找维修所需图纸的时间从近一小时缩短至 **4.5 分钟**。案例展示了 API 在历史工程资料检索中的应用价值，未披露具体模型、架构或费用。\n🔗 https://openai.com/index/kuken\n\n## 四、Google Gemini\n\n本次未检测到 Gemini 新模型、参数或 API 变更，也无新增动态。\n"
+}
