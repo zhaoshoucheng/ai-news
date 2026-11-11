@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-11",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-11T05:02:38.691Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Helping caregivers use AI in everyday life",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "published_at": "2026-11-10T12:00:00.000Z",
+          "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "published_at": "2026-11-10T10:00:00.000Z",
+          "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Work at the Frontier: AI’s effect on freelance work",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "published_at": "2026-11-10T07:00:00.000Z",
+          "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-11T05:02:48.949Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Anthropic Changelog 2026-11-05 [v1/compliance/organizations]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-05T00:00:00Z",
+          "summary": " \n\n \n\nThe Compliance API now includes Security posture data, in beta for Claude Enterprise organizations. The Activity Feed records changes to attestations on the Security posture page in claude.ai Organization settings . The GET /v1/compliance/organizations/{organization_id}/security_posture endpoint returns an organization’s current Security posture results. See Security posture in the Compliance API .\n\nYou can now set up an IP allowlist for your organization in the Claude Console, in beta. R",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[announcements] Anthropic launches roadshow for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "published_at": "2026-11-10T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-11T05:02:55.217Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Gemini Intelligence: New features, on more devices",
+          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "published_at": "2026-11-10T19:00:00.000Z",
+          "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+          "published_at": "2026-11-10T14:00:00.000Z",
+          "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "Google Cloud launches Gemini for healthcare.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "published_at": "2026-11-10T13:00:00.000Z",
+          "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-10 [gemini-4-carbon]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-10T00:00:00Z",
+          "summary": "- Gemini 4 Carbon (gemini-4-carbon) generally available (GA): Released Gemini 4 Carbon (gemini-4-carbon), our most capable reasoning model built for sustained agentic coding, multimodal knowledge work, scientific reasoning, and cybersecurity defense, available at introductory pricing of $2.00 per 1M input tokens and $10.00 per 1M output tokens through November 30, 2026. See What's new in Gemini 4 Carbon to get started.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-11T05:02:57.206Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We’ve partnere",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-10T00:00:00Z",
+          "summary": "🔔 New article published Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files We’ve partnered with Google DeepMind to launch their Multimodal Knowledge Agent (MKA) evaluation, a new benchmark for agentic knowledge work over complex visual files",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-11**\n\n## 新模型与 API 变更\n\n### Google Gemini\n\n**Gemini 4 Carbon 正式 GA**\nGemini 4 Carbon（`gemini-4-carbon`）现已正式可用，定位于持续代理式编程、多模态知识工作、科学推理与网络安全防御。入门价为输入 **$2/百万 token**、输出 **$10/百万 token**，该价格截至 **2026 年 11 月 30 日**；数据未提供与同系列旧模型的价格或上下文窗口对比。\n🔗 https://aistudio.google.com/docs/changelog\n\n### Anthropic\n\n**Compliance API 增加 Security posture 数据**\nClaude Enterprise 组织现可通过 beta 版 Compliance API 查询安全态势；新增 `GET /v1/compliance/organizations/{organization_id}/security_posture` 接口，返回组织当前的 Security posture 结果。相关变更也会记录在 Activity Feed 中，便于合规团队追踪安全态势证明信息的更新。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Claude Console 支持 IP allowlist（Beta）**\nAnthropic 开始在 Claude Console 提供组织级 IP allowlist 配置，并标注为 beta。公告摘要未提供具体配置细节；需要限制组织访问来源的开发者和管理员可关注该功能的后续说明。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## 产品与行业动态\n\n### Google Gemini\n\n**Gemini Intelligence 扩展至更多设备**\nGoogle 宣布将 Gemini Intelligence 推广到更多设备，并扩展这些设备上的功能。对开发者而言，这是面向终端用户的产品覆盖与能力更新；摘要未列出具体设备型号或 API 变更。\n🔗 https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\n\n**Google 与 Adobe 加深工具集成**\nGoogle 和 Adobe 宣布将创意与生产力工具融入 Google 应用场景，包括在 Drive 中编辑 PDF，以及在 Gemini 中使用 Adobe AI。摘要未说明 API 或开发者接口调整，主要是面向用户的跨产品集成更新。\n🔗 https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\n\n**Google Cloud 推出 Gemini for Healthcare**\nGoogle Cloud 推出面向医疗场景的 Gemini 服务，重点是整合临床数据、自动化工作流程并减少行政负担。公告摘要未提供可用模型、接入方式或 API 参数，医疗开发者仍需参考产品文档确认具体集成选项。\n🔗 https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\n\n### OpenAI\n\n**ChatGPT 推出 Businesses 功能**\nOpenAI 宣布在 ChatGPT 中提供 Businesses 功能，帮助商家管理业务信息、查看业务在 ChatGPT 中的呈现情况，并将用户兴趣转化为行动。摘要未提及 API 或数据接入方式的变化，相关开发者应留意后续产品文档。\n🔗 https://openai.com/index/introducing-businesses-chatgpt\n\n**研究：AI 正在改变自由职业工作需求**\nOpenAI 与 Upwork 的研究发现，自由职业市场的需求正在变化，AI 相关项目呈现技能组合更新、预算增加和工时增加的趋势。对提供 AI 服务或构建相关工具的开发者而言，这反映出客户对 AI 项目投入的变化。\n🔗 https://openai.com/index/ai-effect-on-freelance-work\n\n**OpenAI Academy 为照护者提供 AI 实践课程**\nOpenAI Academy 将在美国五座城市为照护者开设免费的 ChatGPT 实操工作坊，帮助参与者掌握日常生活中的 AI 技能。此项计划属于用户教育与培训项目，未涉及模型或 API 变更。\n🔗 https://openai.com/index/helping-caregivers-use-ai-in-everyday-life\n\n### Anthropic\n\n**Anthropic 启动拟议 IPO 路演**\nAnthropic 发布了启动拟议首次公开募股（IPO）路演的公告。现有摘要未提供发行规模、时间安排或对开发者服务的影响，因此目前暂无可据此采取的 API 适配动作。\n🔗 https://www.anthropic.com/news/roadshow-launch\n\n### 第三方评测\n\n**推出 Multimodal Knowledge Agent（MKA）基准**\nArtificial Analysis 与 Google DeepMind 合作发布 MKA 评测，用于测试模型基于复杂视觉文件完成代理式知识工作的能力。该基准可帮助开发者评估多模态知识任务表现；摘要未提供具体测试结果或模型排名。\n🔗 https://artificialanalysis.ai/changelog\n\n## 变更概览\n\n- **模型发布：** Gemini 4 Carbon 正式 GA，并提供截至 2026 年 11 月 30 日的入门定价。\n- **API / 管理功能：** Anthropic Compliance API 增加 Security posture 查询接口；Claude Console 开始提供 IP allowlist beta。\n- **其他厂商：** 本次检测数据未列出 OpenAI 新模型或模型参数变更，也未列出 Anthropic、Google 的模型移除或既有模型参数调整。"
+}

@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "roadshow-launch",
     "claude-fable-and-mythos-5-2",
     "teaching-ai-to-build-scientific-models",
     "investigating-vault-particles-with-claude",
@@ -37,26 +38,21 @@
     "claude-opus-5-5",
     "ebola-response",
     "accenture-embedded-evaluation",
-    "life-sciences-verification-program",
     "claude-mythos-and-fable-5-1",
     "formalizing-fermats-last-theorem",
     "improving-alignment-security-efforts",
     "model-hardware-standard-research-preview",
-    "expanding-support-for-scientists",
-    "improving-fable-5-s-biology-safeguards",
     "investigating-incidents-cybersecurity-evals",
     "cognizant-anthropic",
     "economic-futures-research-fund-agenda",
     "rare-disease-research-grants",
     "claude-for-teachers",
     "ben-bernanke",
-    "off-switch-dual-use",
     "claude-science-ai-workbench",
     "project-fetch-phase-two",
     "tcs-anthropic-partnership",
     "claude-corps",
     "dxc-anthropic-alliance",
-    "claude-fable-5-mythos-5",
     "services-track-partner-hub",
     "expanding-project-glasswing",
     "confidential-draft-s1-sec",
@@ -115,6 +111,6 @@
     "100k-context-windows",
     "partnering-with-scale"
   ],
-  "updated_at": "2026-11-10T05:04:59.203Z",
-  "count": 114
+  "updated_at": "2026-11-11T05:02:48.948Z",
+  "count": 110
 }
