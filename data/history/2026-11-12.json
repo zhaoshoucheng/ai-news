@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-12",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-12T05:03:27.277Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "published_at": "2026-11-11T08:00:00.000Z",
+          "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "published_at": "2026-11-11T00:00:00.000Z",
+          "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "url": "https://openai.com/index/singapore-airlines-travel-work",
+          "published_at": "2026-11-10T08:00:00.000Z",
+          "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+          "url": "https://openai.com/index/cogent-security",
+          "published_at": "2026-11-10T00:00:00.000Z",
+          "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-12T05:03:41.508Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-12T05:03:50.677Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "published_at": "2026-11-11T18:00:00.000Z",
+          "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-11 [gemini-decision-1]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-11T00:00:00Z",
+          "summary": "- Gemini Decision and the Decisions API: Released Gemini Decision (gemini-decision-1) and the Decisions API for fast, calibrated binary, categorical, and rubric decisions across text, images, audio, video, and PDFs with zero output tokens. View pricing and rate limits, or see the Decisions API guide to get started.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**日期：2026-11-12**\n\n## Google Gemini\n\n### API 与模型发布\n\n**Gemini Decisions API 与 Gemini Decision（`gemini-decision-1`）发布**  \nGoogle 推出面向快速、校准式多模态判断的模型与 API，支持二元、类别及评分规准（rubric）决策，输入涵盖文本、图片、音频、视频和 PDF，并可零输出 token 完成决策。此次检测数据未提供与同系列旧模型在上下文窗口、价格或能力上的对比；开发者可查阅官方定价、速率限制与接入指南，评估其在分类和评估任务中的适用性。  \n🔗 https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\n\n**Google AI Studio 更新：Gemini Decision 与 Decisions API**  \n11 月 11 日的更新确认发布 `gemini-decision-1` 及 Decisions API，支持对多种输入模态执行二元、类别和 rubric 判断，且无需生成输出 token。开发者可通过变更日志中的指南开始接入，并核对该 API 的价格与速率限制；本次数据未列出具体数值。  \n🔗 https://aistudio.google.com/docs/changelog\n\n## OpenAI\n\n### 产品与行业动态\n\n**ChatGPT Plus 向退伍军人与服役人员提供免费一年**  \nOpenAI 表示，已有超过 20,000 名退伍军人及转业服役人员领取一年免费 ChatGPT Plus。文章聚焦他们如何使用 ChatGPT 准备进入民用职场；这属于产品权益与应用案例更新，不涉及模型或 API 参数变更。  \n🔗 https://openai.com/index/chatgpt-plus-for-veterans\n\n**JioStar 分享面向 5 亿用户规模的 AI 落地经验**  \nJioStar 首席架构师 Vijay Seshadri 介绍了在 5 亿用户规模下推进 AI 应用的经验，重点包括评测（evals）、防护机制（guardrails）及生产环境部署。对开发者而言，案例强调大规模上线时需将评测和安全控制纳入系统设计；数据未披露具体模型或 API 参数变化。  \n🔗 https://openai.com/index/jiostar-vijay-seshadri\n\n**新加坡航空使用 OpenAI 技术提升旅行与工作体验**  \n新加坡航空将 OpenAI 模型与 API 用于客户支持、旅行发现和员工生产力场景；其 Kris 聊天机器人的客户满意度（CSAT）据称提升至原来的两倍。该案例展示了面向客户服务的实际部署效果，但未提供所用模型、接口配置或性能基准细节。  \n🔗 https://openai.com/index/singapore-airlines-travel-work\n\n**Cogent 与 OpenAI 推进企业网络安全自动化**  \nCogent 将 OpenAI 模型与企业上下文结合，借助智能体自动识别并修复漏洞，目标是为企业构建自动化网络防御能力。对开发者而言，该案例体现了模型与企业数据、代理工作流结合的安全运营方向；文章摘要未说明具体模型及 API 变更。  \n🔗 https://openai.com/index/cogent-security\n\n## Anthropic\n\n**本次未检测到变更**  \n未发现新模型、模型下线、参数调整或 API 更新，也没有新增博客动态。  \n（本次数据未提供相关链接。）\n\n## 变更概览\n\n- **模型与 API：** Google 发布 Gemini Decision（`gemini-decision-1`）及 Decisions API；支持多模态决策，具体价格与速率限制需查官方资料。\n- **参数变更：** 本次未检测到模型参数调整。\n- **OpenAI：** 无模型或 API 变更，新增四条产品与行业应用动态。\n- **Anthropic：** 无检测到的更新。"
+}
