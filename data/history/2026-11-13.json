@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-13",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-13T05:04:46.820Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "published_at": "2026-11-12T20:00:00.000Z",
+          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "published_at": "2026-11-12T12:00:00.000Z",
+          "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "published_at": "2026-11-12T09:30:00.000Z",
+          "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-13T05:05:08.094Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-12",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": " \n \n \n\nWe’ve launched self-hosted Claude Managed Agents . You run the whole Managed Agents service, not only self-hosted sandboxes , on your own infrastructure, and you store agents, sessions, and session history there. The server sends model requests to the provider that you choose, which is Anthropic by default. To request access, contact your Anthropic accou",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-13T05:05:13.974Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "published_at": "2026-11-12T18:00:00.000Z",
+          "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-12 [gemini-4-hydrogen]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "- Gemini 4 Hydrogen (gemini-4-hydrogen) generally available (GA): Released Gemini 4 Hydrogen (gemini-4-hydrogen), bringing cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic workflows. Available on the free tier and at paid-tier pricing of $1.50 per 1M input tokens and $7.50 per 1M output tokens, gemini-4-hydrogen introduces a fourth xhigh thinking level alongside low, medium, and default high, and is now the default model for the Antigravity agent i",
+          "source": "Google Gemini Changelog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-11 [gemini-decision-1]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-11T00:00:00Z",
+          "summary": "- Gemini Decision 1 and the Decisions API: Released Gemini Decision 1 (gemini-decision-1) and the Decisions API for fast, calibrated binary, categorical, and rubric decisions across text, images, audio, video, and PDFs with zero output tokens. View pricing and rate limits, or see the Decisions API guide to get started.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-13T05:05:16.191Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Hydrogen (Low) Intelligence Index: 27",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Hydrogen (Low) Intelligence Index: 27",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Hydrogen (Medium) Intelligence Index: 41",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Hydrogen (Medium) Intelligence Index: 41",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Hydrogen (High) Intelligence Index: 51",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Hydrogen (High) Intelligence Index: 51",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Hydrogen (Xhigh) Intelligence Index: 54",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrog",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Hydrogen (Low) Gemini 4 Hydrogen (Medium) Gemini 4 Hydrogen (High) Gemini 4 Hydrogen (",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-13**\n\n> **重点摘要：**今日未检测到模型下架或既有模型参数变更。Google Gemini 发布 Gemini 4 Hydrogen 并公布价格与新增思考等级；同时推出 Decisions API。Anthropic 上线自托管 Claude Managed Agents。\n\n## 新模型与 API\n\n### Google Gemini\n\n**Gemini 4 Hydrogen（`gemini-4-hydrogen`）正式发布（GA）**  \n该模型现已开放使用，支持免费层；付费价格为每百万输入 token **$1.50**、每百万输出 token **$7.50**。新增 `xhigh` 思考等级，与 low、medium、high 并列，并成为 Antigravity Agent 的默认模型；本次数据未提供与上一代模型的上下文窗口或能力对比。  \n🔗 https://aistudio.google.com/docs/changelog\n\n**Google Search 全球引入 Gemini 4 Hydrogen**  \nGoogle 宣布将 Gemini 4 Hydrogen 推向全球 Search，目标是提供更有帮助、更直观且更具视觉表现的搜索回答。这是面向终端产品的部署动态；对 API 开发者而言，公告未说明额外的 API 参数或接口变更。  \n🔗 https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/\n\n**发布 Gemini Decision 1 与 Decisions API**  \nGoogle 推出模型 `gemini-decision-1` 及 Decisions API，用于文本、图片、音频、视频和 PDF 的二元、分类及量表式判断，并以 **零输出 token** 为特点。开发者可将其用于结构化判定任务；价格与速率限制需查看官方文档。  \n🔗 https://aistudio.google.com/docs/changelog\n\n### Anthropic\n\n**推出自托管 Claude Managed Agents**  \n该功能允许客户在自有基础设施上运行完整的 Managed Agents 服务，而不仅是自托管沙箱；agents、sessions 和会话历史也由客户本地保存。模型请求仍发送至所选模型提供方，默认是 Anthropic，目前需联系客户经理申请使用。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## 第三方评测\n\n### Artificial Analysis\n\n**Gemini 4 Hydrogen（Low）：Intelligence Index 27**  \nArtificial Analysis 公布了该模型 low 思考等级的 Intelligence Index，得分为 **27**。这为开发者评估低思考配置提供了第三方参考，但该条数据未包含测试细节或与其他模型的对照结果。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Hydrogen（Medium）：Intelligence Index 41**  \nMedium 思考等级的 Intelligence Index 为 **41**，高于同批公布的 low 等级。该结果可帮助开发者权衡推理配置，但单凭分数无法判断延迟、成本或特定任务表现。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Hydrogen（High）：Intelligence Index 51**  \nHigh 思考等级的 Intelligence Index 为 **51**，较 medium 配置进一步提升。开发者可将其作为不同思考等级能力差异的参考；数据未提供对应的速度或价格评估。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Hydrogen（Xhigh）：Intelligence Index 54**  \nXhigh 思考等级得分为 **54**，是本次公布的四档配置中最高分。该结果显示更高思考等级在该评测中的优势，但是否值得采用仍需结合任务质量、延迟与成本验证。  \n🔗 https://artificialanalysis.ai/changelog\n\n**新增 Gemini 4 Hydrogen 性能评测结果**  \nArtificial Analysis 表示已提供 Gemini 4 Hydrogen Low、Medium、High 和 Xhigh 的 Google 性能结果。公告摘要未列出具体性能数值，开发者可通过评测页面查看详情，并结合自身工作负载进行比较。  \n🔗 https://artificialanalysis.ai/changelog\n\n## OpenAI 博客与客户案例\n\n### OpenAI\n\n**Amplitude 借助 OpenAI 在 1–2 天内交付产品改进**  \nAmplitude 的主动式产品 Agent Wave 基于 OpenAI 模型，可识别值得开发的产品方向、协助团队借助编码 Agent 交付变更，并衡量改进效果。案例展示了模型在产品发现、开发执行和效果评估流程中的组合应用。  \n🔗 https://openai.com/business/customer-stories/amplitude\n\n**Gondola 借助 Codex 扩大产出并实现营收翻倍**  \n创意行业平台 Gondola 表示，Codex 使其首席工程师的产出提升 **50%**，ChatGPT 则简化了日常工作；公司同期实现营收翻倍。案例体现编码 Agent 对小团队开发效率的影响，但未提供生产率提升的衡量口径。  \n🔗 https://openai.com/business/customer-stories/gondola\n\n**Holiday Extras 探索 Codex 支持的产品开发**  \nHoliday Extras 正利用 Codex 将客户服务经验转化为应用改进，并将提升预订转化率和拓展业务增长机会作为目标。案例强调编码工具与业务流程结合的潜力，但摘要未披露具体转化率或效率数据。  \n🔗 https://openai.com/business/customer-stories/holidays-extras-codex"
+}
