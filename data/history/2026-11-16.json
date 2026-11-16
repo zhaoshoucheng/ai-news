@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-16",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-16T05:04:14.218Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "published_at": "2026-11-15T22:00:01.000Z",
+          "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "published_at": "2026-11-13T15:00:00.000Z",
+          "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-16T05:04:28.977Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-12",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-12T00:00:00Z",
+          "summary": "We’ve launched self-hosted Claude Managed Agents . You run the whole Managed Agents service, not only self-hosted sandboxes , on your own infrastructure, and you store agents, sessions, and session history there. The server sends model requests to the provider that you choose, which is Anthropic by default. To request access, contact your Anthropic accou",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-16T05:04:37.434Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-16T05:04:40.396Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Argon (Medium) Intelligence Index: 48",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-13T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Argon (Medium) Intelligence Index: 48",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-13T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Argon (Medium) Gemini 4 Argon (M",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026 年 11 月 16 日**\n\n## 模型与 API 变更\n\n本次未检测到 OpenAI、Anthropic 或 Google Gemini 的新模型、模型下线、参数调整或 API 变更。Anthropic 发布一项托管服务部署方式更新，详情见下方。\n\n## Anthropic\n\n**推出自托管 Claude Managed Agents**  \nAnthropic 开放将完整的 Managed Agents 服务部署在用户自有基础设施上的选项，不再仅支持自托管沙箱；代理、会话及历史记录也由用户侧存储。服务端仍会向所选模型提供商发送请求，默认使用 Anthropic；申请访问需联系 Anthropic 客户团队。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## OpenAI\n\n**GPT-6 Astra 助力探索标准模型的格点定义**  \nOpenAI 介绍了一种候选的、非微扰格点标准模型定义，并称 GPT-6 Astra 帮助将这一思路发展为详细证明。内容聚焦模型辅助理论物理研究，并非 API 或模型规格更新；文章未提供可供开发者适配的参数变化。  \n🔗 https://openai.com/index/step-toward-defining-the-standard-model\n\n**推出 ChatGPT Wallet**  \nChatGPT Wallet 面向 ChatGPT Work、Codex 和 dots 中的代理，支持在用户批准后完成购买，并沿用现有银行卡保护机制。对开发者而言，这是代理支付能力的产品进展；公告未说明 API 接口、支持范围或开发者接入方式。  \n🔗 https://openai.com/index/introducing-chatgpt-wallet\n\n## Google Gemini 与第三方评测\n\n**Google Gemini：本次未检测到官方更新**  \n本次数据中 Google Gemini 没有新模型、模型移除、参数调整或 RSS 更新。以下两条为第三方 Artificial Analysis 对 Gemini 4 Argon（Medium）的评测信息，不代表 Google 官方发布或 API 变更。\n\n**Artificial Analysis 发布 Gemini 4 Argon（Medium）智能指数**  \nArtificial Analysis 公布该模型的 Intelligence Index 为 **48**，提供了一项第三方能力评测参考。数据本身不代表模型上线或官方规格变化，开发者不应据此推断 API 已开放或参数已更新。  \n🔗 https://artificialanalysis.ai/changelog\n\n**Artificial Analysis 更新 Gemini 4 Argon 性能结果**  \nArtificial Analysis 称已提供 Gemini 4 Argon（Medium）的 Google 性能结果，但检测数据未给出具体性能指标或测试细节。开发者可将其作为后续评估线索；在取得完整结果前，不宜据此判断延迟、吞吐或成本变化。  \n🔗 https://artificialanalysis.ai/changelog"
+}
