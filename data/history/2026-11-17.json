@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-17",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-17T05:05:18.424Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "published_at": "2026-11-16T17:00:00.000Z",
+          "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "published_at": "2026-11-16T12:00:00.000Z",
+          "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "published_at": "2026-11-16T09:00:00.000Z",
+          "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Our first phase of embedded assessments",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "published_at": "2026-11-16T08:00:00.000Z",
+          "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "published_at": "2026-11-16T06:00:00.000Z",
+          "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "The King’s Trust and OpenAI launch £1m partnership",
+          "url": "https://openai.com/index/the-kings-trust-and-openai",
+          "published_at": "2026-11-16T00:00:00.000Z",
+          "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "At Holiday Extras, dots get to work before anyone asks",
+          "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+          "published_at": "2026-11-16T00:00:00.000Z",
+          "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-16 [v1/moderations]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-16T00:00:00Z",
+          "summary": "Feature \n\nomni-moderation-csam-latest\n\nv1/moderations\n\nApproved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review. The model returns separate signals for potential child sexual abuse material (CSAM) and potential AI-generated CSAM.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-17T05:05:34.167Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-17T05:05:40.394Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-17**\n\n## OpenAI\n\n### API / 产品变更\n\n**Moderations API 新增 CSAM 图像分类器**\n`v1/moderations` 新增 `omni-moderation-csam-latest`。获批组织可免费使用该分类器，协助人工审核人员优先处理图像；模型分别返回潜在 CSAM 和潜在 AI 生成 CSAM 信号，适用于内容安全审核流程。\n🔗 https://developers.openai.com/api/docs/changelog\n\n### 博客与行业动态\n\n**扩大科研人员使用 AI 的机会**\nOpenAI 将“ChatGPT for Academic Researchers”计划扩大至全球 20 万名研究人员，提供前沿模型的免费访问权限。科研团队可关注计划的申请与使用条件，以评估其对研究工作流和模型成本的影响。\n🔗 https://openai.com/index/expanding-chatgpt-for-academic-researchers\n\n**调查科学家如何使用 ChatGPT**\nOpenAI 分享了对 1,800 多名科学家的研究，涵盖 ChatGPT 在日常科研工作流中的用途、受访者报告的效率提升，以及他们对科学发现的预期。该调查可帮助开发者了解科研用户的实际需求，但摘要未提供具体量化结果。\n🔗 https://openai.com/index/science-at-the-frontier\n\n**LVMH 媒体部门与 OpenAI 建立战略合作**\n双方将合作探索 AI 如何支持新闻工作，并通过 ChatGPT 提升 LVMH 媒体部门旗下出版物的可访问性。对开发者而言，这体现了生成式 AI 在媒体内容分发与读者触达场景中的应用方向。\n🔗 https://openai.com/index/lvmh-media-division-partnership\n\n**启动嵌入式模型评估**\nOpenAI 与 Apollo Research、METR、Transluce 和 Goodfire 开展首阶段嵌入式评估，重点考察模型对齐、安全防护及监控系统。该项目引入外部机构参与评估，有助于开发者关注模型安全能力的持续验证。\n🔗 https://openai.com/index/our-first-phase-of-embedded-assessments\n\n**扩展 ChatGPT for Healthcare 能力**\nOpenAI 宣布为医疗场景引入计算机操作代理、改进临床回答，并推出可跨医疗软件工作的新插件。医疗开发者可关注这些能力如何支持软件间的实际工作流；当前摘要未披露具体接口或可用范围。\n🔗 https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare\n\n**与 King’s Trust 启动 £1m 合作项目**\nOpenAI 与 King’s Trust 将投入 £1m，帮助英国最多 25,000 名年轻人培养实用 AI 职业技能。该项目聚焦就业能力建设，属于 AI 技能普及合作，并未涉及模型或 API 参数变更。\n🔗 https://openai.com/index/the-kings-trust-and-openai\n\n**Holiday Extras 展示 Dots 工作流应用**\nHoliday Extras 的案例介绍了 Dots 如何主动生成发布报告、提示潜在问题，并在通勤途中协助用户梳理即将举行的会议。内容展示了主动式 AI 助手在企业日常运营中的应用，但未说明底层模型或 API 细节。\n🔗 https://openai.com/business/customer-stories/holiday-extras-dots\n\n## Anthropic\n\n本次未检测到新模型、模型下架、模型参数变更或更新内容。\n\n## Google Gemini\n\n本次未检测到新模型、模型下架、模型参数变更或更新内容。"
+}
