@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-18",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-18T05:02:43.818Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "published_at": "2026-11-17T17:45:00.000Z",
+          "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "published_at": "2026-11-17T00:00:00.000Z",
+          "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "published_at": "2026-11-17T08:00:00.000Z",
+          "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Astra for Law leads in legal intelligence",
+          "url": "https://openai.com/index/astra-law-6-2",
+          "published_at": "2026-11-17T00:00:00.000Z",
+          "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Revolut raises ambition without lowering the bar",
+          "url": "https://openai.com/business/customer-stories/revolut",
+          "published_at": "2026-11-16T09:30:00.000Z",
+          "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-17 [gpt-6.2-astra, gpt-6.2-sol, GPT-6.2, v1/responses, v1/chat/completions]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "Feature \n\ngpt-6.2-astra\n\ngpt-6.2-sol\n\nv1/responses\n\nv1/chat/completions\n\nUse GPT-6.2 Astra for demanding reasoning and coding tasks, or GPT-6.2 Sol for everyday coding and agent workflows. Both models support the Responses API and Chat Completions. Tool calling requires the Responses API.\n\nGPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level instructions field. See the GPT-6.2 migration guide for details and recommended ",
+          "source": "OpenAI Changelog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-17 [gpt-6.2-astra, gpt-6.2-sol, gpt-6.1-terra, gpt-6-luna, v1/responses]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "Feature \n\ngpt-6.2-astra\n\ngpt-6.2-sol\n\ngpt-6.1-terra\n\ngpt-6-luna\n\nv1/responses\n\nChoose a two-hour or eight-hour background completion window in the Responses API public beta. Model token rates are 30% lower than Standard for the two-hour window and 40% lower for the eight-hour window.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-18T05:02:47.892Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-17 [v1/messages, v1/chat/completions]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "We’ve launched Linked billing in beta with the user-profiles-billing-2026-10-01 beta header. Your customers can now pay for the Claude usage in your app through their own Claude organization. Once a customer links their organization, set billing_policy on each /v1/messages or /v1/chat/completions request to choose who pays. In the Claude Console, customers can set a spend cap for your app or unlink your app. Linked billing works for customers whose organization pays Anthropic directly for A",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "Anthropic Changelog 2026-11-16",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-16T00:00:00Z",
+          "summary": "Text generated by Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 carries Anthropic’s text watermark on supported platforms. How Claude marks AI-generated content lists those platforms. If a request to one of these models sets temperature , top_p , or top_k to a non-default value, the text might not carry the watermark. See Text wa",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-18T05:02:50.746Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "published_at": "2026-11-17T17:00:00.000Z",
+          "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "Google Gemini Changelog 2026-11-17 [gemini-3.5-transcribe, gemini-3.5-transcribe-live]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "- Voice editing in Gemini 3.5 Transcribe: gemini-3.5-transcribe and gemini-3.5-transcribe-live now support voice-driven editing, rewriting, and formatting of dictated speech or pre-existing text (source_text). See the Audio transcription and Live transcription guides.",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-18T05:02:51.819Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol OpenAI’s release of",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "🔔 New article published OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol OpenAI’s release of GPT-6.2 Astra and GPT-6.2 Sol delivers the #2 model in the Artificial Analysis Intelligence Index and most of the Cost per Task Pareto frontier",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Astra (Max) Intelligence Index: 62",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Astra (Xhigh) Intelligence Index: 62",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Astra (High) Intelligence Index: 60",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Astra (Medium) Intelligence Index: 57",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Astra (Low) Intelligence Index: 46",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Sol (Max) Intelligence Index: 57",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Sol (Xhigh) Intelligence Index: 56",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Sol (High) Intelligence Index: 55",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Sol (Medium) Intelligence Index: 53",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: GPT-6.2",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "New language model evaluation results available GPT-6.2 Sol (Low) Intelligence Index: 41",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] OpenAI performance results now available Astra for Law 6.2 (Max) GPT-6.2 Sol (Lo",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-17T00:00:00Z",
+          "summary": "OpenAI performance results now available Astra for Law 6.2 (Max) GPT-6.2 Sol (Low) GPT-6.2 Sol (Medium) GPT-6.2 Sol (High) GPT-6.2 Sol (Xhigh) GPT-6.2 Astra (Max) GPT-6.2 Astra (Xhigh) GPT-6.2 Astra (High) GPT-6.2 Astra (Medium) GPT-6.2 Astra (Low) GPT-6.2 Sol",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-18**\n\n> 今日重点：OpenAI 发布 GPT-6.2 Astra 与 Sol，并调整 Responses API 行为、推出后台完成任务计费选项；Anthropic 开放 Linked billing 测试；Gemini 3.5 Transcribe 增加语音驱动编辑能力。\n\n## OpenAI\n\n### 新模型与产品\n\n**GPT-6.2 Astra 与 Sol 发布**  \nOpenAI 推出 GPT-6.2 Astra 和 Sol，主打专业输出、编程、计算机操作与效率提升，并称在更低成本下覆盖 ChatGPT Work、Codex 和 API。Astra 面向高要求推理与编码，Sol 则针对日常编程和 Agent 工作流；现有信息未提供与 GPT-6.1 的具体价格或上下文窗口对比。  \n🔗 https://openai.com/index/introducing-gpt-6-2-astra-sol\n\n**Astra for Law 在法律智能评测中排名第一**  \nAstra for Law 在涵盖 24 个法律领域的发布评测中排名第一，ChatGPT Enterprise 客户现可申请使用。对法律产品开发者而言，这意味着可评估其在专业法律任务中的表现，但公告摘要未披露基准细节或 API 可用范围。  \n🔗 https://openai.com/index/astra-law-6-2\n\n**ChatGPT for Sales 与合作插件扩展**  \nOpenAI 推出 ChatGPT for Sales，并新增或扩展 30 多个合作伙伴插件，覆盖潜客研究、销售提案准备和 CRM 更新等工作。该更新面向 ChatGPT 销售场景，摘要未说明相关插件是否同时开放为 API 接口。  \n🔗 https://openai.com/index/introducing-chatgpt-for-sales\n\n### API 与计费变更\n\n**GPT-6.2 接入 Responses API 与 Chat Completions**  \nGPT-6.2 Astra 和 Sol 均支持 `v1/responses` 与 `v1/chat/completions`，但工具调用要求使用 Responses API。GPT-6.2 还调整了 Responses API 在修改对话前缀时保留推理内容的方式，以及顶层 `instructions` 字段的处理；迁移时应核对官方迁移指南。  \n🔗 https://developers.openai.com/api/docs/changelog\n\n**Responses API 后台完成任务新增计费时长选项**  \nResponses API 公测新增两小时和八小时后台完成窗口；相较 Standard，两个窗口的模型 Token 费率分别低 30% 和 40%。开发者可按任务时效与成本要求选择窗口，并需确认相关模型的适用范围及调用方式。  \n🔗 https://developers.openai.com/api/docs/changelog\n\n### 行业与应用动态\n\n**OpenAI 与 NATO 及盟友加强网络防御合作**  \nOpenAI 表示将与 NATO 及盟国网络安全机构合作，协助可信防御方发现漏洞、测试修复方案并保护关键系统。对开发者而言，这属于 AI 用于防御性网络安全的合作动态，摘要未披露 API、模型或服务条款变更。  \n🔗 https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\n\n**Revolut 使用 OpenAI 模型与 Codex 提升效率**  \nRevolut 称借助 OpenAI 模型和 Codex，将编码时间缩短 30%–60%，并扩大金融犯罪调查能力，同时强调安全要求。该案例展示了模型与编程工具在金融业务中的应用效果，但这些数字来自客户案例，不能直接视为普遍性能承诺。  \n🔗 https://openai.com/business/customer-stories/revolut\n\n## Anthropic\n\n### API 与计费变更\n\n**Linked billing 开放 Beta**  \nAnthropic 推出 Linked billing 测试，使用 `user-profiles-billing-2026-10-01` Beta header；客户可关联自己的 Claude 组织，并通过 `billing_policy` 指定 `/v1/messages` 或 `/v1/chat/completions` 请求由谁付费。客户还可在 Claude Console 设置应用支出上限或解除关联，适合需要将模型费用转由终端客户承担的应用。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**模型生成文本水印与采样参数说明**  \nClaude Opus 4.6、Opus 4.5、Sonnet 4.5 和 Haiku 4.5 在支持的平台上生成的文本带有 Anthropic 文本水印。若请求将 `temperature`、`top_p` 或 `top_k` 设为非默认值，文本可能不带水印；依赖水印识别的应用应注意参数设置带来的影响。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## Google Gemini\n\n### API 与模型能力\n\n**Gemini 3.5 Transcribe 增加语音驱动文本编辑**  \n`gemini-3.5-transcribe` 与 `gemini-3.5-transcribe-live` 新增语音驱动的编辑、改写和格式整理能力，可处理口述内容或通过 `source_text` 传入的现有文本。开发者可将语音输入用于文本修改工作流，具体集成方式可参考音频转写与实时转写指南。  \n🔗 https://aistudio.google.com/docs/changelog\n\n### 产品动态\n\n**Gemini Tasks 在六个国家/地区免费开放**  \nGoogle 表示 Gemini Tasks 已在六个国家/地区免费提供，并在美国推出新功能，同时深化与 Google Workspace 的集成。该更新强调让 Gemini 代用户执行任务，属于 Gemini 应用产品动态，摘要未指出 Gemini API 的模型或价格变化。  \n🔗 https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\n\n## 行业评测：Artificial Analysis\n\n**GPT-6.2 Astra 与 Sol 进入 Intelligence Index 前列**  \nArtificial Analysis 称，GPT-6.2 Astra 与 Sol 发布后，OpenAI 获得 Intelligence Index 排名第二的模型，并有多款模型进入其成本—任务表现前沿。该评测可作为选型参考，但具体结果受评测配置与任务集影响，不应直接等同于生产场景表现。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Astra（Max）评测结果：62 分**  \nArtificial Analysis 公布 GPT-6.2 Astra 在 Max 配置下的 Intelligence Index 得分为 62。该分数反映特定评测中的综合表现，可与其他推理配置对照参考，但不代表所有任务上的效果。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Astra（Xhigh）评测结果：62 分**  \nGPT-6.2 Astra 在 Xhigh 配置下的 Intelligence Index 得分为 62，与 Max 配置得分相同。开发者可将其纳入不同推理强度的成本与延迟测试；摘要未提供该配置的价格或速度数据。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Astra（High）评测结果：60 分**  \nGPT-6.2 Astra 在 High 配置下取得 60 分，低于已公布的 Max 与 Xhigh 配置的 62 分。该结果显示配置选择可能影响评测表现，实际采用时仍需结合任务质量、延迟和调用成本验证。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Astra（Medium）评测结果：57 分**  \nGPT-6.2 Astra 在 Medium 配置下的 Intelligence Index 得分为 57，低于 High 配置的 60 分。该数据提供了推理配置间的性能参考，但没有说明不同配置对应的资源消耗或 API 参数映射。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Astra（Low）评测结果：46 分**  \nGPT-6.2 Astra 在 Low 配置下取得 46 分，与其 Medium、High、Xhigh 和 Max 结果存在明显差距。若应用选择较低推理强度以控制成本或延迟，建议先用真实任务评估质量是否满足要求。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Sol（Max）评测结果：57 分**  \nGPT-6.2 Sol 在 Max 配置下的 Intelligence Index 得分为 57，低于 Astra 的 Max 得分 62。Sol 定位于日常编程与 Agent 工作流，开发者选型时应同时考察其任务适配性与实际调用成本。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Sol（Xhigh）评测结果：56 分**  \nGPT-6.2 Sol 在 Xhigh 配置下取得 56 分，较其 Max 配置的 57 分低 1 分。评测摘要没有提供两种配置的价格或延迟差异，不能仅凭该分数判断哪种配置更具成本效益。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Sol（High）评测结果：55 分**  \nGPT-6.2 Sol 在 High 配置下的 Intelligence Index 得分为 55，低于 Xhigh 和 Max 配置。对于常规编码和 Agent 流程，可将该结果作为初步参考，但仍需按目标工作负载验证质量与响应速度。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Sol（Medium）评测结果：53 分**  \nGPT-6.2 Sol 在 Medium 配置下取得 53 分，比 High 配置低 2 分。该数据补充了不同推理强度的性能梯度，开发者可结合自身任务要求决定是否需要更高配置。  \n🔗 https://artificialanalysis.ai/changelog\n\n**GPT-6.2 Sol（Low）评测结果：41 分**  \nGPT-6.2 Sol 在 Low 配置下取得 41 分，是本次公布的 Sol 配置分数中最低的一档。若以低推理强度控制成本或延迟，建议针对复杂度较高的编码及 Agent 任务进行质量验证。  \n🔗 https://artificialanalysis.ai/changelog\n\n**多款 OpenAI 模型开放性能结果**  \nArtificial Analysis 更新了 Astra for Law 6.2（Max）、GPT-6.2 Astra 与 Sol 的多种配置性能结果，涵盖 Low、Medium、High、Xhigh 和 Max。开发者可据此开展横向评测；本条摘要未提供除各单项评测外的新增分数、价格或延迟数据。  \n🔗 https://artificialanalysis.ai/changelog"
+}
