@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-19",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-19T05:05:01.274Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Research acceleration: The jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "published_at": "2026-11-18T08:00:00.000Z",
+          "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "published_at": "2026-11-18T08:00:00.000Z",
+          "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Managing frontier AI risk: From training to deployment",
+          "url": "https://openai.com/index/managing-frontier-ai-risk",
+          "published_at": "2026-11-18T06:00:00.000Z",
+          "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "published_at": "2026-11-18T00:00:00.000Z",
+          "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Advancing chip design with OpenAI models",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+          "published_at": "2026-11-18T00:00:00.000Z",
+          "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-19T05:05:09.168Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Announcements] Anthropic prices initial public offering",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "",
+          "source": "Anthropic News"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-19T05:05:14.677Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "The Gemini app is now available on lower-memory Android devices.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "published_at": "2026-11-18T17:00:00.000Z",
+          "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-18 [gemini-4-neon]",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "- Gemini 4 Neon (gemini-4-neon) generally available (GA): Released Gemini 4 Neon (gemini-4-neon), bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Available on the paid tier at pricing of $3.00 per 1M input tokens and $15.00 per 1M output tokens, gemini-4-neon supports four thinking levels (low, medium, default high, and xhigh), a unified 1M-token context window, and long decode up to 1M tokens. ",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-19T05:05:16.990Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] Google continues to accelerate its release cadence with Gemini 4 Neon Google continues to accelerate its release cadence",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "🔔 New article published Google continues to accelerate its release cadence with Gemini 4 Neon Google continues to accelerate its release cadence with Gemini 4 Neon, delivering a small Intelligence gain over Gemini 4 Carbon at a ~17% lower Cost per Task",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Neon (Low) Intelligence Index: 44",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Neon (Low) Intelligence Index: 44",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Neon (Medium) Intelligence Index: 55",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Neon (Medium) Intelligence Index: 55",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Neon (High) Intelligence Index: 60",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Neon (High) Intelligence Index: 60",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] New evaluation: Gemini 4 Neon (Xhigh) Intelligence Index: 61",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "New language model evaluation results available Gemini 4 Neon (Xhigh) Intelligence Index: 61",
+          "source": "Artificial Analysis"
+        },
+        {
+          "title": "[Artificial Analysis] Google performance results now available Gemini 4 Neon (Low) Gemini 4 Neon (Medi",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-18T00:00:00Z",
+          "summary": "Google performance results now available Gemini 4 Neon (Low) Gemini 4 Neon (Medium) Gemini 4 Neon (High) Gemini 4 Neon (",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# 每日 AI 模型与 API 变更报告\n**检测日期：2026-11-19**\n\n## 新模型发布\n\n### Google Gemini\n\n**Gemini 4 Neon 正式 GA**\nGemini 4 Neon（`gemini-4-neon`）现已正式可用，面向复杂软件工程、知识工作和科学流程，支持统一的 **1M-token 上下文窗口**及最长 **1M-token 解码**。提供 low、medium、high（默认）和 xhigh 四档思考级别；价格为每百万输入 token **$3**、输出 token **$15**。开发者可按任务难度调整思考级别，并需关注长输出带来的成本。\n🔗 https://aistudio.google.com/docs/changelog\n\n**第三方分析：Neon 相较 Carbon 的成本与智能表现**\nArtificial Analysis 指出，Gemini 4 Neon 相比 Gemini 4 Carbon 的智能水平略有提升，单任务成本约低 **17%**。这为从 Carbon 迁移到 Neon 提供了初步成本效益依据，但实际收益仍需结合应用任务和自身评测验证。\n🔗 https://artificialanalysis.ai/changelog\n\n### Artificial Analysis 评测结果\n\n**Gemini 4 Neon（Low）智力指数：44**\n低思考级别的 Intelligence Index 为 **44**，可作为偏低延迟或较低推理开销配置的参考。若任务对复杂推理要求较高，建议同时评估更高思考级别的结果。\n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Neon（Medium）智力指数：55**\n中等思考级别的 Intelligence Index 为 **55**，较 Low 高 11 分，显示增加推理预算可能提升评测表现。开发者可将其作为成本与能力之间的折中档位进行测试。\n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Neon（High）智力指数：60**\nHigh 级别的 Intelligence Index 为 **60**，较 Medium 高 5 分。该结果可用于评估复杂任务是否值得采用更高推理配置，尤其应同步测量延迟与调用成本。\n🔗 https://artificialanalysis.ai/changelog\n\n**Gemini 4 Neon（Xhigh）智力指数：61**\nXhigh 级别的 Intelligence Index 为 **61**，比 High 高 1 分，评测增益相对有限。若采用该档位，建议通过目标任务基准确认额外推理开销是否带来实际收益。\n🔗 https://artificialanalysis.ai/changelog\n\n**Google Gemini 性能结果已公布**\nArtificial Analysis 新增 Gemini 4 Neon Low、Medium、High 与 Xhigh 的性能结果，但本条摘要未提供具体性能数值。开发者可查看原始变更页获取详细数据，并据此比较不同思考级别的速度表现。\n🔗 https://artificialanalysis.ai/changelog\n\n## 行业新闻与产品动态\n\n### OpenAI\n\n**研究加速：锯齿状前沿**\nOpenAI 分析编码智能体如何加速 AI 研究，同时指出其表现仍不均衡，并讨论这对递归自我改进意味着什么。对开发者而言，智能体已能推动部分研究流程提速，但能力边界不平整，仍需要人工验证与任务级评估。\n🔗 https://openai.com/index/research-acceleration-jagged-frontier\n\n**住友生命管理层推动团队采用 ChatGPT Enterprise**\n住友生命将 ChatGPT Enterprise 用于保险公司调研、提案准备，以及投资分析代码草拟；高管先行使用帮助带动团队采纳。案例显示，企业落地不仅取决于模型能力，也受管理层示范和具体业务工作流设计影响。\n🔗 https://openai.com/business/customer-stories/sumitomo-life\n\n**前沿 AI 风险管理：从训练到部署**\nOpenAI 介绍其覆盖训练至部署阶段的风险管理措施，包括模型对齐、沙箱隔离、阻断式防护和持续监控。开发者在集成前沿模型时，应将安全控制贯穿部署流程，而非仅依赖模型自身拒答能力。\n🔗 https://openai.com/index/managing-frontier-ai-risk\n\n**Le Groupe Figaro 与 OpenAI 达成合作**\nLe Groupe Figaro 将通过摘要和节选形式向 ChatGPT 提供其新闻内容，并附上原文链接。该合作体现了内容授权与来源导流结合的模式，涉及新闻内容的应用可关注引用、摘要及原文跳转体验。\n🔗 https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership\n\n**OpenAI 模型助力芯片设计**\nOpenAI 称其模型参与优化 Jalapeño 芯片中的电路，并改进 RISC‑V 核心设计，案例涉及 GPT‑6 Astra。此进展展示了 AI 辅助芯片设计的应用潜力，但摘要未披露量化性能提升或具体工程流程。\n🔗 https://openai.com/index/advancing-chip-design-with-our-models\n\n### Anthropic\n\n**Anthropic 公布首次公开募股定价**\nAnthropic 新闻页发布了公司首次公开募股定价公告，但本次检测数据未提供发行价格、募资规模或时间安排等细节。关注融资与公司动态的开发者及企业客户，可通过原文核实具体条款；本条不涉及模型或 API 变更。\n🔗 https://www.anthropic.com/news/anthropic-prices-initial-public-offering\n\n### Google Gemini\n\n**Gemini 应用支持低内存 Android 设备**\nGoogle 扩大 Gemini App 对低内存 Android 手机的支持，并提及 Gemini Live 和自定义图像创作功能。此次更新属于终端应用兼容性扩展，不代表 Gemini API 参数或模型能力发生变化。\n🔗 https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/\n\n## API 与模型清单变更\n\n本次检测未报告 OpenAI、Anthropic 或 Google Gemini 的模型新增、下架或参数变更，也未提供 API 接口新增或废弃信息。除 Gemini 4 Neon 正式 GA 及其定价、上下文和思考级别信息外，未发现需要立即适配的 API 变更。"
+}

@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "anthropic-prices-initial-public-offering",
     "roadshow-launch",
     "claude-fable-and-mythos-5-2",
     "teaching-ai-to-build-scientific-models",
@@ -104,12 +105,11 @@
     "contextual-retrieval",
     "model-safety-bug-bounty",
     "anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
-    "challenges-in-red-teaming-ai-systems",
     "krishna-rao-joins-anthropic",
     "reflections-on-our-responsible-scaling-policy",
     "100k-context-windows",
     "partnering-with-scale"
   ],
-  "updated_at": "2026-11-18T05:02:47.892Z",
+  "updated_at": "2026-11-19T05:05:09.168Z",
   "count": 109
 }
