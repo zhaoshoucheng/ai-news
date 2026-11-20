@@ -22,9 +22,45 @@ export function getModel(): string {
 }
 
 /**
- * 调用 LLM 生成文本
+ * 临时错误的重试等待（秒），合计约 10 分钟。
+ * 内置 LLM 代理限流时以 HTTP 200 + {"code":"llm_concurrency_limit"} 返回，
+ * OpenAI SDK 自带的重试不会处理这种情况，所以在这里自己重试。
+ * 2026-11-20 因限流导致日报、周报都没有生成。
+ */
+const RETRY_DELAYS_SEC = [15, 30, 60, 120, 180, 240];
+
+function isTransientLlmError(err: any): boolean {
+  const status = err?.status ?? err?.response?.status;
+  if (typeof status === "number" && (status === 408 || status === 409 || status === 429 || status >= 500)) {
+    return true;
+  }
+  const text = `${err?.code ?? ""} ${err?.message ?? ""}`.toLowerCase();
+  return /concurren|rate limit|ratelimit|too many requests|timeout|timed out|econnreset|socket hang up|fetch failed|overloaded|temporarily unavailable/.test(text);
+}
+
+/**
+ * 调用 LLM 生成文本（遇到限流 / 临时错误时按 RETRY_DELAYS_SEC 退避重试）
  */
 export async function invokeLLM(params: {
+  systemPrompt: string;
+  userPrompt: string;
+  jsonMode?: boolean;
+}): Promise<string> {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await invokeLLMOnce(params);
+    } catch (err: any) {
+      if (attempt >= RETRY_DELAYS_SEC.length || !isTransientLlmError(err)) throw err;
+      const wait = RETRY_DELAYS_SEC[attempt];
+      console.warn(
+        `[LLM] ${err?.message ?? err} — retrying in ${wait}s (attempt ${attempt + 1}/${RETRY_DELAYS_SEC.length})`
+      );
+      await new Promise((r) => setTimeout(r, wait * 1000));
+    }
+  }
+}
+
+async function invokeLLMOnce(params: {
   systemPrompt: string;
   userPrompt: string;
   jsonMode?: boolean;
@@ -53,7 +89,9 @@ export async function invokeLLM(params: {
   // 代理可能以 HTTP 200 + error 字段返回错误
   const err = (response as any).error;
   if (err) {
-    throw new Error(`LLM error: ${typeof err === "string" ? err : JSON.stringify(err)}`);
+    const e: any = new Error(`LLM error: ${typeof err === "string" ? err : JSON.stringify(err)}`);
+    e.code = (response as any).code;
+    throw e;
   }
 
   return response.choices?.[0]?.message?.content ?? "";
