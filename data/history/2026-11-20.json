@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-20",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-20T05:10:03.085Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "published_at": "2026-11-19T08:00:00.000Z",
+          "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-19 [gpt-live-1.1, GPT-Live-1.1, GPT-Live-1, v1/live/sessions]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-19T00:00:00Z",
+          "summary": "Feature \n\ngpt-live-1.1\n\nv1/live/sessions\n\n GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend.\n\n Configure standby for GPT-Live-1 and GPT-Live-1.1 WebRTC sessions to pause inference during inactivity and resume when someone speaks.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-20T05:10:18.876Z",
+      "has_changes": false,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": []
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-20T05:10:28.869Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "published_at": "2026-11-19T18:00:00.000Z",
+          "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+          "source": "Google Gemini Blog"
+        },
+        {
+          "title": "[Feature] Google Gemini Changelog 2026-11-19",
+          "url": "https://aistudio.google.com/docs/changelog",
+          "published_at": "2026-11-19T00:00:00Z",
+          "summary": "- Genie 4 (models/genie-4) generally available (GA): Released Genie 4 (models/genie-4) on the Interactions API (v1beta) for real-time interactive world generation, streaming steerable 24 fps 16:9 video with synchronized 48 kHz stereo audio over WebRTC and WebSockets. Seed worlds from text, a 16:9 reference image, or both, and steer live with WASD/arrow keys and mid-session text events. Available on the paid tier at pricing of $1.50 per 1M input tokens, $9.00 per 1M text output tokens, and $17.50",
+          "source": "Google Gemini Changelog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-20**\n\n## Google Gemini\n\n### 新模型与 API\n\n**Genie 4（`models/genie-4`）正式 GA**\nGenie 4 已在 Interactions API（v1beta）开放，可通过 WebRTC 和 WebSockets 实时生成可操控的 16:9、24 fps 视频，并同步输出 48 kHz 立体声音频。可用文本、参考图像或两者启动场景，并通过按键或会话中的文本事件实时控制；付费层价格包括输入每百万 tokens $1.50、文本输出每百万 tokens $9.00，原始数据中的后续价格信息不完整。  \n🔗 https://aistudio.google.com/docs/changelog\n\n**Gemini API 推出 Tool Retrieval 预览版**\nTool Retrieval 允许智能体在可用工具数量达到数百个时，按需检索相关工具，并减少工具定义带来的 token 消耗。目前功能处于预览阶段，适合工具规模较大的应用评估接入；上线状态与行为仍应以官方文档为准。  \n🔗 https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\n\n## OpenAI\n\n### 模型与 API 变更\n\n**GPT-Live-1.1 改善多语言语音体验；Live 会话新增 Standby**\nGPT-Live-1.1 面向多语言语音对话，提升了发音、口音一致性和转录效果；可在现有 Live 会话配置中使用，并用自然语言说明何时将任务交给后端。GPT-Live-1 和 GPT-Live-1.1 的 WebRTC 会话还支持配置 Standby：空闲时暂停推理、检测到语音后恢复，有助于减少非活跃时段的推理开销。  \n🔗 https://developers.openai.com/api/docs/changelog\n\n### 博客更新\n\n**OpenAI 介绍 Performance Factory 如何保障 ChatGPT 响应速度**\nOpenAI 分享了 Performance Factory 的实践：通过由 Codex 驱动的工作流发现并修复性能问题，以维持 ChatGPT 的运行速度。对开发者而言，这展示了将代码智能体纳入性能诊断与修复流程的一种工程实践；原文摘要未提供具体性能指标。  \n🔗 https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\n\n## Anthropic\n\n本次检测未发现 Anthropic 新模型、模型变更或 RSS 更新。  \n无相关原文链接。"
+}
