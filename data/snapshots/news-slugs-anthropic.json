@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "ipo-close",
     "anthropic-prices-initial-public-offering",
     "roadshow-launch",
     "claude-fable-and-mythos-5-2",
@@ -37,7 +38,6 @@
     "project-swap",
     "claude-discovers-novel-enzyme-system",
     "claude-opus-5-5",
-    "ebola-response",
     "accenture-embedded-evaluation",
     "claude-mythos-and-fable-5-1",
     "formalizing-fermats-last-theorem",
@@ -57,10 +57,12 @@
     "services-track-partner-hub",
     "expanding-project-glasswing",
     "confidential-draft-s1-sec",
+    "series-h",
     "glasswing-initial-update",
     "gates-foundation-partnership",
     "pwc-expanded-partnership",
     "claude-for-small-business",
+    "enterprise-ai-services-company",
     "Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
     "anthropic-nec",
     "election-safeguards-update",
@@ -105,11 +107,10 @@
     "contextual-retrieval",
     "model-safety-bug-bounty",
     "anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
-    "krishna-rao-joins-anthropic",
     "reflections-on-our-responsible-scaling-policy",
     "100k-context-windows",
     "partnering-with-scale"
   ],
-  "updated_at": "2026-11-20T05:10:18.875Z",
-  "count": 109
+  "updated_at": "2026-11-23T05:04:38.252Z",
+  "count": 110
 }
