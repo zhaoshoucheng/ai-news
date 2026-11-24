@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-24",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-24T05:01:25.870Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "published_at": "2026-11-23T21:20:00.000Z",
+          "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "published_at": "2026-11-23T08:00:00.000Z",
+          "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+          "source": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-24T05:01:41.391Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-23 [claude-opus-4-5-20251101, claude-opus-4-5]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-23T00:00:00Z",
+          "summary": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See Migrating from Claude Opus 4.5 or earlier . To check which dates apply on other platforms, see Model deprecations .\n\nWe’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform , Claude Platform on AWS , and Claude Models on Google Cloud (Anthropic managed) . ",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-24T05:01:51.441Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "published_at": "2026-11-23T17:00:00.000Z",
+          "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-24**\n\n## Anthropic\n\n### API 与模型生命周期\n\n**Claude Opus 4.5 宣布弃用，计划于 2027 年 1 月 22 日从 Claude API 下线**  \n弃用范围包括 `claude-opus-4-5-20251101` 和 `claude-opus-4-5`，Anthropic 建议迁移至 Claude Opus 5.5。开发者应尽早评估提示词、工具调用及输出质量，并安排替换和回归测试；其他平台的下线时间需另行确认。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n### 新功能\n\n**Enterprise Frontier Safeguards（EFS）进入 Beta**  \nAnthropic 已在 Claude Platform、AWS 上的 Claude Platform，以及由 Anthropic 管理的 Google Cloud Claude Models 推出 EFS Beta。使用这些平台的企业开发者可关注其适用范围与后续更新，并评估是否纳入企业安全防护流程。  \n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## OpenAI\n\n### 行业与技术动态\n\n**OpenAI 与 Cisco 推出开源 Linux 运行时 Shirudo**  \nShirudo 面向运行中的 Linux 系统，帮助团队在部署补丁期间保护系统。对负责 Linux 运维和安全的开发团队而言，这提供了一种在修补过程中降低运行风险的开源工具选择。  \n🔗 https://openai.com/index/introducing-shirudo\n\n### 客户案例\n\n**Richpanel 通过 OpenAI 模型在 30 天内自动化处理 50% 的客服工作**  \nRichpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为客服代理提供工具与流程支持，并由 GPT-6 Luna 处理对话。该案例展示了不同模型在客服自动化方案中的分工，但具体效果是否可复现仍取决于业务流程和部署条件。  \n🔗 https://openai.com/business/customer-stories/richpanel-ai-customer-support\n\n## Google Gemini\n\n### 产品与行业动态\n\n**Google 搜索 AI Mode 可连接个人应用数据以提供个性化回答**  \n用户可选择将 Google Wallet、Drive 和 Gemini 应用连接至 Personal Intelligence，让 AI Mode 的搜索回答结合个人信息。对于开发者而言，这是 Google 将 Gemini 能力与个人应用数据联动的产品进展，连接需由用户选择启用。  \n🔗 https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/\n\n## 模型变更概览\n\n本次数据未检测到 OpenAI、Anthropic 或 Google Gemini 的新增、移除或参数变更模型。主要需关注的是 Claude Opus 4.5 的弃用与迁移安排。"
+}
