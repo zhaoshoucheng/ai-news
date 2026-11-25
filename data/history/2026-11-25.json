@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-25",
+  "has_changes": true,
+  "changes": [
+    {
+      "provider": "OpenAI",
+      "detected_at": "2026-11-25T05:02:16.066Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "published_at": "2026-11-24T13:00:00.000Z",
+          "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "published_at": "2026-11-24T00:00:00.000Z",
+          "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "published_at": "2026-11-24T00:00:00.000Z",
+          "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+          "source": "OpenAI Blog"
+        },
+        {
+          "title": "[Update] OpenAI Changelog 2026-11-24 [GPT-6.2]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-24T00:00:00Z",
+          "summary": "Update \n\nchat-latest\n\nUpdated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users. We recommend leveraging the GPT-6.2 model family for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more here .",
+          "source": "OpenAI Changelog"
+        },
+        {
+          "title": "[Feature] OpenAI Changelog 2026-11-24 [gpt-6.2-astra-healthcare, gpt-6.2-sol-healthcare, gpt-6-astra-healthcare, gpt-6.1-sol-healthcare, v1/responses]",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "published_at": "2026-11-24T00:00:00Z",
+          "summary": "Feature \n\ngpt-6.2-astra-healthcare\n\ngpt-6.2-sol-healthcare\n\ngpt-6-astra-healthcare\n\ngpt-6.1-sol-healthcare\n\nv1/responses\n\nReleased Healthcare model configurations for the Responses API, pairing select OpenAI models with a harness tailored to clinical questions. When the model uses web search , it searches a dedicated index of medical sources.",
+          "source": "OpenAI Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Anthropic",
+      "detected_at": "2026-11-25T05:02:26.111Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-23 [claude-opus-4-5-20251101, claude-opus-4-5]",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-23T00:00:00Z",
+          "summary": "A fix is live for an undercount of web searches in the List User Activity Preview with links to the API reference available — press Tab until focus enters the card, Escape to return. endpoint of the Claude Enterprise Analytics API . The top-level web_search_count did not count every search tool that Claude uses in chats, so it left out some searches. It now includes them, so it can be higher. Most of the added searches come from Chat and Cowork unified .\n\nThe web search fix applies to data for N",
+          "source": "Anthropic Changelog"
+        },
+        {
+          "title": "[Feature] Anthropic Changelog 2026-11-20",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "published_at": "2026-11-20T00:00:00Z",
+          "summary": "The Claude Enterprise Analytics API has a new rule for when a chat in Chat and Cowork unified counts as a session. \n \n\n New rule: A session starts the first time on a UTC day that Claude successfully runs a Bash command, creates a file, or edits a file in the chat. It ends when that day ends.\n\n Previous rule: A chat counted as a session after it moved into a Cowork cloud session (a sandbox where Claude runs code), including on later days. Uploading some types of files could cause that move.\n\n Ro",
+          "source": "Anthropic Changelog"
+        }
+      ]
+    },
+    {
+      "provider": "Google Gemini",
+      "detected_at": "2026-11-25T05:02:31.613Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "How Gemini is changing the game for Golden State's organization and fans.",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+          "published_at": "2026-11-24T16:00:00.000Z",
+          "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+          "source": "Google Gemini Blog"
+        }
+      ]
+    },
+    {
+      "provider": "third_party",
+      "detected_at": "2026-11-25T05:02:33.769Z",
+      "has_changes": true,
+      "new_models": [],
+      "removed_models": [],
+      "changed_models": [],
+      "rss_updates": [
+        {
+          "title": "[Artificial Analysis] OpenAI performance results now available GPT-6.2 Astra (Max) GPT-6.2 Astra (Max)",
+          "url": "https://artificialanalysis.ai/changelog",
+          "published_at": "2026-11-24T00:00:00Z",
+          "summary": "OpenAI performance results now available GPT-6.2 Astra (Max) GPT-6.2 Astra (Max) GPT-6.2 Sol (Max) GPT-6.2 Sol",
+          "source": "Artificial Analysis"
+        }
+      ]
+    }
+  ],
+  "summary": "# AI 模型与 API 每日变更报告\n**检测日期：2026-11-25**\n\n## OpenAI\n\n### API 与产品变更\n\n**`chat-latest` 快照已更新**\nOpenAI 更新了 `chat-latest` 快照，该别名指向 ChatGPT Plus、Pro、Business 和 Enterprise 当前使用的最新模型，底层快照会定期变化。官方建议生产环境使用 GPT-6.2 系列；开发者可用 `chat-latest` 测试面向聊天场景的最新改进，但需注意其指向可能变动。\n🔗 https://developers.openai.com/api/docs/changelog\n\n**Responses API 新增 Healthcare 模型配置**\nOpenAI 为 Responses API 发布 `gpt-6.2-astra-healthcare`、`gpt-6.2-sol-healthcare`、`gpt-6-astra-healthcare` 和 `gpt-6.1-sol-healthcare` 配置，并配备针对临床问题优化的运行框架。启用网页搜索时，这些配置会查询专门的医学来源索引；医疗应用开发者应据此评估模型选择与检索来源。\n🔗 https://developers.openai.com/api/docs/changelog\n\n### 模型能力与行业应用\n\n**GPT-6 模型展现蛋白质设计能力**\nOpenAI 称 GPT-6 模型可结合推理与代码设计蛋白质结构和序列；实验室测试在五个目标上发现了结合证据。该进展显示模型能力正延伸至生物设计任务，但摘要未提供可与旧型号直接比较的指标或 API 参数变化。\n🔗 https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities\n\n**Clay 将 ChatGPT 与 Codex 用于销售工作流**\nClay 将 ChatGPT 和 Codex 集成到销售流程中，帮助用户研究交易机会，并将数据转化为市场拓展方案；摘要提到 GPT-6 系列承担推理工作。对开发者而言，这提供了模型与业务数据工具协同的应用案例，但未披露新增 API 或性能指标。\n🔗 https://openai.com/business/customer-stories/clay-plugins-openai\n\n**Intentful 用 AI 助手支持研究与客户运营**\nIntentful 的 AI 助手 Aria 可研究网站、协助撰写提案，并主动提示消息和处理问题。该案例展示了助手从信息检索延伸到运营任务处理的用法；原文摘要未列出具体模型版本或 API 配置。\n🔗 https://openai.com/business/customer-stories/intentful-dots\n\n## Anthropic\n\n### API 与数据口径变更\n\n**Enterprise Analytics API 修正网页搜索计数**\nClaude Enterprise Analytics API 的用户活动预览中，`web_search_count` 此前漏计 Claude 在聊天中调用的部分搜索工具，现已修正，因此计数可能高于旧数据。新增计数主要来自 Chat 与 Cowork 统一体验；使用搜索量指标做监控或分析时，应考虑这一口径变化。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n**Enterprise Analytics API 调整会话统计规则**\nChat 与 Cowork 统一体验中的会话，现按 UTC 日统计：Claude 当天首次成功运行 Bash 命令、创建文件或编辑文件时开始，当日结束时终止。此前会话与进入 Cowork 云端会话相关，上传某些文件也可能触发统计；依赖会话数进行分析的团队应注意新旧口径差异。\n🔗 https://platform.claude.com/docs/en/release-notes/overview\n\n## Google Gemini\n\n### 行业应用\n\n**Gemini 与 Golden State 合作拓展球迷及业务体验**\nGoogle Gemini 将用于 Golden State Warriors、Valkyries 和 Chase Center 的球迷体验与业务运营。摘要未披露具体模型、API 接口或部署指标，因此当前重点是了解其组织级应用方向，而非据此调整集成参数。\n🔗 https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/\n\n## 第三方评测\n\n**Artificial Analysis 发布 GPT-6.2 性能结果**\nArtificial Analysis 更新了 OpenAI 模型的性能结果，涉及 GPT-6.2 Astra（Max）和 GPT-6.2 Sol（Max）等条目。提供的摘要未包含具体分数、测试方法或与旧模型的差异，开发者可查看原文评测详情，再判断其对模型选型的影响。\n🔗 https://artificialanalysis.ai/changelog"
+}
