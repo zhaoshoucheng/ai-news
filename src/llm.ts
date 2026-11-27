@@ -22,12 +22,23 @@ export function getModel(): string {
 }
 
 /**
- * 临时错误的重试等待（秒），合计约 10 分钟。
+ * 临时错误的重试等待（秒），合计约 60 分钟：先 15/30/60/90 秒退避，之后固定每 120 秒一次。
  * 内置 LLM 代理限流时以 HTTP 200 + {"code":"llm_concurrency_limit"} 返回，
  * OpenAI SDK 自带的重试不会处理这种情况，所以在这里自己重试。
  * 2026-11-20 因限流导致日报、周报都没有生成。
+ * 2026-11-27 周报限流持续约 44 分钟（代理只零星放行单个请求），原先约 10 分钟的重试不够，
+ * 改为较短的固定间隔，以便尽快命中放行时段。
  */
-const RETRY_DELAYS_SEC = [15, 30, 60, 120, 180, 240];
+const RETRY_BUDGET_SEC = 60 * 60;
+const RETRY_DELAYS_SEC: number[] = (() => {
+  const delays = [15, 30, 60, 90];
+  let total = delays.reduce((a, b) => a + b, 0);
+  while (total + 120 <= RETRY_BUDGET_SEC) {
+    delays.push(120);
+    total += 120;
+  }
+  return delays;
+})();
 
 function isTransientLlmError(err: any): boolean {
   const status = err?.status ?? err?.response?.status;

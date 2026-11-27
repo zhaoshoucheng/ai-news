@@ -67,7 +67,7 @@ async function main(): Promise<void> {
         cwd: resolve(__dirname, ".."),
         stdio: "inherit",
         env: process.env,
-        timeout: 1200000, // 含 LLM 限流重试（约 10 分钟）
+        timeout: 4200000, // 含 LLM 限流重试（约 60 分钟）
       });
     } catch (err: any) {
       dailyFailed = true;
@@ -87,7 +87,7 @@ async function main(): Promise<void> {
           cwd: resolve(__dirname, ".."),
           stdio: "inherit",
           env: process.env,
-          timeout: 1200000, // 含 LLM 限流重试（约 10 分钟）
+          timeout: 4200000, // 含 LLM 限流重试（约 60 分钟）
         });
       } catch (err: any) {
         weeklyFailed = true;
